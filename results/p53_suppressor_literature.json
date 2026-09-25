@@ -1,0 +1,15 @@
+{
+  "provenance": "https://pmc.ncbi.nlm.nih.gov/articles/PMC305574/ Table I and Table II, and https://www.pnas.org/doi/10.1073/pnas.0401162101",
+  "source_type": "Published experimental measurements and genetic screens; not this project's computational predictions",
+  "ddg_definition": "Increase in mutant destabilization compared with wild type, kcal/mol; negative indicates a more stable variant in the 2000 p53 source",
+  "mutants": [
+    {"variant":"G245S", "ddg":1.22, "se":0.22, "gadd45_half_binding_nM":160},
+    {"variant":"N239Y", "ddg":-1.37, "se":0.23, "gadd45_half_binding_nM":190},
+    {"variant":"G245S/N239Y", "ddg":0.0, "se":0.22, "gadd45_half_binding_nM":130},
+    {"variant":"R249S", "ddg":1.69, "se":0.21, "gadd45_half_binding_nM":null},
+    {"variant":"H168R", "ddg":2.75, "se":0.21, "gadd45_half_binding_nM":190},
+    {"variant":"R249S/H168R", "ddg":1.72, "se":0.21, "gadd45_half_binding_nM":170}
+  ],
+  "interpretation": "G245S/N239Y approximately restored wild-type folding stability in these experimental conditions. R249S/H168R showed DNA-binding rescue despite little stability improvement versus R249S. Neither case is a novel rescue discovered here. R249S alone had no detectable binding in this assay; its null is not a numerical nM value.",
+  "unanswered": "Y220C second-site rescue not established by these cited measurements; no prospective model validation was performed."
+}
