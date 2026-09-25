@@ -4,3 +4,5 @@ __pycache__/
 *.egg-info/
 data/raw/*.pdb
 data/raw/fireprotdb.csv
+paper/*.aux
+paper/*.log
