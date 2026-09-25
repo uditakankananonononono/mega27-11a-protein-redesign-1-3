@@ -1,0 +1,7 @@
+{
+  "train_sequences": 69,
+  "test_sequences": 24,
+  "exact_sequence_overlap": 0,
+  "total_unique_sequences": 93,
+  "caveat": "Exact strings only; homologs and historical comparator training overlap not ruled out."
+}
