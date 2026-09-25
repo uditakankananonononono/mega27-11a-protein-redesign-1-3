@@ -14,6 +14,7 @@ protein-rescue audit
 python data/prepare_fireprot.py --source data/raw/fireprotdb.csv
 protein-rescue fireprot-audit
 protein-rescue inspect rcsb_1A0F_A_S11A_6_56
+protein-rescue map-site SOD1 5  # UniProt A5 -> mature PDB 2C9V A4
 pytest -q
 ```
 
