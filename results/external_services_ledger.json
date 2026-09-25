@@ -75,7 +75,7 @@
     },
     {
       "service": "ChEMBL",
-      "purpose": "Queried broad TP53 search, noticed non-target text matches, then refined to Cellular tumor antigen p53 and identified CHEMBL4096/CHEMBL4164; no compound activity inference",
+      "purpose": "Queried broad TP53 text search, recognized irrelevant matches, then refined to exact cellular tumor antigen p53; human CHEMBL4096 maps to UniProt P04637, while CHEMBL4164 is mouse P02340; no compound activity inference",
       "evidence": "data/external_service_evidence/chembl_tp53_targets.json; data/external_service_evidence/chembl_p53_exact_search.json",
       "url": "https://www.ebi.ac.uk/chembl/api/data/target/search?q=cellular%20tumor%20antigen%20p53&format=json"
     },
