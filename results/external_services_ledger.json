@@ -75,9 +75,9 @@
     },
     {
       "service": "ChEMBL",
-      "purpose": "Queried TP53 target search and inspected results; broad text query not assumed to identify TP53 precisely",
-      "evidence": "data/external_service_evidence/chembl_tp53_targets.json",
-      "url": "https://www.ebi.ac.uk/chembl/api/data/target/search?q=TP53&format=json"
+      "purpose": "Queried broad TP53 search, noticed non-target text matches, then refined to Cellular tumor antigen p53 and identified CHEMBL4096/CHEMBL4164; no compound activity inference",
+      "evidence": "data/external_service_evidence/chembl_tp53_targets.json; data/external_service_evidence/chembl_p53_exact_search.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target/search?q=cellular%20tumor%20antigen%20p53&format=json"
     },
     {
       "service": "MyVariant.info",
