@@ -1,0 +1,47 @@
+{
+  "measure": "PDB wild-type chain C-alpha Euclidean distance; no mutant simulation",
+  "pairs": [
+    {
+      "pdb": "2C9V",
+      "chain": "A",
+      "position_a": 4,
+      "position_b": 90,
+      "ca_distance_angstrom": 25.5
+    },
+    {
+      "pdb": "2C9V",
+      "chain": "A",
+      "position_a": 4,
+      "position_b": 93,
+      "ca_distance_angstrom": 24.56
+    },
+    {
+      "pdb": "2C9V",
+      "chain": "A",
+      "position_a": 90,
+      "position_b": 93,
+      "ca_distance_angstrom": 5.28
+    },
+    {
+      "pdb": "1D5R",
+      "chain": "A",
+      "position_a": 107,
+      "position_b": 130,
+      "ca_distance_angstrom": 17.0
+    },
+    {
+      "pdb": "1D5R",
+      "chain": "A",
+      "position_a": 107,
+      "position_b": 335,
+      "ca_distance_angstrom": 44.34
+    },
+    {
+      "pdb": "1D5R",
+      "chain": "A",
+      "position_a": 130,
+      "position_b": 335,
+      "ca_distance_angstrom": 28.6
+    }
+  ]
+}
