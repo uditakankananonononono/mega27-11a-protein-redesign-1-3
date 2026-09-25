@@ -1,0 +1,397 @@
+{
+  "pdb": "1TSR",
+  "chain": "A",
+  "measure": "C-alpha Euclidean distance in observed wild-type structure; not a mutant side-chain, interaction-energy, or binding simulation",
+  "sites": [
+    {
+      "residue": 123,
+      "aa": "THR",
+      "nearest_named": [
+        {
+          "residue": 235,
+          "ca_distance_angstrom": 10.92
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 11.8
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 13.53
+        },
+        {
+          "residue": 143,
+          "ca_distance_angstrom": 13.58
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 15.14
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 19.16
+        }
+      ]
+    },
+    {
+      "residue": 143,
+      "aa": "VAL",
+      "nearest_named": [
+        {
+          "residue": 235,
+          "ca_distance_angstrom": 10.41
+        },
+        {
+          "residue": 268,
+          "ca_distance_angstrom": 11.47
+        },
+        {
+          "residue": 220,
+          "ca_distance_angstrom": 12.61
+        },
+        {
+          "residue": 123,
+          "ca_distance_angstrom": 13.58
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 14.67
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 18.88
+        }
+      ]
+    },
+    {
+      "residue": 168,
+      "aa": "HIS",
+      "nearest_named": [
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 8.73
+        },
+        {
+          "residue": 245,
+          "ca_distance_angstrom": 12.03
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 12.03
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 14.22
+        },
+        {
+          "residue": 175,
+          "ca_distance_angstrom": 15.22
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 16.21
+        }
+      ]
+    },
+    {
+      "residue": 175,
+      "aa": "ARG",
+      "nearest_named": [
+        {
+          "residue": 245,
+          "ca_distance_angstrom": 5.61
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 8.44
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 9.84
+        },
+        {
+          "residue": 235,
+          "ca_distance_angstrom": 12.62
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 12.86
+        },
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 12.94
+        }
+      ]
+    },
+    {
+      "residue": 220,
+      "aa": "TYR",
+      "nearest_named": [
+        {
+          "residue": 143,
+          "ca_distance_angstrom": 12.61
+        },
+        {
+          "residue": 268,
+          "ca_distance_angstrom": 14.95
+        },
+        {
+          "residue": 235,
+          "ca_distance_angstrom": 17.73
+        },
+        {
+          "residue": 123,
+          "ca_distance_angstrom": 25.0
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 25.23
+        },
+        {
+          "residue": 175,
+          "ca_distance_angstrom": 26.14
+        }
+      ]
+    },
+    {
+      "residue": 235,
+      "aa": "ASN",
+      "nearest_named": [
+        {
+          "residue": 143,
+          "ca_distance_angstrom": 10.41
+        },
+        {
+          "residue": 123,
+          "ca_distance_angstrom": 10.92
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 11.27
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 11.78
+        },
+        {
+          "residue": 175,
+          "ca_distance_angstrom": 12.62
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 13.44
+        }
+      ]
+    },
+    {
+      "residue": 239,
+      "aa": "ASN",
+      "nearest_named": [
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 3.78
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 7.64
+        },
+        {
+          "residue": 245,
+          "ca_distance_angstrom": 7.98
+        },
+        {
+          "residue": 175,
+          "ca_distance_angstrom": 8.44
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 8.47
+        },
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 10.28
+        }
+      ]
+    },
+    {
+      "residue": 240,
+      "aa": "SER",
+      "nearest_named": [
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 3.78
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 4.95
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 6.0
+        },
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 6.65
+        },
+        {
+          "residue": 245,
+          "ca_distance_angstrom": 7.51
+        },
+        {
+          "residue": 175,
+          "ca_distance_angstrom": 9.84
+        }
+      ]
+    },
+    {
+      "residue": 245,
+      "aa": "GLY",
+      "nearest_named": [
+        {
+          "residue": 175,
+          "ca_distance_angstrom": 5.61
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 7.51
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 7.98
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 8.52
+        },
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 8.96
+        },
+        {
+          "residue": 168,
+          "ca_distance_angstrom": 12.03
+        }
+      ]
+    },
+    {
+      "residue": 248,
+      "aa": "ARG",
+      "nearest_named": [
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 3.78
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 4.95
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 8.47
+        },
+        {
+          "residue": 245,
+          "ca_distance_angstrom": 8.52
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 8.79
+        },
+        {
+          "residue": 168,
+          "ca_distance_angstrom": 12.03
+        }
+      ]
+    },
+    {
+      "residue": 249,
+      "aa": "ARG",
+      "nearest_named": [
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 3.78
+        },
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 6.65
+        },
+        {
+          "residue": 168,
+          "ca_distance_angstrom": 8.73
+        },
+        {
+          "residue": 245,
+          "ca_distance_angstrom": 8.96
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 8.96
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 10.28
+        }
+      ]
+    },
+    {
+      "residue": 268,
+      "aa": "ASN",
+      "nearest_named": [
+        {
+          "residue": 143,
+          "ca_distance_angstrom": 11.47
+        },
+        {
+          "residue": 220,
+          "ca_distance_angstrom": 14.95
+        },
+        {
+          "residue": 273,
+          "ca_distance_angstrom": 17.03
+        },
+        {
+          "residue": 235,
+          "ca_distance_angstrom": 17.84
+        },
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 20.05
+        },
+        {
+          "residue": 168,
+          "ca_distance_angstrom": 20.07
+        }
+      ]
+    },
+    {
+      "residue": 273,
+      "aa": "ARG",
+      "nearest_named": [
+        {
+          "residue": 240,
+          "ca_distance_angstrom": 6.0
+        },
+        {
+          "residue": 239,
+          "ca_distance_angstrom": 7.64
+        },
+        {
+          "residue": 248,
+          "ca_distance_angstrom": 8.79
+        },
+        {
+          "residue": 249,
+          "ca_distance_angstrom": 8.96
+        },
+        {
+          "residue": 235,
+          "ca_distance_angstrom": 11.78
+        },
+        {
+          "residue": 123,
+          "ca_distance_angstrom": 11.8
+        }
+      ]
+    }
+  ]
+}
