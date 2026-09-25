@@ -1,0 +1,9 @@
+{
+  "pdb_accession": "1TSR",
+  "sequence_aligned": true,
+  "numbering_match": true,
+  "mutant_assay_ddg_sign_known": false,
+  "relevant_training_proteins": 0,
+  "relevant_training_rows": 0,
+  "target_double_mutant_assay_supported": false
+}

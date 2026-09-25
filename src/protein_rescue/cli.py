@@ -8,6 +8,7 @@ from .audit import audit
 from .fireprot import analyze
 from .targets import map_site
 from .epistasis import double_mutant_cycle, literature_controls
+from .filters import safe_to_rank
 import pandas as pd
 
 
@@ -43,6 +44,8 @@ def main():
     ep.add_argument('--se-a',type=float)
     ep.add_argument('--se-b',type=float)
     ep.add_argument('--se-combined',type=float)
+    gate = sub.add_parser('rank-check', help='Abstain unless proposed ranking has verified assay and target context')
+    gate.add_argument('--context',type=Path,required=True,help='JSON object with structure, assay, training, validation flags')
     args = p.parse_args()
     if args.command == 'benchmark':
         result = run(args.csv, args.structures, args.output, args.epochs)
@@ -53,6 +56,8 @@ def main():
     elif args.command == 'fireprot-audit':
         result = analyze(args.csv,args.structures,args.output)
         print(json.dumps({k:v for k,v in result.items() if k not in ('per_pdb','opposite_sign_examples')},indent=2))
+    elif args.command == 'rank-check':
+        print(json.dumps(safe_to_rank(json.loads(args.context.read_text())),indent=2))
     elif args.command == 'cycle':
         print(json.dumps(double_mutant_cycle(args.single_a,args.single_b,args.combined,args.se_a,args.se_b,args.se_combined),indent=2))
     elif args.command == 'map-site':
