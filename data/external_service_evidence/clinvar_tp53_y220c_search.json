@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["127819"],"translationset":[],"translationstack":[{"term":"TP53[gene]","field":"gene","count":"4034","explode":"N"},{"term":"Y220C[variant name]","field":"variant name","count":"78","explode":"N"},"AND"],"querytranslation":"TP53[gene] AND Y220C[variant name]"}}
