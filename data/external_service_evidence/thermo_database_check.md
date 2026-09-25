@@ -1,0 +1,3 @@
+Source check September 25 2026:
+ThermoMutDB https://biosig.lab.uq.edu.au/thermomutdb/ read live via public page. It says thermodynamic mutation data with temperature, pH, methods and REST API; no mutation-specific row was fetched, so do not count a dataset from this service.
+ProThermDB https://web.iitm.ac.in/bioinfo2/prothermdb/ read live via public overview. It describes experimental conditions and mutation searches but whole-dataset download requires form; no mutation-specific row was fetched. These are distinct publisher services, not duplicate API endpoints of FireProtDB. No clinical or new rescue claim is inferred.
