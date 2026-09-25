@@ -1,9 +1,9 @@
 {
-  "rule": "unique PDB accession, fetched and used in at least one valid S669 mutation graph or FireProtDB direct residue-number mapping; fetching without processing is not counted",
+  "rule": "unique PDB accession fetched and used in S669 graph, FireProtDB direct mutation mapping, or observed disease-mutant versus wild-type structural comparison. Each ID has a checksum and use; mere fetch does not count.",
   "s669_mutation_mapped_structures": 52,
   "fireprot_direct_mutation_mapped_structures": 74,
   "overlap": 6,
-  "union": 120,
+  "union": 126,
   "study_level_sources": 2,
   "accessions": [
     {
@@ -487,6 +487,13 @@
       "sha256": "5b2165e4e495d05e230c6438a8585966578fc70006ec228ac0a0d8b65d06c73c"
     },
     {
+      "pdb": "1UXM",
+      "used_in": [
+        "disease mutant versus wild-type structural comparison"
+      ],
+      "sha256": "6f2ac40563877778acb08948b99309f8983723ed4aacf4dc92657c0ca5a1d95f"
+    },
+    {
       "pdb": "1W4H",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -762,6 +769,20 @@
       "sha256": "cb64106e5575e5382ca872bfa186a2dbfbc8591aedcb36f44f6f5ecd8add785e"
     },
     {
+      "pdb": "3GZO",
+      "used_in": [
+        "disease mutant versus wild-type structural comparison"
+      ],
+      "sha256": "e91f50fb04cd9030e90f3a072cead36e6a9f78411b54ab48d233d9684a87f488"
+    },
+    {
+      "pdb": "3GZQ",
+      "used_in": [
+        "disease mutant versus wild-type structural comparison"
+      ],
+      "sha256": "657c0cd1da57d5963c779a9b085f4dd08c834d7f1670adfc7de0127aa35a027b"
+    },
+    {
       "pdb": "3K82",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -795,6 +816,13 @@
         "FireProtDB direct mutation-number match"
       ],
       "sha256": "b8eb3dbf535a7c9c60074692ec2c799b921c07f9a31d3faf44fd52d009221e60"
+    },
+    {
+      "pdb": "4AGO",
+      "used_in": [
+        "disease mutant versus wild-type structural comparison"
+      ],
+      "sha256": "07388d55c56bf81d1f3842525cc9eb8bf13be1152de5866cc0f87e4de87d495b"
     },
     {
       "pdb": "4BUQ",
@@ -851,6 +879,21 @@
         "FireProtDB direct mutation-number match"
       ],
       "sha256": "92802a710045109f219e8bc1e41fdb198a536108828f543eb27d1d95abb7f926"
+    },
+    {
+      "pdb": "6SHZ",
+      "used_in": [
+        "disease mutant versus wild-type structural comparison"
+      ],
+      "sha256": "c21f92ede305b1188741440ae3da03967b5adbc91ced9b4dd28a349e16e7df9d"
+    },
+    {
+      "pdb": "8QWN",
+      "used_in": [
+        "disease mutant versus wild-type structural comparison"
+      ],
+      "sha256": "7617ae6a2f9a018ea8b39ae39fafbe4987d7fe87e58af0e22f0123f00e38c559"
     }
-  ]
+  ],
+  "mutant_structure_comparison_accessions": 6
 }
