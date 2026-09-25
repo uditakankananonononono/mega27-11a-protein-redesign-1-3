@@ -1,0 +1,379 @@
+{
+  "audit": {
+    "total": 669,
+    "valid": 420,
+    "unavailable": 249
+  },
+  "n_groups": 52,
+  "groups": [
+    {
+      "pdb": "1A0F",
+      "n": 1,
+      "ridge_mae": 1.3008177161216736,
+      "train_mean_mae": 0.6338591885441527,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1A7V",
+      "n": 13,
+      "ridge_mae": 0.924386098568256,
+      "train_mean_mae": 0.9706174636174638,
+      "ridge_spearman": -0.06060629057822995
+    },
+    {
+      "pdb": "1BA3",
+      "n": 4,
+      "ridge_mae": 0.7884708003997802,
+      "train_mean_mae": 0.9575252403846155,
+      "ridge_spearman": 0.39999999999999997
+    },
+    {
+      "pdb": "1BFM",
+      "n": 2,
+      "ridge_mae": 1.0574269771575928,
+      "train_mean_mae": 0.6206052631578949,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1BNL",
+      "n": 1,
+      "ridge_mae": 0.17736045503616338,
+      "train_mean_mae": 0.34747732696897393,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1D5G",
+      "n": 2,
+      "ridge_mae": 1.2688644289970399,
+      "train_mean_mae": 1.6103181818181818,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1DIV",
+      "n": 50,
+      "ridge_mae": 1.0169569221496584,
+      "train_mean_mae": 1.2261406486486488,
+      "ridge_spearman": 0.45093284147054397
+    },
+    {
+      "pdb": "1DXX",
+      "n": 1,
+      "ridge_mae": 2.468839240074158,
+      "train_mean_mae": 2.5383937947494033,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1FRD",
+      "n": 1,
+      "ridge_mae": 3.1823853254318237,
+      "train_mean_mae": 5.179983293556086,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1FXA",
+      "n": 11,
+      "ridge_mae": 0.8688360626047307,
+      "train_mean_mae": 0.8436743720826848,
+      "ridge_spearman": 0.16363636363636366
+    },
+    {
+      "pdb": "1G3P",
+      "n": 27,
+      "ridge_mae": 1.0103381534329168,
+      "train_mean_mae": 0.9594495335029685,
+      "ridge_spearman": -0.1737935571673479
+    },
+    {
+      "pdb": "1GWY",
+      "n": 1,
+      "ridge_mae": 0.06838014125823966,
+      "train_mean_mae": 0.433381861575179,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1HCQ",
+      "n": 2,
+      "ridge_mae": 1.457359709739685,
+      "train_mean_mae": 0.8765239234449759,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1IOJ",
+      "n": 1,
+      "ridge_mae": 2.2206231594085692,
+      "train_mean_mae": 1.5713914081145588,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1IV9",
+      "n": 1,
+      "ridge_mae": 4.179332112312317,
+      "train_mean_mae": 5.479696897374702,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1J8I",
+      "n": 6,
+      "ridge_mae": 0.7683979272842407,
+      "train_mean_mae": 1.4381956521739128,
+      "ridge_spearman": 0.6179143806533246
+    },
+    {
+      "pdb": "1JL9",
+      "n": 1,
+      "ridge_mae": 1.468901696205139,
+      "train_mean_mae": 0.2729999999999999,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1JLV",
+      "n": 3,
+      "ridge_mae": 1.051986692428589,
+      "train_mean_mae": 0.7605939248601121,
+      "ridge_spearman": -0.5
+    },
+    {
+      "pdb": "1L6H",
+      "n": 3,
+      "ridge_mae": 0.646677882194519,
+      "train_mean_mae": 0.48729736211031166,
+      "ridge_spearman": 1.0
+    },
+    {
+      "pdb": "1N88",
+      "n": 17,
+      "ridge_mae": 0.8571016154569738,
+      "train_mean_mae": 1.3710948766603417,
+      "ridge_spearman": 0.17556813075214706
+    },
+    {
+      "pdb": "1NM1",
+      "n": 2,
+      "ridge_mae": 1.5466674661636353,
+      "train_mean_mae": 0.51,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1O1U",
+      "n": 6,
+      "ridge_mae": 1.1119916200637816,
+      "train_mean_mae": 0.7606980676328501,
+      "ridge_spearman": 0.5768179036829705
+    },
+    {
+      "pdb": "1O6X",
+      "n": 20,
+      "ridge_mae": 0.8566450226306914,
+      "train_mean_mae": 0.5813865,
+      "ridge_spearman": -0.21444701330312332
+    },
+    {
+      "pdb": "1OSI",
+      "n": 4,
+      "ridge_mae": 0.7462878072261809,
+      "train_mean_mae": 1.038705528846154,
+      "ridge_spearman": 0.39999999999999997
+    },
+    {
+      "pdb": "1PFL",
+      "n": 5,
+      "ridge_mae": 1.4302575416564942,
+      "train_mean_mae": 1.5481286746987952,
+      "ridge_spearman": 0.09999999999999999
+    },
+    {
+      "pdb": "1PRE",
+      "n": 1,
+      "ridge_mae": 2.4854182243347167,
+      "train_mean_mae": 1.2352911694510738,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1R2Y",
+      "n": 1,
+      "ridge_mae": 3.8037061214447023,
+      "train_mean_mae": 3.039587112171838,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1R6R",
+      "n": 4,
+      "ridge_mae": 2.078109346032143,
+      "train_mean_mae": 2.32,
+      "ridge_spearman": 1.0
+    },
+    {
+      "pdb": "1SPD",
+      "n": 2,
+      "ridge_mae": 2.784108352661133,
+      "train_mean_mae": 1.6253899521531103,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "1XWS",
+      "n": 4,
+      "ridge_mae": 2.5442072474956516,
+      "train_mean_mae": 2.3573004807692306,
+      "ridge_spearman": -0.19999999999999998
+    },
+    {
+      "pdb": "1XXN",
+      "n": 5,
+      "ridge_mae": 0.1408813334465027,
+      "train_mean_mae": 0.8673759036144579,
+      "ridge_spearman": 0.8207826816681234
+    },
+    {
+      "pdb": "1XZO",
+      "n": 4,
+      "ridge_mae": 3.518893436193466,
+      "train_mean_mae": 4.161426682692308,
+      "ridge_spearman": 1.0
+    },
+    {
+      "pdb": "2BJD",
+      "n": 3,
+      "ridge_mae": 2.5688947718938198,
+      "train_mean_mae": 2.554932853717027,
+      "ridge_spearman": -0.5
+    },
+    {
+      "pdb": "2C9Q",
+      "n": 2,
+      "ridge_mae": 1.2128135781288147,
+      "train_mean_mae": 0.6105,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "2HBB",
+      "n": 46,
+      "ridge_mae": 0.7388315898957458,
+      "train_mean_mae": 0.8590263892118112,
+      "ridge_spearman": 0.6509189601623747
+    },
+    {
+      "pdb": "2JUC",
+      "n": 3,
+      "ridge_mae": 0.9134358819325765,
+      "train_mean_mae": 0.8053133493205435,
+      "ridge_spearman": 0.5
+    },
+    {
+      "pdb": "2KS4",
+      "n": 2,
+      "ridge_mae": 1.6667836451530456,
+      "train_mean_mae": 1.6907009569377989,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "2MPC",
+      "n": 3,
+      "ridge_mae": 1.2569467695554097,
+      "train_mean_mae": 2.0019496402877697,
+      "ridge_spearman": 1.0
+    },
+    {
+      "pdb": "2N7Z",
+      "n": 1,
+      "ridge_mae": 0.6820136547088623,
+      "train_mean_mae": 0.5690047732696898,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "2PTL",
+      "n": 68,
+      "ridge_mae": 1.0004893566930995,
+      "train_mean_mae": 1.0539105949197862,
+      "ridge_spearman": 0.5030684242770852
+    },
+    {
+      "pdb": "2RPN",
+      "n": 2,
+      "ridge_mae": 1.8804048609733583,
+      "train_mean_mae": 1.8966818181818184,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "2WQG",
+      "n": 29,
+      "ridge_mae": 0.8856519431903443,
+      "train_mean_mae": 0.9185814445718318,
+      "ridge_spearman": 0.2026956537381987
+    },
+    {
+      "pdb": "2ZTA",
+      "n": 8,
+      "ridge_mae": 0.5892094543576241,
+      "train_mean_mae": 0.7356225728155339,
+      "ridge_spearman": 0.6428571428571429
+    },
+    {
+      "pdb": "3BN0",
+      "n": 1,
+      "ridge_mae": 0.6014536199569702,
+      "train_mean_mae": 0.33915751789976145,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "3D2A",
+      "n": 3,
+      "ridge_mae": 3.8262272580464676,
+      "train_mean_mae": 4.019695443645085,
+      "ridge_spearman": -1.0
+    },
+    {
+      "pdb": "3DV0",
+      "n": 31,
+      "ridge_mae": 0.6886357353579614,
+      "train_mean_mae": 0.86963338585289,
+      "ridge_spearman": 0.4724783974867935
+    },
+    {
+      "pdb": "3ECU",
+      "n": 1,
+      "ridge_mae": 0.9494061946868897,
+      "train_mean_mae": 1.972346062052506,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "3FIS",
+      "n": 1,
+      "ridge_mae": 0.49260878562927246,
+      "train_mean_mae": 0.6692434367541766,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "3MON",
+      "n": 2,
+      "ridge_mae": 1.1832857682704925,
+      "train_mean_mae": 2.0300000000000002,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "4BUQ",
+      "n": 2,
+      "ridge_mae": 1.0097259640693665,
+      "train_mean_mae": 1.1625,
+      "ridge_spearman": null
+    },
+    {
+      "pdb": "4HE7",
+      "n": 3,
+      "ridge_mae": 0.527576813697815,
+      "train_mean_mae": 0.9611822541966427,
+      "ridge_spearman": -0.5
+    },
+    {
+      "pdb": "5VP3",
+      "n": 3,
+      "ridge_mae": 1.2845442895889283,
+      "train_mean_mae": 1.3066498800959232,
+      "ridge_spearman": -0.5
+    }
+  ],
+  "row_weighted_ridge_mae": 1.0320393917753583,
+  "protein_equal_ridge_mae": 1.4190299340653465,
+  "row_weighted_train_mean_mae": 1.1227675827494208,
+  "protein_equal_train_mean_mae": 1.454829666521261,
+  "caveat": "Leave-one-structure-out within a heterogeneous 52-PDB subset; protein family homology is not grouped, and hyperparameter alpha=100 was fixed a priori, not tuned on held-out rows."
+}
