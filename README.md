@@ -15,6 +15,7 @@ python data/prepare_fireprot.py --source data/raw/fireprotdb.csv
 protein-rescue fireprot-audit
 protein-rescue inspect rcsb_1A0F_A_S11A_6_56
 protein-rescue map-site SOD1 5  # UniProt A5 -> mature PDB 2C9V A4
+protein-rescue cycle 1.69 2.75 1.72  # experimental R249S/H168R interaction; not prediction
 pytest -q
 ```
 
@@ -22,4 +23,4 @@ The raw FireProtDB bulk export used for the present audit timed out and is a par
 
 ## Status and limits
 
-The exploratory manuscript is in `paper/manuscript.pdf` (rendered eight pages, 17 numbered equations). This is a draft below the requested 20-page paper gate. The GNN loses to published stored S669 predictions. FireProtDB DDG records were audited but not trained together with S669 due to uncertain sign and condition conventions. The CLI supplies a benchmark and data audit, not clinically valid mutation recommendations. See `results/` JSON for measured results and failures. No therapeutic rescue mutation is claimed.
+The exploratory manuscript is in `paper/manuscript.pdf` (rendered eleven pages, 17 numbered equations). This is a draft below the requested 20-page paper gate. The GNN loses to published stored S669 predictions. FireProtDB DDG records were audited but not trained together with S669 due to uncertain sign and condition conventions. The CLI supplies a benchmark, data audit, residue mapper and experimental double-mutant cycle calculator, not clinically valid mutation recommendations. See `results/` JSON for measured results and failures. No therapeutic rescue mutation is claimed.
