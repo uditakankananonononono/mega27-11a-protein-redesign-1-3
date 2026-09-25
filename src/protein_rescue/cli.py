@@ -6,6 +6,7 @@ from .benchmark import run
 from .features import graph_for_row
 from .audit import audit
 from .fireprot import analyze
+from .targets import map_site
 import pandas as pd
 
 
@@ -29,6 +30,11 @@ def main():
     fp.add_argument('--csv', type=Path, default=Path('data/fireprot_pdb_ddg.csv'))
     fp.add_argument('--structures', type=Path, default=Path('data/raw'))
     fp.add_argument('--output', type=Path, default=Path('results/fireprot_mapping_audit.json'))
+    target = sub.add_parser('map-site', help='Map canonical UniProt position to observed target PDB residue')
+    target.add_argument('gene', choices=['TP53','SOD1','PTEN'])
+    target.add_argument('position', type=int)
+    target.add_argument('--structures',type=Path,default=Path('data/raw'))
+    target.add_argument('--sequences',type=Path,default=Path('data/targets'))
     args = p.parse_args()
     if args.command == 'benchmark':
         result = run(args.csv, args.structures, args.output, args.epochs)
@@ -39,6 +45,8 @@ def main():
     elif args.command == 'fireprot-audit':
         result = analyze(args.csv,args.structures,args.output)
         print(json.dumps({k:v for k,v in result.items() if k not in ('per_pdb','opposite_sign_examples')},indent=2))
+    elif args.command == 'map-site':
+        print(json.dumps(map_site(args.gene,args.position,args.structures,args.sequences),indent=2))
     elif args.command == 'inspect':
         df = pd.read_csv(args.csv)
         rows = df[df.name == args.name]
