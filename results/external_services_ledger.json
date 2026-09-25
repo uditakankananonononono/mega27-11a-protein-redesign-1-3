@@ -138,14 +138,32 @@
       "purpose": "Queried TP53 ontology search and found ambiguous HGNC symbol results; not used as disease causality proof",
       "evidence": "data/external_service_evidence/ols_tp53_mondo_search.json",
       "url": "https://www.ebi.ac.uk/ols4/api/search?q=TP53&ontology=mondo&rows=2"
+    },
+    {
+      "service": "cBioPortal",
+      "purpose": "Resolved TP53 to Entrez Gene 7157 in cancer genomics API; identity only",
+      "evidence": "data/external_service_evidence/cbioportal_tp53_gene.json",
+      "url": "https://www.cbioportal.org/api/genes/TP53"
+    },
+    {
+      "service": "NCBI dbSNP",
+      "purpose": "Resolved ClinVar-linked rs121912666 reference SNP; variant identity only",
+      "evidence": "data/external_service_evidence/dbsnp_rs121912666.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/121912666"
+    },
+    {
+      "service": "UCSC Genome Browser API",
+      "purpose": "Queried GRCh38 TP53 Y220C genomic interval and found overlapping transcript annotations; coordinate context only",
+      "evidence": "data/external_service_evidence/ucsc_tp53_y220c_locus.json",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=hg38;track=refGene;chrom=chr17;start=7674800;end=7674950"
     }
   ],
-  "distinct_count_including_workflow_services": 23,
-  "strict_scientific_data_and_literature_count": 21,
+  "distinct_count_including_workflow_services": 26,
+  "strict_scientific_data_and_literature_count": 24,
   "gate": 40,
-  "remaining_under_broad_count": 17,
+  "remaining_under_broad_count": 14,
   "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 21,
-  "gate_remaining": 19
+  "gate_count": 24,
+  "gate_remaining": 16
 }
