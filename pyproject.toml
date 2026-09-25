@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "protein-rescue"
+version = "0.1.0"
+description = "Residue graph mutation stability benchmarking with strict structure-group heldout validation"
+requires-python = ">=3.11"
+dependencies = ["biopython>=1.83", "numpy>=1.24", "pandas>=2", "scikit-learn>=1.3", "scipy>=1.10", "torch>=2.2"]
+[project.scripts]
+protein-rescue = "protein_rescue.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

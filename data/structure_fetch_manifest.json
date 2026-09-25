@@ -1,0 +1,667 @@
+[
+  {
+    "accession": "1A0F",
+    "url": "https://files.rcsb.org/download/1A0F.pdb",
+    "bytes": 315171,
+    "sha256": "3bc0a7cf1534938235e6079cbcc4308a7d34fd6de3f6efde70212776ab10d5c1",
+    "status": "present"
+  },
+  {
+    "accession": "1A7V",
+    "url": "https://files.rcsb.org/download/1A7V.pdb",
+    "bytes": 209709,
+    "sha256": "7771652d2f7104ea3e847ceaa803094332979e7229c4b7dfccdfb5b16b27d28c",
+    "status": "present"
+  },
+  {
+    "accession": "1BA3",
+    "url": "https://files.rcsb.org/download/1BA3.pdb",
+    "bytes": 400788,
+    "sha256": "a304920ee2ad14ce94511d5ce711d5ffb07b5d37ab6fd1bfa2b76bfb75e7f1de",
+    "status": "present"
+  },
+  {
+    "accession": "1BFM",
+    "url": "https://files.rcsb.org/download/1BFM.pdb",
+    "bytes": 6017166,
+    "sha256": "a60e18bb2ccf4117063e552e02b2f030683d52be394b751ef73659a61b34f1cc",
+    "status": "present"
+  },
+  {
+    "accession": "1BNL",
+    "url": "https://files.rcsb.org/download/1BNL.pdb",
+    "bytes": 503091,
+    "sha256": "6ba596ec06d6e5fd2874ac156ec3bbf661d7daa72bc87609b6510c64c1e6f736",
+    "status": "present"
+  },
+  {
+    "accession": "1D5G",
+    "url": "https://files.rcsb.org/download/1D5G.pdb",
+    "bytes": 2672838,
+    "sha256": "00caca169656ff2ceb36b4fe00ff9a406f6e52f815a7e81be639372965a002f9",
+    "status": "present"
+  },
+  {
+    "accession": "1DIV",
+    "url": "https://files.rcsb.org/download/1DIV.pdb",
+    "bytes": 141426,
+    "sha256": "5bc0f0e1fbf7fe14a2427f2a3c003d4fe5f69a465250d9ef24fedee763468ce6",
+    "status": "present"
+  },
+  {
+    "accession": "1DXX",
+    "url": "https://files.rcsb.org/download/1DXX.pdb",
+    "bytes": 666954,
+    "sha256": "8daac296a887970af94b6ebed3a3ac8059779d9d39060ce6df670c649f8df3e4",
+    "status": "present"
+  },
+  {
+    "accession": "1EKG",
+    "url": "https://files.rcsb.org/download/1EKG.pdb",
+    "bytes": 107406,
+    "sha256": "f9a19c74c7854a490852941609ca6aa057f588ebe430767640e3f2d1a8540d21",
+    "status": "present"
+  },
+  {
+    "accession": "1F8I",
+    "url": "https://files.rcsb.org/download/1F8I.pdb",
+    "bytes": 1232334,
+    "sha256": "ee75cf1b376b6d4eca359db956c71ec4894bb54eeafb739c0be17c5fc0d25fcd",
+    "status": "present"
+  },
+  {
+    "accession": "1FH5",
+    "url": "https://files.rcsb.org/download/1FH5.pdb",
+    "bytes": 292572,
+    "sha256": "d91231bc3b145dc4f7b3e63862a2e2e34ab7268b5a89c75336f8b6b01fed1ad1",
+    "status": "present"
+  },
+  {
+    "accession": "1FRD",
+    "url": "https://files.rcsb.org/download/1FRD.pdb",
+    "bytes": 94041,
+    "sha256": "0d0894d9e57ad59d32bfe63fd0487060fbd867b67e63e63d11d9d015839b49e7",
+    "status": "present"
+  },
+  {
+    "accession": "1FT8",
+    "url": "https://files.rcsb.org/download/1FT8.pdb",
+    "bytes": 656586,
+    "sha256": "987bf04553a90abf8af929fabb076fa758368711b78adc351ba6f08bbd5dd485",
+    "status": "present"
+  },
+  {
+    "accession": "1FXA",
+    "url": "https://files.rcsb.org/download/1FXA.pdb",
+    "bytes": 176337,
+    "sha256": "fb8d8c49b72e212bce719c25cf4c92f4cb364f2353b00af09936889bcd6df4ac",
+    "status": "present"
+  },
+  {
+    "accession": "1G3P",
+    "url": "https://files.rcsb.org/download/1G3P.pdb",
+    "bytes": 191241,
+    "sha256": "e17cea0deace333f94f41a1e419af8a19b77e50701a34f19237301d89df8da92",
+    "status": "present"
+  },
+  {
+    "accession": "1GLU",
+    "url": "https://files.rcsb.org/download/1GLU.pdb",
+    "bytes": 220806,
+    "sha256": "17f9b479a6417345472cd670788dc5f3e362907d612567c7a7b11765881f8458",
+    "status": "present"
+  },
+  {
+    "accession": "1GUA",
+    "url": "https://files.rcsb.org/download/1GUA.pdb",
+    "bytes": 207927,
+    "sha256": "f7122b06f9d8c6885a050377bbe47620031a3d067b16f2f2d1bd0f6351119171",
+    "status": "present"
+  },
+  {
+    "accession": "1GWY",
+    "url": "https://files.rcsb.org/download/1GWY.pdb",
+    "bytes": 293544,
+    "sha256": "73679a8d14d829762023d5e3d61ae861b0b13a2ac7691972daf3716e450554bf",
+    "status": "present"
+  },
+  {
+    "accession": "1H0X",
+    "url": "https://files.rcsb.org/download/1H0X.pdb",
+    "bytes": 150822,
+    "sha256": "df5650ec512561e383ac1d9afd6eb037ebb4d374f31e860f7bd85244bda09a4c",
+    "status": "present"
+  },
+  {
+    "accession": "1HCQ",
+    "url": "https://files.rcsb.org/download/1HCQ.pdb",
+    "bytes": 377865,
+    "sha256": "6a9f68a7183673e36efe97150fac753167259c813d64d57ca4388f1ccc8c458b",
+    "status": "present"
+  },
+  {
+    "accession": "1IOJ",
+    "url": "https://files.rcsb.org/download/1IOJ.pdb",
+    "bytes": 1410534,
+    "sha256": "cac7f60005a635eed186d21f0fb68a426e1daceeab868053d176058d0811e56a",
+    "status": "present"
+  },
+  {
+    "accession": "1IR3",
+    "url": "https://files.rcsb.org/download/1IR3.pdb",
+    "bytes": 262035,
+    "sha256": "83f1a55aa06d6fcd1fb357ee4aa9514de9da80df3af233d28d57d13abf7cef1f",
+    "status": "present"
+  },
+  {
+    "accession": "1ITM",
+    "url": "https://files.rcsb.org/download/1ITM.pdb",
+    "bytes": 191808,
+    "sha256": "94179df65dc00de977f7fe9798c0d58bc33c275edcc9a048d6b82dfc13d1cf5c",
+    "status": "present"
+  },
+  {
+    "accession": "1IV7",
+    "url": "https://files.rcsb.org/download/1IV7.pdb",
+    "bytes": 169695,
+    "sha256": "85c8fe587b3fe3e38629d91a84a6906779fca20d1e977499af99d1fa5987f988",
+    "status": "present"
+  },
+  {
+    "accession": "1IV9",
+    "url": "https://files.rcsb.org/download/1IV9.pdb",
+    "bytes": 165645,
+    "sha256": "3bf754137550e6f269c58b46b5d91e120cbf681ac8bfe18582678323b2cac756",
+    "status": "present"
+  },
+  {
+    "accession": "1J8I",
+    "url": "https://files.rcsb.org/download/1J8I.pdb",
+    "bytes": 2395413,
+    "sha256": "411da189ad0ac69a9abf24d6fdced1892305c843868534ff9df83be0dc623020",
+    "status": "present"
+  },
+  {
+    "accession": "1JL9",
+    "url": "https://files.rcsb.org/download/1JL9.pdb",
+    "bytes": 84321,
+    "sha256": "f6660cbb6939b22daf5ba1292686b2e5316252fbc9a952f8960b65a0f924045f",
+    "status": "present"
+  },
+  {
+    "accession": "1JLV",
+    "url": "https://files.rcsb.org/download/1JLV.pdb",
+    "bytes": 928908,
+    "sha256": "cde6ff76cccedea1f4d914247465ece056cba32bd834d23c6f8e4d8eda2daec6",
+    "status": "present"
+  },
+  {
+    "accession": "1L6H",
+    "url": "https://files.rcsb.org/download/1L6H.pdb",
+    "bytes": 95256,
+    "sha256": "f87c88d070d58aca58ba433066855a4fb32f079dca73ef53f365bf1daf58b540",
+    "status": "present"
+  },
+  {
+    "accession": "1LVM",
+    "url": "https://files.rcsb.org/download/1LVM.pdb",
+    "bytes": 399330,
+    "sha256": "a11497fd324f11b6bc6c30dbe5f67c8393184fed97e448ddfb804388f5d34539",
+    "status": "present"
+  },
+  {
+    "accession": "1N18",
+    "url": "https://files.rcsb.org/download/1N18.pdb",
+    "bytes": 1114398,
+    "sha256": "39aceb1a1ac02b6e5b22636b4921010ab76e1d4fd6c9e108c8fb44e036fb6371",
+    "status": "present"
+  },
+  {
+    "accession": "1N88",
+    "url": "https://files.rcsb.org/download/1N88.pdb",
+    "bytes": 3750948,
+    "sha256": "c7c30c565a7f578029a96a29eb583f9671fdceaefcffa12ad41b9455a69b5c84",
+    "status": "present"
+  },
+  {
+    "accession": "1NM1",
+    "url": "https://files.rcsb.org/download/1NM1.pdb",
+    "bytes": 387585,
+    "sha256": "3310a8cff33a05669f03e0ce57204bd351a89b892df2ce9e4857469ae90841e0",
+    "status": "present"
+  },
+  {
+    "accession": "1O1U",
+    "url": "https://files.rcsb.org/download/1O1U.pdb",
+    "bytes": 1631097,
+    "sha256": "e81a301b6823253c382ccaced5face329b383a511cd440ca0c97ef9904305424",
+    "status": "present"
+  },
+  {
+    "accession": "1O6X",
+    "url": "https://files.rcsb.org/download/1O6X.pdb",
+    "bytes": 2116449,
+    "sha256": "ff5ae0ce0a36b9976cabd748091313a6d39843ffe679025b5568eb559a580349",
+    "status": "present"
+  },
+  {
+    "accession": "1OSI",
+    "url": "https://files.rcsb.org/download/1OSI.pdb",
+    "bytes": 1066122,
+    "sha256": "a59df955fc0dbfa09a1f4b571e80100fd85b91e82f3d4db98ca944d1680cc0e4",
+    "status": "present"
+  },
+  {
+    "accession": "1PFL",
+    "url": "https://files.rcsb.org/download/1PFL.pdb",
+    "bytes": 3430026,
+    "sha256": "9dbf69adb002ef18d1fcdd5e066468db572dd261e085dde2aabbf6e7da864a30",
+    "status": "present"
+  },
+  {
+    "accession": "1PRE",
+    "url": "https://files.rcsb.org/download/1PRE.pdb",
+    "bytes": 624753,
+    "sha256": "6ffc49adc15fcfc23bdb7af81010cdee4f8ea75bbb46fac69bf537d26fde0faa",
+    "status": "present"
+  },
+  {
+    "accession": "1PRG",
+    "url": "https://files.rcsb.org/download/1PRG.pdb",
+    "bytes": 430272,
+    "sha256": "66fa620191fccc6a773d9cbdb0050518323b487928cee41738fe334719d05874",
+    "status": "present"
+  },
+  {
+    "accession": "1R2Y",
+    "url": "https://files.rcsb.org/download/1R2Y.pdb",
+    "bytes": 259362,
+    "sha256": "50c3b3e7c985b5e3d0bace81cb9b2a296d9fc539ba233466b726e55be4391f18",
+    "status": "present"
+  },
+  {
+    "accession": "1R6R",
+    "url": "https://files.rcsb.org/download/1R6R.pdb",
+    "bytes": 4726431,
+    "sha256": "41434d9cd4ece8808364e3ac65624a069335a4b3d3f1c0a2bf1db6ba35b351f4",
+    "status": "present"
+  },
+  {
+    "accession": "1SPD",
+    "url": "https://files.rcsb.org/download/1SPD.pdb",
+    "bytes": 232470,
+    "sha256": "bc1047c32a42bdc3ce3bea71d543ab925dc2da1a1323ecf1bb03bc8dc6a35f34",
+    "status": "present"
+  },
+  {
+    "accession": "1TSR",
+    "url": "https://files.rcsb.org/download/1TSR.pdb",
+    "bytes": 526419,
+    "sha256": "d340fa313790c6425d7f02ea43913da19af3716b0901f0dd8230f6303e122d11",
+    "status": "present"
+  },
+  {
+    "accession": "1X0J",
+    "url": "https://files.rcsb.org/download/1X0J.pdb",
+    "bytes": 324324,
+    "sha256": "806b49035ab00daed447691957d84284d88745fd0d821c80015d6e30bff26571",
+    "status": "present"
+  },
+  {
+    "accession": "1XWS",
+    "url": "https://files.rcsb.org/download/1XWS.pdb",
+    "bytes": 243972,
+    "sha256": "c6ba50b25016725050486342ea06e1d1d41b61006b2bb9f9491d84f20bbcb97c",
+    "status": "present"
+  },
+  {
+    "accession": "1XXN",
+    "url": "https://files.rcsb.org/download/1XXN.pdb",
+    "bytes": 162972,
+    "sha256": "fee7b53ef3b18335022bd53568c4b8584a8cb862a730cb36c3bb448a6f0a6f65",
+    "status": "present"
+  },
+  {
+    "accession": "1XZO",
+    "url": "https://files.rcsb.org/download/1XZO.pdb",
+    "bytes": 343845,
+    "sha256": "2d2bd578e19187f58c87495f0c71e72405a3fd8566a9254d2a8e5dc296f1c202",
+    "status": "present"
+  },
+  {
+    "accession": "2ARF",
+    "url": "https://files.rcsb.org/download/2ARF.pdb",
+    "bytes": 1993815,
+    "sha256": "41177499350444b6d40e5fbfb8a7bb0cddf27818776f2936f743931560af4a36",
+    "status": "present"
+  },
+  {
+    "accession": "2BJD",
+    "url": "https://files.rcsb.org/download/2BJD.pdb",
+    "bytes": 202581,
+    "sha256": "c96f0fbb8a514904fcb104468b9caff55070519ea83be581b54880ce55373bab",
+    "status": "present"
+  },
+  {
+    "accession": "2C9Q",
+    "url": "https://files.rcsb.org/download/2C9Q.pdb",
+    "bytes": 105219,
+    "sha256": "255e1e7e7547292eae6cc33b0b3efe2264ab2d83bb2ceac06f9cc1ccb3d9a24e",
+    "status": "present"
+  },
+  {
+    "accession": "2CLR",
+    "url": "https://files.rcsb.org/download/2CLR.pdb",
+    "bytes": 555579,
+    "sha256": "ee2d2315b5bebaba7c8520eb5b9b461bf376d3b7b0ebb9295da6c4a1f20908e5",
+    "status": "present"
+  },
+  {
+    "accession": "2DVV",
+    "url": "https://files.rcsb.org/download/2DVV.pdb",
+    "bytes": 124659,
+    "sha256": "c186f5dbbebe131495f347c253d2d1b878247c82b1849ad1cdfc1f550427dc3d",
+    "status": "present"
+  },
+  {
+    "accession": "2H3F",
+    "url": "https://files.rcsb.org/download/2H3F.pdb",
+    "bytes": 3393009,
+    "sha256": "1d799bdb39192e3b196e5836144bfdd3bc7774150fe8faac2633adbb688dca34",
+    "status": "present"
+  },
+  {
+    "accession": "2HBB",
+    "url": "https://files.rcsb.org/download/2HBB.pdb",
+    "bytes": 76545,
+    "sha256": "857c21059c7f6156269b154163b90afd7c6c263398ca6cc233a66d795efdc9d4",
+    "status": "present"
+  },
+  {
+    "accession": "2JIE",
+    "url": "https://files.rcsb.org/download/2JIE.pdb",
+    "bytes": 342873,
+    "sha256": "cab04901fd629bee5a423e7103f47aab7036e75faf0ffe430dd14a320756a29c",
+    "status": "present"
+  },
+  {
+    "accession": "2JUC",
+    "url": "https://files.rcsb.org/download/2JUC.pdb",
+    "bytes": 1169559,
+    "sha256": "b7a82e571dd4af43467464383463c4ca75e5c2e258669fc093d1ba4fcdf4759d",
+    "status": "present"
+  },
+  {
+    "accession": "2KJ3",
+    "url": "https://files.rcsb.org/download/2KJ3.pdb",
+    "bytes": 5877198,
+    "sha256": "4f3d860b3f6036133aafc7e80d3132e9576b3c641c6897b5f0a2061c6f4318a1",
+    "status": "present"
+  },
+  {
+    "accession": "2KS4",
+    "url": "https://files.rcsb.org/download/2KS4.pdb",
+    "bytes": 4410045,
+    "sha256": "227656214e1ed67e1059e4c84fa03fc3d75a6648e09c82b65a5ed7d3a8ae53ba",
+    "status": "present"
+  },
+  {
+    "accession": "2LTB",
+    "url": "https://files.rcsb.org/download/2LTB.pdb",
+    "bytes": 1697517,
+    "sha256": "cbfe5044bb22143ca8809d342c022a4e318f3d397a7862e20747d3425cb01e32",
+    "status": "present"
+  },
+  {
+    "accession": "2M5S",
+    "url": "https://files.rcsb.org/download/2M5S.pdb",
+    "bytes": 4491855,
+    "sha256": "fd00fcac0d2bdfa69b032cdc4d8e2c5685745d11c08e226863c969960fc61a53",
+    "status": "present"
+  },
+  {
+    "accession": "2MPC",
+    "url": "https://files.rcsb.org/download/2MPC.pdb",
+    "bytes": 1238409,
+    "sha256": "98b933c8c3172a13209cbd88b0efbbfeb117e75d9c017f4b6daff95fb67af5e6",
+    "status": "present"
+  },
+  {
+    "accession": "2N7Z",
+    "url": "https://files.rcsb.org/download/2N7Z.pdb",
+    "bytes": 1414989,
+    "sha256": "b432f9863ef690f73607c1917d819877924a8b784c30fdee495364565a8cdf5c",
+    "status": "present"
+  },
+  {
+    "accession": "2NTE",
+    "url": "https://files.rcsb.org/download/2NTE.pdb",
+    "bytes": 352593,
+    "sha256": "afd8fdb90873362c7681247a863317a2b20acba9255a069a50cdf8c7657b8d37",
+    "status": "present"
+  },
+  {
+    "accession": "2OUO",
+    "url": "https://files.rcsb.org/download/2OUO.pdb",
+    "bytes": 125145,
+    "sha256": "bfccda360a4fb1ee78e816251efb802872821a0c304089e18795fe4cdbc6a0f9",
+    "status": "present"
+  },
+  {
+    "accession": "2PR5",
+    "url": "https://files.rcsb.org/download/2PR5.pdb",
+    "bytes": 263169,
+    "sha256": "0734a61064e4b6f4cb1696df6230ca444103bdac5b8c5db20d6f4ea89dbf1b8e",
+    "status": "present"
+  },
+  {
+    "accession": "2PTL",
+    "url": "https://files.rcsb.org/download/2PTL.pdb",
+    "bytes": 2014146,
+    "sha256": "f56503afc7c574490c59a62eecc3fd0ebf722139ffa7590066bde29124ca6278",
+    "status": "present"
+  },
+  {
+    "accession": "2RPN",
+    "url": "https://files.rcsb.org/download/2RPN.pdb",
+    "bytes": 1799496,
+    "sha256": "da39dafa88ffabbf403f0cfab4a74ee5cb34eccac3cb0d07ee8b0eacfe0934ba",
+    "status": "present"
+  },
+  {
+    "accession": "2VY0",
+    "url": "https://files.rcsb.org/download/2VY0.pdb",
+    "bytes": 427680,
+    "sha256": "c0de6aec03dc255a1537989382c29bd7ed21f5b31492fa97a2d62c97eec527eb",
+    "status": "present"
+  },
+  {
+    "accession": "2WQG",
+    "url": "https://files.rcsb.org/download/2WQG.pdb",
+    "bytes": 1634337,
+    "sha256": "7fb8f6de00accbbfe4c0700135ed1c75263f28315b50f2a983c71f9c1173d727",
+    "status": "present"
+  },
+  {
+    "accession": "2ZTA",
+    "url": "https://files.rcsb.org/download/2ZTA.pdb",
+    "bytes": 75411,
+    "sha256": "c71d709f5d11a73156f2610cd94dead5812b1e045e8581b8d23c04ff4de749a2",
+    "status": "present"
+  },
+  {
+    "accession": "3BCI",
+    "url": "https://files.rcsb.org/download/3BCI.pdb",
+    "bytes": 162243,
+    "sha256": "a4a83ea40029e1937a078563c875c4caa3dffa5869a1fd5c3cad2572781724c2",
+    "status": "present"
+  },
+  {
+    "accession": "3BN0",
+    "url": "https://files.rcsb.org/download/3BN0.pdb",
+    "bytes": 103437,
+    "sha256": "65532372afa35f0d52609839e95616e043e9c0e4d6cdc7c4fa7daf4f2a8aa6d2",
+    "status": "present"
+  },
+  {
+    "accession": "3C2I",
+    "url": "https://files.rcsb.org/download/3C2I.pdb",
+    "bytes": 272322,
+    "sha256": "f96ee9192eabe5eafc50ff0b161c51275ad6ad8f03a2c0d0e447f18a820ed7bf",
+    "status": "present"
+  },
+  {
+    "accession": "3D2A",
+    "url": "https://files.rcsb.org/download/3D2A.pdb",
+    "bytes": 148392,
+    "sha256": "a051ddefca14b4d3364b2237bcef5c028a99def1bb418cf7507f0a86f851c17b",
+    "status": "present"
+  },
+  {
+    "accession": "3D3B",
+    "url": "https://files.rcsb.org/download/3D3B.pdb",
+    "bytes": 257742,
+    "sha256": "1ed3bc2176e743f3c85203b5c35e2fca1d16aaea146de9f460384112040259aa",
+    "status": "present"
+  },
+  {
+    "accession": "3DV0",
+    "url": "https://files.rcsb.org/download/3DV0.pdb",
+    "bytes": 2008071,
+    "sha256": "d7f621391f05f43b0711e4d919f3906e7aee0e03d07d7ef2936314f496180149",
+    "status": "present"
+  },
+  {
+    "accession": "3ECU",
+    "url": "https://files.rcsb.org/download/3ECU.pdb",
+    "bytes": 399492,
+    "sha256": "c8cc3ea0abe43ab03575b934327ed4dd9eee6e380651097b49d8f2bb665d50b3",
+    "status": "present"
+  },
+  {
+    "accession": "3FIS",
+    "url": "https://files.rcsb.org/download/3FIS.pdb",
+    "bytes": 129114,
+    "sha256": "cb64106e5575e5382ca872bfa186a2dbfbc8591aedcb36f44f6f5ecd8add785e",
+    "status": "present"
+  },
+  {
+    "accession": "3G1G",
+    "url": "https://files.rcsb.org/download/3G1G.pdb",
+    "bytes": 131625,
+    "sha256": "a701c2462ab89e1c0efca497ccba9fd5b06ae0e74d8350edb9e180818da7e25b",
+    "status": "present"
+  },
+  {
+    "accession": "3K82",
+    "url": "https://files.rcsb.org/download/3K82.pdb",
+    "bytes": 102789,
+    "sha256": "7a47105ff58c4632279e2d222f516c8e24d094a7fe4d5c107b99e81be3b47ab8",
+    "status": "present"
+  },
+  {
+    "accession": "3L15",
+    "url": "https://files.rcsb.org/download/3L15.pdb",
+    "bytes": 889785,
+    "sha256": "1c77fe2aef988bb35f1b0e8d0e5e984efb9fe856aa02b7ae241f35373b816f00",
+    "status": "present"
+  },
+  {
+    "accession": "3MON",
+    "url": "https://files.rcsb.org/download/3MON.pdb",
+    "bytes": 299052,
+    "sha256": "3ec8a943bdcdad233cd4aaea4800bd3d5d86aded5ac0cfd19f30afe288b8d20f",
+    "status": "present"
+  },
+  {
+    "accession": "3O39",
+    "url": "https://files.rcsb.org/download/3O39.pdb",
+    "bytes": 308205,
+    "sha256": "58c1a42b5c75935f46af7fe3185780a3ff84ee600487735c14900a1d9f3ebc8d",
+    "status": "present"
+  },
+  {
+    "accession": "3S4M",
+    "url": "https://files.rcsb.org/download/3S4M.pdb",
+    "bytes": 221049,
+    "sha256": "0e5ae2d53c918eb1253a90ce36d4a11f66ac8e9760aff8c746dc614513413053",
+    "status": "present"
+  },
+  {
+    "accession": "3S92",
+    "url": "https://files.rcsb.org/download/3S92.pdb",
+    "bytes": 227043,
+    "sha256": "b8eb3dbf535a7c9c60074692ec2c799b921c07f9a31d3faf44fd52d009221e60",
+    "status": "present"
+  },
+  {
+    "accession": "4BJX",
+    "url": "https://files.rcsb.org/download/4BJX.pdb",
+    "bytes": 148392,
+    "sha256": "7835025ffa5f44aeb7b78af04715e646d470fdbc5d9a48d465620933da1eb9c7",
+    "status": "present"
+  },
+  {
+    "accession": "4BUQ",
+    "url": "https://files.rcsb.org/download/4BUQ.pdb",
+    "bytes": 252477,
+    "sha256": "d200fc9cfcd66ff6018dae116ebeb3118a32ecb23e43e536dea9c7680baa9091",
+    "status": "present"
+  },
+  {
+    "accession": "4HE7",
+    "url": "https://files.rcsb.org/download/4HE7.pdb",
+    "bytes": 113238,
+    "sha256": "0f87c1998c9e9cb11f1ca06f9856127ac0552f3eb5b4edd3944e3d596be6dfe0",
+    "status": "present"
+  },
+  {
+    "accession": "4N6V",
+    "url": "https://files.rcsb.org/download/4N6V.pdb",
+    "bytes": 1618218,
+    "sha256": "5a8020485843881f8739043b5a37903d9ae4feb87d6bf8f9d824966a54b47512",
+    "status": "present"
+  },
+  {
+    "accession": "4WAA",
+    "url": "https://files.rcsb.org/download/4WAA.pdb",
+    "bytes": 383211,
+    "sha256": "c49fe7159fc2f369122e3d63de3f9b484ec5355f2fb47fcc672ca513be3682ff",
+    "status": "present"
+  },
+  {
+    "accession": "4YEE",
+    "url": "https://files.rcsb.org/download/4YEE.pdb",
+    "bytes": 2504034,
+    "sha256": "ee54d35d50dc19c8a918dfc5ae7ec79e03077c3ed60c4bdce311c6806b9719b1",
+    "status": "present"
+  },
+  {
+    "accession": "4YEF",
+    "url": "https://files.rcsb.org/download/4YEF.pdb",
+    "bytes": 1100223,
+    "sha256": "2d5783795dd8690663092f170781fd8dd3f27096a6312a5d8ae527c5d471dce5",
+    "status": "present"
+  },
+  {
+    "accession": "5JXB",
+    "url": "https://files.rcsb.org/download/5JXB.pdb",
+    "bytes": 336798,
+    "sha256": "605b00b48e6a3c7275c9b949de34852249eb3cd8e981f4c78bb8350904b76e6a",
+    "status": "present"
+  },
+  {
+    "accession": "5OAQ",
+    "url": "https://files.rcsb.org/download/5OAQ.pdb",
+    "bytes": 209304,
+    "sha256": "158f2572d527ee57fe6a9450ed336424f3648304fb009b300f400cfb8b90508f",
+    "status": "present"
+  },
+  {
+    "accession": "5VP3",
+    "url": "https://files.rcsb.org/download/5VP3.pdb",
+    "bytes": 314523,
+    "sha256": "a7022fc3b652c7b60c4d935229293d65b24f3cd05cf432af9bb57573bbf2a5b8",
+    "status": "present"
+  }
+]
