@@ -1,0 +1,79 @@
+{
+  "source": "results/group_sensitivity.json",
+  "direction": "positive: GNN higher MAE than comparator",
+  "thresholds": [
+    {
+      "min_rows_per_pdb": 1,
+      "retained_proteins": 13,
+      "retained_variants": 149,
+      "equal_protein_delta_mae": 0.3684319015297511,
+      "row_weighted_delta_mae": 0.23948264285997056,
+      "gnn_better_proteins": 5,
+      "comparator_better_proteins": 8
+    },
+    {
+      "min_rows_per_pdb": 2,
+      "retained_proteins": 8,
+      "retained_variants": 144,
+      "equal_protein_delta_mae": 0.6384237652631083,
+      "row_weighted_delta_mae": 0.2500047860302341,
+      "gnn_better_proteins": 1,
+      "comparator_better_proteins": 7
+    },
+    {
+      "min_rows_per_pdb": 3,
+      "retained_proteins": 6,
+      "retained_variants": 140,
+      "equal_protein_delta_mae": 0.42716458613494757,
+      "row_weighted_delta_mae": 0.22079917126973825,
+      "gnn_better_proteins": 1,
+      "comparator_better_proteins": 5
+    },
+    {
+      "min_rows_per_pdb": 4,
+      "retained_proteins": 5,
+      "retained_variants": 137,
+      "equal_protein_delta_mae": 0.14685932904266977,
+      "row_weighted_delta_mae": 0.1855898639633164,
+      "gnn_better_proteins": 1,
+      "comparator_better_proteins": 4
+    },
+    {
+      "min_rows_per_pdb": 5,
+      "retained_proteins": 3,
+      "retained_variants": 129,
+      "equal_protein_delta_mae": 0.21047923944532312,
+      "row_weighted_delta_mae": 0.19390988880205293,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 3
+    },
+    {
+      "min_rows_per_pdb": 10,
+      "retained_proteins": 3,
+      "retained_variants": 129,
+      "equal_protein_delta_mae": 0.21047923944532312,
+      "row_weighted_delta_mae": 0.19390988880205293,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 3
+    },
+    {
+      "min_rows_per_pdb": 20,
+      "retained_proteins": 2,
+      "retained_variants": 118,
+      "equal_protein_delta_mae": 0.19245249970702127,
+      "row_weighted_delta_mae": 0.1890043707400308,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 2
+    },
+    {
+      "min_rows_per_pdb": 40,
+      "retained_proteins": 2,
+      "retained_variants": 118,
+      "equal_protein_delta_mae": 0.19245249970702127,
+      "row_weighted_delta_mae": 0.1890043707400308,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 2
+    }
+  ],
+  "caveat": "Post-hoc filtering on test-group size changes the target population. This is sensitivity analysis, not an optimized evaluation protocol or an independent test."
+}
