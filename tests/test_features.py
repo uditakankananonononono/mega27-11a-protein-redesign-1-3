@@ -43,3 +43,16 @@ def test_invalid_mutant_is_rejected_without_index_error(tmp_path):
     from protein_rescue.features import graph_for_row
     row=pd.Series({'name':'rcsb_1ABC_A_A1Z_7_25','wt_seq':'ACDE','mut_seq':'ZCDE','ddG':1.})
     assert graph_for_row(row,tmp_path) is None
+
+
+def test_mutation_site_from_only_sequence_difference_with_pdb_number_check():
+    import pandas as pd
+    from pathlib import Path
+    from protein_rescue.features import graph_for_row
+    root=Path(__file__).resolve().parents[1]
+    if not (root/'data/raw/1EKG.pdb').exists():return
+    df=pd.read_csv(root/'data/raw/S669.csv')
+    row=df[df.name=='rcsb_1EKG_A_L198C_7_25'].iloc[0]
+    graph=graph_for_row(row,root/'data/raw')
+    assert graph is not None
+    assert graph['name']=='rcsb_1EKG_A_L198C_7_25'

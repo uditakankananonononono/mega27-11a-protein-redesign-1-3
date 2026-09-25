@@ -1,8 +1,7 @@
 {
   "rows": 669,
   "categories": {
-    "candidate_graph": 420,
-    "invalid_single_substitution": 249
+    "candidate_graph": 669
   },
   "examples": {
     "candidate_graph": [
@@ -11,13 +10,6 @@
       "rcsb_1A7V_A_A66H_6_25",
       "rcsb_1A7V_A_A91H_6_25",
       "rcsb_1A7V_A_D3H_6_25"
-    ],
-    "invalid_single_substitution": [
-      "rcsb_1EKG_A_L198C_7_25",
-      "rcsb_1EKG_A_L200C_7_25",
-      "rcsb_1EKG_A_L203C_7_25",
-      "rcsb_1EKG_A_S181F_8_20",
-      "rcsb_1F8I_A_F345A_8_25"
     ]
   },
   "caveat": "candidate_graph means site and sequence checks passed, but the final graph also requires >=4 local C-alpha residues. Original graph loader remains source of truth for accepted count."

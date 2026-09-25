@@ -30,12 +30,19 @@ def graph_for_row(row: pd.Series, structures: Path, radius: float = 12., nodes: 
     if not m:
         return None
     pdb, chain, wt, index, mutant = m.groups()
-    index = int(index) - 1
+    label_position = int(index)
     ref = str(row['wt_seq'])
     alt = str(row['mut_seq'])
-    if not (wt in AA and mutant in AA and 0 <= index < len(ref) == len(alt) and ref[index] == wt and alt[index] == mutant
-            and sum(a != b for a, b in zip(ref, alt)) == 1):
+    if wt not in AA or mutant not in AA or len(ref) != len(alt):
         return None
+    differing = [i for i, (a,b) in enumerate(zip(ref, alt)) if a != b]
+    if len(differing) != 1:
+        return None
+    index = differing[0]
+    if ref[index] != wt or alt[index] != mutant:
+        return None
+    # Name positions may use construct/PDB numbering rather than sequence offset.
+    # Require that resolved PDB residue numbering agrees with the mutation label.
     path = structures / f'{pdb}.pdb'
     if not path.is_file():
         return None
@@ -47,7 +54,7 @@ def graph_for_row(row: pd.Series, structures: Path, radius: float = 12., nodes: 
         return None
     sequence = ''.join(seq1(r.resname) for r in residues)
     mapped = align_index(ref, sequence, index)
-    if mapped is None or sequence[mapped] != wt:
+    if mapped is None or sequence[mapped] != wt or residues[mapped].id[1] != label_position:
         return None
     xyz = np.array([r['CA'].coord for r in residues], dtype=np.float32)
     distances = np.linalg.norm(xyz - xyz[mapped], axis=1)
