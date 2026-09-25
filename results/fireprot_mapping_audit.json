@@ -1,0 +1,1065 @@
+{
+  "source": "data/fireprot_pdb_ddg.csv",
+  "rows": 3865,
+  "distinct_pdbs": 132,
+  "structures_available": 132,
+  "structures_with_direct_matches": 74,
+  "direct_numbering_experiments": 1470,
+  "chains_checked": 238,
+  "opposite_sign_same_pdb_mutation_pairs": 147,
+  "opposite_sign_examples": [
+    {
+      "pdb": "1BNI",
+      "mutation": "D59A",
+      "experiments": 5,
+      "min_ddg": -1.1,
+      "max_ddg": 0.39,
+      "source_experiment_ids": [
+        "9128",
+        "9817",
+        "10725",
+        "11104",
+        "11337"
+      ]
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "H65G",
+      "experiments": 4,
+      "min_ddg": -0.51,
+      "max_ddg": 0.98,
+      "source_experiment_ids": [
+        "9087",
+        "10033",
+        "10037",
+        "10814"
+      ]
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "K74G",
+      "experiments": 2,
+      "min_ddg": -0.2,
+      "max_ddg": 0.38,
+      "source_experiment_ids": [
+        "9095",
+        "9829"
+      ]
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "R157A",
+      "experiments": 3,
+      "min_ddg": -0.07,
+      "max_ddg": 0.46,
+      "source_experiment_ids": [
+        "9867",
+        "11105",
+        "11338"
+      ]
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T63R",
+      "experiments": 5,
+      "min_ddg": -0.78,
+      "max_ddg": 0.78,
+      "source_experiment_ids": [
+        "8532",
+        "8772",
+        "9821",
+        "9964",
+        "10726"
+      ]
+    },
+    {
+      "pdb": "1C2R",
+      "mutation": "Y96F",
+      "experiments": 2,
+      "min_ddg": -0.71,
+      "max_ddg": 2.7,
+      "source_experiment_ids": [
+        "13474",
+        "13476"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E21K",
+      "experiments": 3,
+      "min_ddg": -0.17,
+      "max_ddg": 0.43,
+      "source_experiment_ids": [
+        "6548",
+        "6556",
+        "6564"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E36K",
+      "experiments": 3,
+      "min_ddg": -0.79,
+      "max_ddg": 0.98,
+      "source_experiment_ids": [
+        "6550",
+        "6558",
+        "6566"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E46A",
+      "experiments": 5,
+      "min_ddg": -0.1,
+      "max_ddg": 0.22,
+      "source_experiment_ids": [
+        "6619",
+        "6633",
+        "6653",
+        "6663",
+        "8805"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E50K",
+      "experiments": 3,
+      "min_ddg": -0.26,
+      "max_ddg": 0.76,
+      "source_experiment_ids": [
+        "6551",
+        "6559",
+        "6567"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "F38W",
+      "experiments": 2,
+      "min_ddg": -0.7,
+      "max_ddg": 0.5,
+      "source_experiment_ids": [
+        "9123",
+        "9124"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "L66A",
+      "experiments": 3,
+      "min_ddg": -0.02,
+      "max_ddg": 0.07,
+      "source_experiment_ids": [
+        "6637",
+        "6667",
+        "8809"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "N55K",
+      "experiments": 3,
+      "min_ddg": -0.19,
+      "max_ddg": 0.29,
+      "source_experiment_ids": [
+        "6549",
+        "6557",
+        "6565"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "Q53E",
+      "experiments": 5,
+      "min_ddg": -0.02,
+      "max_ddg": 0.1,
+      "source_experiment_ids": [
+        "6620",
+        "6634",
+        "6654",
+        "6664",
+        "8806"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "R3L",
+      "experiments": 3,
+      "min_ddg": -0.33,
+      "max_ddg": 0.93,
+      "source_experiment_ids": [
+        "6611",
+        "6624",
+        "8799"
+      ]
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "Y15F",
+      "experiments": 5,
+      "min_ddg": -0.07,
+      "max_ddg": 0.1,
+      "source_experiment_ids": [
+        "6614",
+        "6628",
+        "6649",
+        "6659",
+        "8801"
+      ]
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "A46E",
+      "experiments": 4,
+      "min_ddg": -0.02,
+      "max_ddg": 0.62,
+      "source_experiment_ids": [
+        "5338",
+        "5355",
+        "5372",
+        "6640"
+      ]
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E42K",
+      "experiments": 5,
+      "min_ddg": -0.19,
+      "max_ddg": 0.02,
+      "source_experiment_ids": [
+        "7195",
+        "7209",
+        "7228",
+        "7255",
+        "7289"
+      ]
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E43Q",
+      "experiments": 5,
+      "min_ddg": -0.17,
+      "max_ddg": 0.02,
+      "source_experiment_ids": [
+        "7197",
+        "7211",
+        "7231",
+        "7258",
+        "7292"
+      ]
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E50K",
+      "experiments": 4,
+      "min_ddg": -0.02,
+      "max_ddg": 0.45,
+      "source_experiment_ids": [
+        "7262",
+        "7263",
+        "7296",
+        "7297"
+      ]
+    }
+  ],
+  "per_pdb": [
+    {
+      "pdb": "1A5E",
+      "rows": 3,
+      "direct_numbering_matches": 3,
+      "chains": 1
+    },
+    {
+      "pdb": "1AM7",
+      "rows": 2,
+      "direct_numbering_matches": 2,
+      "chains": 3
+    },
+    {
+      "pdb": "1AMQ",
+      "rows": 33,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1ANK",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 2
+    },
+    {
+      "pdb": "1AON",
+      "rows": 3,
+      "direct_numbering_matches": 3,
+      "chains": 21
+    },
+    {
+      "pdb": "1AYF",
+      "rows": 11,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1AZP",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 3
+    },
+    {
+      "pdb": "1B0O",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1B26",
+      "rows": 9,
+      "direct_numbering_matches": 0,
+      "chains": 6
+    },
+    {
+      "pdb": "1BK7",
+      "rows": 9,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1BLC",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1BNI",
+      "rows": 341,
+      "direct_numbering_matches": 30,
+      "chains": 3
+    },
+    {
+      "pdb": "1BNL",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 4
+    },
+    {
+      "pdb": "1BOY",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1BP2",
+      "rows": 9,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1BPI",
+      "rows": 73,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1BRF",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1C2R",
+      "rows": 7,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1C9O",
+      "rows": 90,
+      "direct_numbering_matches": 90,
+      "chains": 2
+    },
+    {
+      "pdb": "1CEY",
+      "rows": 15,
+      "direct_numbering_matches": 15,
+      "chains": 1
+    },
+    {
+      "pdb": "1CHK",
+      "rows": 9,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1CLW",
+      "rows": 7,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "1CSP",
+      "rows": 229,
+      "direct_numbering_matches": 229,
+      "chains": 1
+    },
+    {
+      "pdb": "1CYC",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1CYO",
+      "rows": 16,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1DIL",
+      "rows": 2,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "1DIV",
+      "rows": 49,
+      "direct_numbering_matches": 49,
+      "chains": 1
+    },
+    {
+      "pdb": "1DKT",
+      "rows": 19,
+      "direct_numbering_matches": 19,
+      "chains": 2
+    },
+    {
+      "pdb": "1DPM",
+      "rows": 3,
+      "direct_numbering_matches": 3,
+      "chains": 2
+    },
+    {
+      "pdb": "1DXX",
+      "rows": 3,
+      "direct_numbering_matches": 3,
+      "chains": 4
+    },
+    {
+      "pdb": "1EKG",
+      "rows": 9,
+      "direct_numbering_matches": 9,
+      "chains": 1
+    },
+    {
+      "pdb": "1EL1",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 2
+    },
+    {
+      "pdb": "1EQ7",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1EW6",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1FEP",
+      "rows": 7,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1G3P",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1G6N",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1GWY",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 2
+    },
+    {
+      "pdb": "1H7M",
+      "rows": 26,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1HFY",
+      "rows": 15,
+      "direct_numbering_matches": 4,
+      "chains": 2
+    },
+    {
+      "pdb": "1HFZ",
+      "rows": 23,
+      "direct_numbering_matches": 0,
+      "chains": 4
+    },
+    {
+      "pdb": "1HK0",
+      "rows": 19,
+      "direct_numbering_matches": 9,
+      "chains": 1
+    },
+    {
+      "pdb": "1HME",
+      "rows": 10,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1HUE",
+      "rows": 5,
+      "direct_numbering_matches": 5,
+      "chains": 2
+    },
+    {
+      "pdb": "1IGV",
+      "rows": 17,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "1IMQ",
+      "rows": 9,
+      "direct_numbering_matches": 9,
+      "chains": 1
+    },
+    {
+      "pdb": "1IO2",
+      "rows": 14,
+      "direct_numbering_matches": 14,
+      "chains": 1
+    },
+    {
+      "pdb": "1IOB",
+      "rows": 17,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1IR3",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1IRO",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 1
+    },
+    {
+      "pdb": "1J7N",
+      "rows": 71,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1JL5",
+      "rows": 5,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1JNX",
+      "rows": 22,
+      "direct_numbering_matches": 22,
+      "chains": 1
+    },
+    {
+      "pdb": "1K85",
+      "rows": 23,
+      "direct_numbering_matches": 23,
+      "chains": 1
+    },
+    {
+      "pdb": "1KFW",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1LS4",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1LZ1",
+      "rows": 155,
+      "direct_numbering_matches": 11,
+      "chains": 1
+    },
+    {
+      "pdb": "1MBG",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "1MGR",
+      "rows": 8,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1MJC",
+      "rows": 12,
+      "direct_numbering_matches": 12,
+      "chains": 1
+    },
+    {
+      "pdb": "1MSI",
+      "rows": 12,
+      "direct_numbering_matches": 12,
+      "chains": 1
+    },
+    {
+      "pdb": "1N0J",
+      "rows": 5,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1OH0",
+      "rows": 3,
+      "direct_numbering_matches": 3,
+      "chains": 2
+    },
+    {
+      "pdb": "1OIA",
+      "rows": 8,
+      "direct_numbering_matches": 8,
+      "chains": 2
+    },
+    {
+      "pdb": "1ONC",
+      "rows": 14,
+      "direct_numbering_matches": 14,
+      "chains": 1
+    },
+    {
+      "pdb": "1P2P",
+      "rows": 3,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1PRG",
+      "rows": 7,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1QGV",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "1QJP",
+      "rows": 12,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1QLP",
+      "rows": 46,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "1R6R",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 2
+    },
+    {
+      "pdb": "1RGG",
+      "rows": 95,
+      "direct_numbering_matches": 95,
+      "chains": 2
+    },
+    {
+      "pdb": "1RIS",
+      "rows": 64,
+      "direct_numbering_matches": 64,
+      "chains": 1
+    },
+    {
+      "pdb": "1ROP",
+      "rows": 21,
+      "direct_numbering_matches": 21,
+      "chains": 1
+    },
+    {
+      "pdb": "1RTB",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1RTP",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 3
+    },
+    {
+      "pdb": "1SCE",
+      "rows": 18,
+      "direct_numbering_matches": 18,
+      "chains": 4
+    },
+    {
+      "pdb": "1STN",
+      "rows": 755,
+      "direct_numbering_matches": 20,
+      "chains": 1
+    },
+    {
+      "pdb": "1TEN",
+      "rows": 64,
+      "direct_numbering_matches": 64,
+      "chains": 1
+    },
+    {
+      "pdb": "1THQ",
+      "rows": 38,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1TIT",
+      "rows": 12,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1UWO",
+      "rows": 10,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1UZC",
+      "rows": 47,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1W4H",
+      "rows": 42,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "1WIT",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "1WQ5",
+      "rows": 138,
+      "direct_numbering_matches": 130,
+      "chains": 2
+    },
+    {
+      "pdb": "1XWS",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 1
+    },
+    {
+      "pdb": "1XZO",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "1Y4Y",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 3
+    },
+    {
+      "pdb": "1ZNJ",
+      "rows": 10,
+      "direct_numbering_matches": 0,
+      "chains": 12
+    },
+    {
+      "pdb": "2A36",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "2ABD",
+      "rows": 57,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2ADA",
+      "rows": 7,
+      "direct_numbering_matches": 7,
+      "chains": 1
+    },
+    {
+      "pdb": "2AKY",
+      "rows": 4,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2ARF",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "2BRD",
+      "rows": 24,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "2CI2",
+      "rows": 118,
+      "direct_numbering_matches": 12,
+      "chains": 1
+    },
+    {
+      "pdb": "2CRK",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 1
+    },
+    {
+      "pdb": "2DRI",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2EU8",
+      "rows": 1,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "2HMB",
+      "rows": 9,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2JYS",
+      "rows": 8,
+      "direct_numbering_matches": 8,
+      "chains": 1
+    },
+    {
+      "pdb": "2K7J",
+      "rows": 23,
+      "direct_numbering_matches": 23,
+      "chains": 1
+    },
+    {
+      "pdb": "2KIU",
+      "rows": 3,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2KJ3",
+      "rows": 9,
+      "direct_numbering_matches": 9,
+      "chains": 3
+    },
+    {
+      "pdb": "2KS4",
+      "rows": 2,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "2L3Y",
+      "rows": 5,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2LCP",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 1
+    },
+    {
+      "pdb": "2LSB",
+      "rows": 4,
+      "direct_numbering_matches": 4,
+      "chains": 1
+    },
+    {
+      "pdb": "2RN2",
+      "rows": 156,
+      "direct_numbering_matches": 156,
+      "chains": 1
+    },
+    {
+      "pdb": "2TS1",
+      "rows": 9,
+      "direct_numbering_matches": 9,
+      "chains": 1
+    },
+    {
+      "pdb": "2V0U",
+      "rows": 1,
+      "direct_numbering_matches": 1,
+      "chains": 1
+    },
+    {
+      "pdb": "2W0K",
+      "rows": 6,
+      "direct_numbering_matches": 6,
+      "chains": 2
+    },
+    {
+      "pdb": "2WSY",
+      "rows": 19,
+      "direct_numbering_matches": 19,
+      "chains": 2
+    },
+    {
+      "pdb": "2WZB",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "2ZTA",
+      "rows": 8,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "3BCI",
+      "rows": 3,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "3BDN",
+      "rows": 17,
+      "direct_numbering_matches": 1,
+      "chains": 4
+    },
+    {
+      "pdb": "3BLS",
+      "rows": 2,
+      "direct_numbering_matches": 0,
+      "chains": 2
+    },
+    {
+      "pdb": "3HHR",
+      "rows": 6,
+      "direct_numbering_matches": 0,
+      "chains": 3
+    },
+    {
+      "pdb": "3K82",
+      "rows": 7,
+      "direct_numbering_matches": 5,
+      "chains": 1
+    },
+    {
+      "pdb": "3MXF",
+      "rows": 4,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "3PGK",
+      "rows": 25,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "3S92",
+      "rows": 2,
+      "direct_numbering_matches": 2,
+      "chains": 1
+    },
+    {
+      "pdb": "3SSI",
+      "rows": 44,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "451C",
+      "rows": 20,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    },
+    {
+      "pdb": "4LYZ",
+      "rows": 89,
+      "direct_numbering_matches": 14,
+      "chains": 1
+    },
+    {
+      "pdb": "5AZU",
+      "rows": 85,
+      "direct_numbering_matches": 2,
+      "chains": 4
+    },
+    {
+      "pdb": "5CG0",
+      "rows": 20,
+      "direct_numbering_matches": 20,
+      "chains": 9
+    },
+    {
+      "pdb": "5DFR",
+      "rows": 104,
+      "direct_numbering_matches": 104,
+      "chains": 1
+    },
+    {
+      "pdb": "6BQG",
+      "rows": 47,
+      "direct_numbering_matches": 5,
+      "chains": 1
+    },
+    {
+      "pdb": "6EW2",
+      "rows": 5,
+      "direct_numbering_matches": 0,
+      "chains": 1
+    }
+  ],
+  "caveats": [
+    "FireProtDB DDG convention differs from S669 and cannot be pooled without explicit sign calibration.",
+    "Repeated rows may differ in measurement conditions or source proteins; opposite signs do not by themselves prove contradictory experimental findings.",
+    "PDB numbering must match independently; absent matching residue numbers require sequence alignment, not assumed conversion."
+  ]
+}
