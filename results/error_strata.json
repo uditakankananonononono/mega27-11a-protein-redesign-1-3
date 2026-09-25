@@ -1,0 +1,47 @@
+{
+  "source_results": "results/s669_group_holdout.json",
+  "comparator": "GeoDDG-Seq_dir",
+  "bins": [
+    {
+      "bin": "ddg <= -1.5",
+      "n": 26,
+      "pdb_groups": 14,
+      "gnn_mae": 2.1197286284038652,
+      "comparator_mae": 1.7862871773065285,
+      "delta_mae": 0.33344145109733714
+    },
+    {
+      "bin": "-1.5 < ddg <= -0.5",
+      "n": 12,
+      "pdb_groups": 10,
+      "gnn_mae": 0.6213145866592725,
+      "comparator_mae": 0.7857668118352691,
+      "delta_mae": -0.16445222517599664
+    },
+    {
+      "bin": "-0.5 < ddg <= 0.5",
+      "n": 18,
+      "pdb_groups": 8,
+      "gnn_mae": 0.741304460260603,
+      "comparator_mae": 0.40183710821759366,
+      "delta_mae": 0.3394673520430095
+    },
+    {
+      "bin": "ddg > 0.5",
+      "n": 10,
+      "pdb_groups": 9,
+      "gnn_mae": 1.7933137145578861,
+      "comparator_mae": 2.3363248043447733,
+      "delta_mae": -0.5430110897868872
+    }
+  ],
+  "n_test": 66,
+  "gnn_better_rows": 31,
+  "comparator_better_rows": 35,
+  "gnn_better_pdb_groups": 14,
+  "comparator_better_pdb_groups": 10,
+  "caveats": [
+    "DDG bins are exploratory descriptors based on observed test labels; do not use them as a prospective gate without calibration.",
+    "Group dependence and label imbalance preclude a subgroup discovery claim."
+  ]
+}

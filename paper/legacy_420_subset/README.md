@@ -1,0 +1,1 @@
+These are draft figures and PDF from the superseded 420-row mapping. The old version incorrectly equated PDB/construct residue labels with sequence positions. No current manuscript PDF exists yet. Do not publish these artifacts as the corrected full-S669 study.

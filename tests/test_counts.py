@@ -6,9 +6,9 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_accession_ledger_unique_with_reproducible_split():
     ledger=json.loads((ROOT/'results/accession_count.json').read_text())
-    assert ledger['union']==len(ledger['accessions'])==126
-    assert len({r['pdb'] for r in ledger['accessions']})==126
-    assert ledger['s669_mutation_mapped_structures']+ledger['fireprot_direct_mutation_mapped_structures']-ledger['overlap']==120
+    assert ledger['union']==len(ledger['accessions'])==163
+    assert len({r['pdb'] for r in ledger['accessions']})==163
+    assert ledger['s669_mutation_mapped_structures']+ledger['fireprot_direct_mutation_mapped_structures']-ledger['overlap']==157
     assert ledger['mutant_structure_comparison_accessions']==6
     assert all(len(r['sha256'])==64 for r in ledger['accessions'])
     benchmark=json.loads((ROOT/'results/s669_group_holdout.json').read_text())

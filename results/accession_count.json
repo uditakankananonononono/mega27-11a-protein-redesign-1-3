@@ -1,9 +1,9 @@
 {
   "rule": "unique PDB accession fetched and used in S669 graph, FireProtDB direct mutation mapping, or observed disease-mutant versus wild-type structural comparison. Each ID has a checksum and use; mere fetch does not count.",
-  "s669_mutation_mapped_structures": 52,
+  "s669_mutation_mapped_structures": 94,
   "fireprot_direct_mutation_mapped_structures": 74,
-  "overlap": 6,
-  "union": 126,
+  "overlap": 11,
+  "union": 163,
   "study_level_sources": 2,
   "accessions": [
     {
@@ -128,8 +128,8 @@
     {
       "pdb": "1DIV",
       "used_in": [
-        "S669 graph",
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "5bc0f0e1fbf7fe14a2427f2a3c003d4fe5f69a465250d9ef24fedee763468ce6"
     },
@@ -150,15 +150,16 @@
     {
       "pdb": "1DXX",
       "used_in": [
-        "S669 graph",
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "8daac296a887970af94b6ebed3a3ac8059779d9d39060ce6df670c649f8df3e4"
     },
     {
       "pdb": "1EKG",
       "used_in": [
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "f9a19c74c7854a490852941609ca6aa057f588ebe430767640e3f2d1a8540d21"
     },
@@ -170,11 +171,32 @@
       "sha256": "dfec955486c51d1a09d07b656371ff05c561cd9e0e09075dd630bafc8e2dff2e"
     },
     {
+      "pdb": "1F8I",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "ee75cf1b376b6d4eca359db956c71ec4894bb54eeafb739c0be17c5fc0d25fcd"
+    },
+    {
+      "pdb": "1FH5",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "d91231bc3b145dc4f7b3e63862a2e2e34ab7268b5a89c75336f8b6b01fed1ad1"
+    },
+    {
       "pdb": "1FRD",
       "used_in": [
         "S669 graph"
       ],
       "sha256": "0d0894d9e57ad59d32bfe63fd0487060fbd867b67e63e63d11d9d015839b49e7"
+    },
+    {
+      "pdb": "1FT8",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "987bf04553a90abf8af929fabb076fa758368711b78adc351ba6f08bbd5dd485"
     },
     {
       "pdb": "1FXA",
@@ -191,12 +213,33 @@
       "sha256": "e17cea0deace333f94f41a1e419af8a19b77e50701a34f19237301d89df8da92"
     },
     {
+      "pdb": "1GLU",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "17f9b479a6417345472cd670788dc5f3e362907d612567c7a7b11765881f8458"
+    },
+    {
+      "pdb": "1GUA",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "f7122b06f9d8c6885a050377bbe47620031a3d067b16f2f2d1bd0f6351119171"
+    },
+    {
       "pdb": "1GWY",
       "used_in": [
-        "S669 graph",
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "73679a8d14d829762023d5e3d61ae861b0b13a2ac7691972daf3716e450554bf"
+    },
+    {
+      "pdb": "1H0X",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "df5650ec512561e383ac1d9afd6eb037ebb4d374f31e860f7bd85244bda09a4c"
     },
     {
       "pdb": "1HCQ",
@@ -255,11 +298,32 @@
       "sha256": "cac7f60005a635eed186d21f0fb68a426e1daceeab868053d176058d0811e56a"
     },
     {
+      "pdb": "1IR3",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "83f1a55aa06d6fcd1fb357ee4aa9514de9da80df3af233d28d57d13abf7cef1f"
+    },
+    {
       "pdb": "1IRO",
       "used_in": [
         "FireProtDB direct mutation-number match"
       ],
       "sha256": "95069c12563c2fee9b7793d3fbc3c3209bfff7eee5424a7277aa956287787bcc"
+    },
+    {
+      "pdb": "1ITM",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "94179df65dc00de977f7fe9798c0d58bc33c275edcc9a048d6b82dfc13d1cf5c"
+    },
+    {
+      "pdb": "1IV7",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "85c8fe587b3fe3e38629d91a84a6906779fca20d1e977499af99d1fa5987f988"
     },
     {
       "pdb": "1IV9",
@@ -311,6 +375,13 @@
       "sha256": "f87c88d070d58aca58ba433066855a4fb32f079dca73ef53f365bf1daf58b540"
     },
     {
+      "pdb": "1LVM",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a11497fd324f11b6bc6c30dbe5f67c8393184fed97e448ddfb804388f5d34539"
+    },
+    {
       "pdb": "1LZ1",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -337,6 +408,13 @@
         "FireProtDB direct mutation-number match"
       ],
       "sha256": "05044e49e3c75f96a13e4136a0f295a16b4892fa8add951dff9236d58a777b4a"
+    },
+    {
+      "pdb": "1N18",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "39aceb1a1ac02b6e5b22636b4921010ab76e1d4fd6c9e108c8fb44e036fb6371"
     },
     {
       "pdb": "1N88",
@@ -409,6 +487,13 @@
       "sha256": "6ffc49adc15fcfc23bdb7af81010cdee4f8ea75bbb46fac69bf537d26fde0faa"
     },
     {
+      "pdb": "1PRG",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "66fa620191fccc6a773d9cbdb0050518323b487928cee41738fe334719d05874"
+    },
+    {
       "pdb": "1QGV",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -432,8 +517,8 @@
     {
       "pdb": "1R6R",
       "used_in": [
-        "S669 graph",
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "41434d9cd4ece8808364e3ac65624a069335a4b3d3f1c0a2bf1db6ba35b351f4"
     },
@@ -508,10 +593,17 @@
       "sha256": "a6ea3025f34fae54b13fbd983e940b2de85188204e69861abc1f019c3e26f50e"
     },
     {
+      "pdb": "1X0J",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "806b49035ab00daed447691957d84284d88745fd0d821c80015d6e30bff26571"
+    },
+    {
       "pdb": "1XWS",
       "used_in": [
-        "S669 graph",
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "c6ba50b25016725050486342ea06e1d1d41b61006b2bb9f9491d84f20bbcb97c"
     },
@@ -553,7 +645,8 @@
     {
       "pdb": "2ARF",
       "used_in": [
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "41177499350444b6d40e5fbfb8a7bb0cddf27818776f2936f743931560af4a36"
     },
@@ -586,6 +679,13 @@
       "sha256": "8a42f06a0a59074eddf9ac6274962057fc965a1256dce268d96b9d903ba4ae4d"
     },
     {
+      "pdb": "2CLR",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "ee2d2315b5bebaba7c8520eb5b9b461bf376d3b7b0ebb9295da6c4a1f20908e5"
+    },
+    {
       "pdb": "2CRK",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -593,11 +693,32 @@
       "sha256": "db86ddbae8e485ccf186a583e64cd054b14bbfd747f029d1f7351088f0eed5f2"
     },
     {
+      "pdb": "2DVV",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c186f5dbbebe131495f347c253d2d1b878247c82b1849ad1cdfc1f550427dc3d"
+    },
+    {
+      "pdb": "2H3F",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "1d799bdb39192e3b196e5836144bfdd3bc7774150fe8faac2633adbb688dca34"
+    },
+    {
       "pdb": "2HBB",
       "used_in": [
         "S669 graph"
       ],
       "sha256": "857c21059c7f6156269b154163b90afd7c6c263398ca6cc233a66d795efdc9d4"
+    },
+    {
+      "pdb": "2JIE",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "cab04901fd629bee5a423e7103f47aab7036e75faf0ffe430dd14a320756a29c"
     },
     {
       "pdb": "2JUC",
@@ -623,15 +744,16 @@
     {
       "pdb": "2KJ3",
       "used_in": [
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "4f3d860b3f6036133aafc7e80d3132e9576b3c641c6897b5f0a2061c6f4318a1"
     },
     {
       "pdb": "2KS4",
       "used_in": [
-        "S669 graph",
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "227656214e1ed67e1059e4c84fa03fc3d75a6648e09c82b65a5ed7d3a8ae53ba"
     },
@@ -650,6 +772,20 @@
       "sha256": "cbc966516042c4004acc1449bfb658a69d16f39dfec6139bc28d1ef2b65f553c"
     },
     {
+      "pdb": "2LTB",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "cbfe5044bb22143ca8809d342c022a4e318f3d397a7862e20747d3425cb01e32"
+    },
+    {
+      "pdb": "2M5S",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "fd00fcac0d2bdfa69b032cdc4d8e2c5685745d11c08e226863c969960fc61a53"
+    },
+    {
       "pdb": "2MPC",
       "used_in": [
         "S669 graph"
@@ -662,6 +798,27 @@
         "S669 graph"
       ],
       "sha256": "b432f9863ef690f73607c1917d819877924a8b784c30fdee495364565a8cdf5c"
+    },
+    {
+      "pdb": "2NTE",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "afd8fdb90873362c7681247a863317a2b20acba9255a069a50cdf8c7657b8d37"
+    },
+    {
+      "pdb": "2OUO",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "bfccda360a4fb1ee78e816251efb802872821a0c304089e18795fe4cdbc6a0f9"
+    },
+    {
+      "pdb": "2PR5",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "0734a61064e4b6f4cb1696df6230ca444103bdac5b8c5db20d6f4ea89dbf1b8e"
     },
     {
       "pdb": "2PTL",
@@ -699,6 +856,13 @@
       "sha256": "f112a2f2505f2bafee18a7c07c51277bdeeb2596dffc7e8fee9b87da36829593"
     },
     {
+      "pdb": "2VY0",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c0de6aec03dc255a1537989382c29bd7ed21f5b31492fa97a2d62c97eec527eb"
+    },
+    {
       "pdb": "2W0K",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -727,6 +891,13 @@
       "sha256": "c71d709f5d11a73156f2610cd94dead5812b1e045e8581b8d23c04ff4de749a2"
     },
     {
+      "pdb": "3BCI",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a4a83ea40029e1937a078563c875c4caa3dffa5869a1fd5c3cad2572781724c2"
+    },
+    {
       "pdb": "3BDN",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -741,11 +912,25 @@
       "sha256": "65532372afa35f0d52609839e95616e043e9c0e4d6cdc7c4fa7daf4f2a8aa6d2"
     },
     {
+      "pdb": "3C2I",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "f96ee9192eabe5eafc50ff0b161c51275ad6ad8f03a2c0d0e447f18a820ed7bf"
+    },
+    {
       "pdb": "3D2A",
       "used_in": [
         "S669 graph"
       ],
       "sha256": "a051ddefca14b4d3364b2237bcef5c028a99def1bb418cf7507f0a86f851c17b"
+    },
+    {
+      "pdb": "3D3B",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "1ed3bc2176e743f3c85203b5c35e2fca1d16aaea146de9f460384112040259aa"
     },
     {
       "pdb": "3DV0",
@@ -769,6 +954,13 @@
       "sha256": "cb64106e5575e5382ca872bfa186a2dbfbc8591aedcb36f44f6f5ecd8add785e"
     },
     {
+      "pdb": "3G1G",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a701c2462ab89e1c0efca497ccba9fd5b06ae0e74d8350edb9e180818da7e25b"
+    },
+    {
       "pdb": "3GZO",
       "used_in": [
         "disease mutant versus wild-type structural comparison"
@@ -785,9 +977,17 @@
     {
       "pdb": "3K82",
       "used_in": [
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "7a47105ff58c4632279e2d222f516c8e24d094a7fe4d5c107b99e81be3b47ab8"
+    },
+    {
+      "pdb": "3L15",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "1c77fe2aef988bb35f1b0e8d0e5e984efb9fe856aa02b7ae241f35373b816f00"
     },
     {
       "pdb": "3MON",
@@ -804,6 +1004,13 @@
       "sha256": "534dcb8ea9fa29956249b5133b22187c3867363b16a6b98dd8219c18c5d3250f"
     },
     {
+      "pdb": "3O39",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "58c1a42b5c75935f46af7fe3185780a3ff84ee600487735c14900a1d9f3ebc8d"
+    },
+    {
       "pdb": "3PGK",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -811,9 +1018,17 @@
       "sha256": "32abf08811f5a2e088cc0839a984bfd7cdf638d093dd59d9802de19ced89ba53"
     },
     {
+      "pdb": "3S4M",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "0e5ae2d53c918eb1253a90ce36d4a11f66ac8e9760aff8c746dc614513413053"
+    },
+    {
       "pdb": "3S92",
       "used_in": [
-        "FireProtDB direct mutation-number match"
+        "FireProtDB direct mutation-number match",
+        "S669 graph"
       ],
       "sha256": "b8eb3dbf535a7c9c60074692ec2c799b921c07f9a31d3faf44fd52d009221e60"
     },
@@ -823,6 +1038,13 @@
         "disease mutant versus wild-type structural comparison"
       ],
       "sha256": "07388d55c56bf81d1f3842525cc9eb8bf13be1152de5866cc0f87e4de87d495b"
+    },
+    {
+      "pdb": "4BJX",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "7835025ffa5f44aeb7b78af04715e646d470fdbc5d9a48d465620933da1eb9c7"
     },
     {
       "pdb": "4BUQ",
@@ -846,6 +1068,34 @@
       "sha256": "869119f51d45eab2f4e9fff84f6cddef00c3e77c2e633b20f52b0fcd5b443523"
     },
     {
+      "pdb": "4N6V",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "5a8020485843881f8739043b5a37903d9ae4feb87d6bf8f9d824966a54b47512"
+    },
+    {
+      "pdb": "4WAA",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c49fe7159fc2f369122e3d63de3f9b484ec5355f2fb47fcc672ca513be3682ff"
+    },
+    {
+      "pdb": "4YEE",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "ee54d35d50dc19c8a918dfc5ae7ec79e03077c3ed60c4bdce311c6806b9719b1"
+    },
+    {
+      "pdb": "4YEF",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "2d5783795dd8690663092f170781fd8dd3f27096a6312a5d8ae527c5d471dce5"
+    },
+    {
       "pdb": "5AZU",
       "used_in": [
         "FireProtDB direct mutation-number match"
@@ -865,6 +1115,20 @@
         "FireProtDB direct mutation-number match"
       ],
       "sha256": "52dc93a35ce2df4de31a369f0adfc796d24f04409a66bdd1448f75be9bdb4560"
+    },
+    {
+      "pdb": "5JXB",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "605b00b48e6a3c7275c9b949de34852249eb3cd8e981f4c78bb8350904b76e6a"
+    },
+    {
+      "pdb": "5OAQ",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "158f2572d527ee57fe6a9450ed336424f3648304fb009b300f400cfb8b90508f"
     },
     {
       "pdb": "5VP3",

@@ -1,0 +1,69 @@
+{
+  "source": "results/group_sensitivity.json",
+  "direction": "positive: GNN higher MAE than comparator",
+  "thresholds": [
+    {
+      "min_rows_per_pdb": 1,
+      "retained_proteins": 24,
+      "retained_variants": 66,
+      "equal_protein_delta_mae": -0.04130850169399663,
+      "row_weighted_delta_mae": 0.11176291614127432,
+      "gnn_better_proteins": 14,
+      "comparator_better_proteins": 10
+    },
+    {
+      "min_rows_per_pdb": 2,
+      "retained_proteins": 17,
+      "retained_variants": 59,
+      "equal_protein_delta_mae": 0.17482902732541583,
+      "row_weighted_delta_mae": 0.19220084695783204,
+      "gnn_better_proteins": 9,
+      "comparator_better_proteins": 8
+    },
+    {
+      "min_rows_per_pdb": 3,
+      "retained_proteins": 12,
+      "retained_variants": 49,
+      "equal_protein_delta_mae": 0.17678711323883564,
+      "row_weighted_delta_mae": 0.1967051787587757,
+      "gnn_better_proteins": 6,
+      "comparator_better_proteins": 6
+    },
+    {
+      "min_rows_per_pdb": 4,
+      "retained_proteins": 7,
+      "retained_variants": 34,
+      "equal_protein_delta_mae": 0.2152563853407292,
+      "row_weighted_delta_mae": 0.22925299337462474,
+      "gnn_better_proteins": 2,
+      "comparator_better_proteins": 5
+    },
+    {
+      "min_rows_per_pdb": 5,
+      "retained_proteins": 3,
+      "retained_variants": 18,
+      "equal_protein_delta_mae": 0.28424510711301415,
+      "row_weighted_delta_mae": 0.28768690391961077,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 3
+    },
+    {
+      "min_rows_per_pdb": 10,
+      "retained_proteins": 0,
+      "retained_variants": 0,
+      "equal_protein_delta_mae": null,
+      "row_weighted_delta_mae": null,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 0
+    },
+    {
+      "min_rows_per_pdb": 20,
+      "retained_proteins": 0,
+      "retained_variants": 0,
+      "equal_protein_delta_mae": null,
+      "row_weighted_delta_mae": null,
+      "gnn_better_proteins": 0,
+      "comparator_better_proteins": 0
+    }
+  ]
+}
