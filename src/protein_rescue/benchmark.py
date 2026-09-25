@@ -56,6 +56,7 @@ def run(data: Path, structures: Path, output: Path, epochs: int = 80, seed: int 
     result = dict(seed=seed, epochs=epochs, audit=audit,
                   split=dict(train=len(train), test=len(test), train_pdbs=sorted(set(groups[train])), test_pdbs=sorted(set(groups[test]))),
                   metrics={name: metrics(y[test], pred) for name, pred in [('train_mean', baseline), ('ridge', ridge_pred), ('gnn', prediction)]} | published,
+                  training=dict(model='ResidueGNN',architecture='42 features, 48 hidden units, 2 residual message-passing layers, masked mean plus site readout',optimizer='AdamW',learning_rate=0.003,weight_decay=0.01,loss='SmoothL1',batch_size=32,torch_version=torch.__version__),
                   predictions=[dict(name=graphs[i]['name'], pdb=groups[i], experimental_ddg=float(y[i]), train_mean=float(baseline[j]), ridge=float(ridge_pred[j]), gnn=float(prediction[j])) for j,i in enumerate(test)])
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, indent=2, allow_nan=False) + '\n')

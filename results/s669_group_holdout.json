@@ -131,6 +131,16 @@
       "pearson": 0.6069212399162801
     }
   },
+  "training": {
+    "model": "ResidueGNN",
+    "architecture": "42 features, 48 hidden units, 2 residual message-passing layers, masked mean plus site readout",
+    "optimizer": "AdamW",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "loss": "SmoothL1",
+    "batch_size": 32,
+    "torch_version": "2.14.0+cu130"
+  },
   "predictions": [
     {
       "name": "rcsb_1A0F_A_S11A_6_56",
