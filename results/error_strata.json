@@ -1,0 +1,47 @@
+{
+  "source_results": "results/s669_group_holdout.json",
+  "comparator": "GeoDDG-Seq_dir",
+  "bins": [
+    {
+      "bin": "ddg <= -1.5",
+      "n": 64,
+      "pdb_groups": 8,
+      "gnn_mae": 1.2464271305222066,
+      "comparator_mae": 1.1567379910591988,
+      "delta_mae": 0.08968913946300747
+    },
+    {
+      "bin": "-1.5 < ddg <= -0.5",
+      "n": 37,
+      "pdb_groups": 6,
+      "gnn_mae": 0.47892117848267424,
+      "comparator_mae": 0.5405135371254102,
+      "delta_mae": -0.061592358642736024
+    },
+    {
+      "bin": "-0.5 < ddg <= 0.5",
+      "n": 37,
+      "pdb_groups": 6,
+      "gnn_mae": 0.9453320831986698,
+      "comparator_mae": 0.41412246136145814,
+      "delta_mae": 0.5312096218372115
+    },
+    {
+      "bin": "ddg > 0.5",
+      "n": 11,
+      "pdb_groups": 7,
+      "gnn_mae": 2.606804066362706,
+      "comparator_mae": 1.4643522370620206,
+      "delta_mae": 1.1424518293006853
+    }
+  ],
+  "n_test": 149,
+  "gnn_better_rows": 57,
+  "comparator_better_rows": 92,
+  "gnn_better_pdb_groups": 5,
+  "comparator_better_pdb_groups": 8,
+  "caveats": [
+    "DDG bins are exploratory descriptors based on observed test labels; do not use them as a prospective gate without calibration.",
+    "The high-positive bin has only 11 variants from a small number of proteins; group dependence and label imbalance preclude a subgroup discovery claim."
+  ]
+}
