@@ -1,0 +1,856 @@
+{
+  "rule": "unique PDB accession, fetched and used in at least one valid S669 mutation graph or FireProtDB direct residue-number mapping; fetching without processing is not counted",
+  "s669_mutation_mapped_structures": 52,
+  "fireprot_direct_mutation_mapped_structures": 74,
+  "overlap": 6,
+  "union": 120,
+  "study_level_sources": 2,
+  "accessions": [
+    {
+      "pdb": "1A0F",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "3bc0a7cf1534938235e6079cbcc4308a7d34fd6de3f6efde70212776ab10d5c1"
+    },
+    {
+      "pdb": "1A5E",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "295c74704ce01d121c9776f0ede877850d4fc8b66cfa8cbdb1cb6e8d89e20cc6"
+    },
+    {
+      "pdb": "1A7V",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "7771652d2f7104ea3e847ceaa803094332979e7229c4b7dfccdfb5b16b27d28c"
+    },
+    {
+      "pdb": "1AM7",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "a9cd7c656a88e696e3b7e14f69f17b1fc6b00294d4bacba9638805a54d007a38"
+    },
+    {
+      "pdb": "1ANK",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "7af4100057e8d86c13eb0c28bd1eda286cf7d0a657124eee40830cdcba89ad97"
+    },
+    {
+      "pdb": "1AON",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "5cddcf0ebe222238073f73f4fcc0f579a090389f9c3d152399b4e41ca4a0ed3e"
+    },
+    {
+      "pdb": "1AZP",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "3c1c11f8a625b45a1927c91412d035fb9eb67b55493c9200c56d2deaa05978fd"
+    },
+    {
+      "pdb": "1BA3",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a304920ee2ad14ce94511d5ce711d5ffb07b5d37ab6fd1bfa2b76bfb75e7f1de"
+    },
+    {
+      "pdb": "1BFM",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a60e18bb2ccf4117063e552e02b2f030683d52be394b751ef73659a61b34f1cc"
+    },
+    {
+      "pdb": "1BNI",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "e7a0612d97d3b9f52f2ab6efcaa94b8baa410c37e30107992e4e2564b5385796"
+    },
+    {
+      "pdb": "1BNL",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "6ba596ec06d6e5fd2874ac156ec3bbf661d7daa72bc87609b6510c64c1e6f736"
+    },
+    {
+      "pdb": "1C9O",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "202f922b44d820cc8ee3140ec0ebf6687dcf9357c8aa5ac8ab8f1807a752a65d"
+    },
+    {
+      "pdb": "1CEY",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "7fc320d94e2cc199ce41c44fb7c2eb3c5b0e2ae4dd5828f4f74ba6dd98636c17"
+    },
+    {
+      "pdb": "1CLW",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "c56ea831458c08c32bcd8245dcdc60b03242523ada190881f0e2ab2b12f031ad"
+    },
+    {
+      "pdb": "1CSP",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "0b3335beb32172e4e8fab1cf6533db795f88de71f46192904aff67a23a6f5b9e"
+    },
+    {
+      "pdb": "1D5G",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "00caca169656ff2ceb36b4fe00ff9a406f6e52f815a7e81be639372965a002f9"
+    },
+    {
+      "pdb": "1DIL",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "1ed773b76af1a9755affb9d80dbd305a13e4cfe449c3a6495d9406c6aea4c6cd"
+    },
+    {
+      "pdb": "1DIV",
+      "used_in": [
+        "S669 graph",
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "5bc0f0e1fbf7fe14a2427f2a3c003d4fe5f69a465250d9ef24fedee763468ce6"
+    },
+    {
+      "pdb": "1DKT",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "aa5b83105ee2e586062e7ecf5441140c6ea60aac286f80b7753908f8a3cb2a58"
+    },
+    {
+      "pdb": "1DPM",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "ea3214353cf2c0876d2c86a605f03d65784ac8685069f31d5a0b4f68b19447bf"
+    },
+    {
+      "pdb": "1DXX",
+      "used_in": [
+        "S669 graph",
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "8daac296a887970af94b6ebed3a3ac8059779d9d39060ce6df670c649f8df3e4"
+    },
+    {
+      "pdb": "1EKG",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "f9a19c74c7854a490852941609ca6aa057f588ebe430767640e3f2d1a8540d21"
+    },
+    {
+      "pdb": "1EL1",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "dfec955486c51d1a09d07b656371ff05c561cd9e0e09075dd630bafc8e2dff2e"
+    },
+    {
+      "pdb": "1FRD",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "0d0894d9e57ad59d32bfe63fd0487060fbd867b67e63e63d11d9d015839b49e7"
+    },
+    {
+      "pdb": "1FXA",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "fb8d8c49b72e212bce719c25cf4c92f4cb364f2353b00af09936889bcd6df4ac"
+    },
+    {
+      "pdb": "1G3P",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "e17cea0deace333f94f41a1e419af8a19b77e50701a34f19237301d89df8da92"
+    },
+    {
+      "pdb": "1GWY",
+      "used_in": [
+        "S669 graph",
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "73679a8d14d829762023d5e3d61ae861b0b13a2ac7691972daf3716e450554bf"
+    },
+    {
+      "pdb": "1HCQ",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "6a9f68a7183673e36efe97150fac753167259c813d64d57ca4388f1ccc8c458b"
+    },
+    {
+      "pdb": "1HFY",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "25bc80d6ebd50b664ceacbcc7664bb1a25225aae4a94ffbaa1875979c9c02faf"
+    },
+    {
+      "pdb": "1HK0",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "dda174b0c4b6b28872b4939e4a64f632d6562a79f7af6dfe056841db4286511a"
+    },
+    {
+      "pdb": "1HUE",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "b89a0d9e4ffd6b773feba0164fd0b5d87ce3728af6a7a7e607f20ee8017fcb1b"
+    },
+    {
+      "pdb": "1IGV",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "9a5228eecf3d6562fb21d86101c8369e240f5e90cc6864a78fb30987e23ccac8"
+    },
+    {
+      "pdb": "1IMQ",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "139b46f0c6932eaef148f3eb7261d1e7eaa8921b594c30cefd3dd9055b39ad48"
+    },
+    {
+      "pdb": "1IO2",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "8fc92c7be66ff05657bfc68d5fec669325c6a16fb6259316b2acc6646e2752ae"
+    },
+    {
+      "pdb": "1IOJ",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "cac7f60005a635eed186d21f0fb68a426e1daceeab868053d176058d0811e56a"
+    },
+    {
+      "pdb": "1IRO",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "95069c12563c2fee9b7793d3fbc3c3209bfff7eee5424a7277aa956287787bcc"
+    },
+    {
+      "pdb": "1IV9",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "3bf754137550e6f269c58b46b5d91e120cbf681ac8bfe18582678323b2cac756"
+    },
+    {
+      "pdb": "1J8I",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "411da189ad0ac69a9abf24d6fdced1892305c843868534ff9df83be0dc623020"
+    },
+    {
+      "pdb": "1JL9",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "f6660cbb6939b22daf5ba1292686b2e5316252fbc9a952f8960b65a0f924045f"
+    },
+    {
+      "pdb": "1JLV",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "cde6ff76cccedea1f4d914247465ece056cba32bd834d23c6f8e4d8eda2daec6"
+    },
+    {
+      "pdb": "1JNX",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "8d932403fc31e533592d59c51e65b251c74069a3a4c9aaf4b6d16ae95cf9d1c5"
+    },
+    {
+      "pdb": "1K85",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "991c1012f5e0f9a0db12c35aa07fc4e25749281aebced21c7feef0c10e67de6a"
+    },
+    {
+      "pdb": "1L6H",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "f87c88d070d58aca58ba433066855a4fb32f079dca73ef53f365bf1daf58b540"
+    },
+    {
+      "pdb": "1LZ1",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "19ca7f7e97882eb944885870a18143a634d99e43b2bf76c895ed1cb7eac0e875"
+    },
+    {
+      "pdb": "1MBG",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "a23a05fbfe93d5ca94622b58b796382ae4d381a89881d5bff2710e29dfc44af6"
+    },
+    {
+      "pdb": "1MJC",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "f945636068adbd1006fc1a1b0c7131e0fb8f8113f90401e28be45b3896ec9aa1"
+    },
+    {
+      "pdb": "1MSI",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "05044e49e3c75f96a13e4136a0f295a16b4892fa8add951dff9236d58a777b4a"
+    },
+    {
+      "pdb": "1N88",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c7c30c565a7f578029a96a29eb583f9671fdceaefcffa12ad41b9455a69b5c84"
+    },
+    {
+      "pdb": "1NM1",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "3310a8cff33a05669f03e0ce57204bd351a89b892df2ce9e4857469ae90841e0"
+    },
+    {
+      "pdb": "1O1U",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "e81a301b6823253c382ccaced5face329b383a511cd440ca0c97ef9904305424"
+    },
+    {
+      "pdb": "1O6X",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "ff5ae0ce0a36b9976cabd748091313a6d39843ffe679025b5568eb559a580349"
+    },
+    {
+      "pdb": "1OH0",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "79a37b665c533973f079565b2e3c18ef859bd818e53dffa073aa8e3896ca1005"
+    },
+    {
+      "pdb": "1OIA",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "0ac129d79c03fd77e329716bb5281fa2b8631a65a686de3e7e3dbb2df779eee8"
+    },
+    {
+      "pdb": "1ONC",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "c25c67b827267fe4d7b16789601531443e26e23776c8bdfc4580b37a7939d964"
+    },
+    {
+      "pdb": "1OSI",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a59df955fc0dbfa09a1f4b571e80100fd85b91e82f3d4db98ca944d1680cc0e4"
+    },
+    {
+      "pdb": "1PFL",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "9dbf69adb002ef18d1fcdd5e066468db572dd261e085dde2aabbf6e7da864a30"
+    },
+    {
+      "pdb": "1PRE",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "6ffc49adc15fcfc23bdb7af81010cdee4f8ea75bbb46fac69bf537d26fde0faa"
+    },
+    {
+      "pdb": "1QGV",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "61c5823f9411ef7e71c77c57ab66751c0f248d4be9fa8795abe77fe406d12753"
+    },
+    {
+      "pdb": "1QLP",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "d6368c73af80512446bea7456bddc5f15f7847bdd9f80cdf0017344e32e7ecde"
+    },
+    {
+      "pdb": "1R2Y",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "50c3b3e7c985b5e3d0bace81cb9b2a296d9fc539ba233466b726e55be4391f18"
+    },
+    {
+      "pdb": "1R6R",
+      "used_in": [
+        "S669 graph",
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "41434d9cd4ece8808364e3ac65624a069335a4b3d3f1c0a2bf1db6ba35b351f4"
+    },
+    {
+      "pdb": "1RGG",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "221692d5d6c4354f5d4764ecbf53a9a9fb5f85f8493dbdee74fb9d758c24cb06"
+    },
+    {
+      "pdb": "1RIS",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "e7c5b65055b426dc3ec2e111cc2331ae010630fdb581635e63b95febc2e68650"
+    },
+    {
+      "pdb": "1ROP",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "974fcb64705502da2f728071e4ad281c0e88d1ae8f25b244ba112c24ca88ba67"
+    },
+    {
+      "pdb": "1SCE",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "1efe4b7cf4aa87968e43c31635caedd91af4307bff39f1b2def154bbd1ea292c"
+    },
+    {
+      "pdb": "1SPD",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "bc1047c32a42bdc3ce3bea71d543ab925dc2da1a1323ecf1bb03bc8dc6a35f34"
+    },
+    {
+      "pdb": "1STN",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "ef725bf74ca724b4698a4acd4bea5cbe3a6729c25235bc452f5dbf51ea1fa9e5"
+    },
+    {
+      "pdb": "1TEN",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "5b2165e4e495d05e230c6438a8585966578fc70006ec228ac0a0d8b65d06c73c"
+    },
+    {
+      "pdb": "1W4H",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "7f57ff58ef4bb20cbf804ce1989d276848725f499ae0fda0cfc474f8506c6718"
+    },
+    {
+      "pdb": "1WQ5",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "a6ea3025f34fae54b13fbd983e940b2de85188204e69861abc1f019c3e26f50e"
+    },
+    {
+      "pdb": "1XWS",
+      "used_in": [
+        "S669 graph",
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "c6ba50b25016725050486342ea06e1d1d41b61006b2bb9f9491d84f20bbcb97c"
+    },
+    {
+      "pdb": "1XXN",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "fee7b53ef3b18335022bd53568c4b8584a8cb862a730cb36c3bb448a6f0a6f65"
+    },
+    {
+      "pdb": "1XZO",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "2d2bd578e19187f58c87495f0c71e72405a3fd8566a9254d2a8e5dc296f1c202"
+    },
+    {
+      "pdb": "1Y4Y",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "56c194a7dafbd84a26fdaecaf8a2f508cf96c28403315fc125c87b8eba723005"
+    },
+    {
+      "pdb": "2A36",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "2c0ea5f5c1213a352b569deff9ebd32036287a59fbe9526208f09b5e9ca72438"
+    },
+    {
+      "pdb": "2ADA",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "d0ffcdb9a18c0bc6e1c211597f99adc88f7926d4d497338345c205259b0393d5"
+    },
+    {
+      "pdb": "2ARF",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "41177499350444b6d40e5fbfb8a7bb0cddf27818776f2936f743931560af4a36"
+    },
+    {
+      "pdb": "2BJD",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c96f0fbb8a514904fcb104468b9caff55070519ea83be581b54880ce55373bab"
+    },
+    {
+      "pdb": "2BRD",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "d4e491572ad95a8493363496b9438d294f3b9ed67e2386a18961cf3e951f0b39"
+    },
+    {
+      "pdb": "2C9Q",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "255e1e7e7547292eae6cc33b0b3efe2264ab2d83bb2ceac06f9cc1ccb3d9a24e"
+    },
+    {
+      "pdb": "2CI2",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "8a42f06a0a59074eddf9ac6274962057fc965a1256dce268d96b9d903ba4ae4d"
+    },
+    {
+      "pdb": "2CRK",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "db86ddbae8e485ccf186a583e64cd054b14bbfd747f029d1f7351088f0eed5f2"
+    },
+    {
+      "pdb": "2HBB",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "857c21059c7f6156269b154163b90afd7c6c263398ca6cc233a66d795efdc9d4"
+    },
+    {
+      "pdb": "2JUC",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "b7a82e571dd4af43467464383463c4ca75e5c2e258669fc093d1ba4fcdf4759d"
+    },
+    {
+      "pdb": "2JYS",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "e4083c342db288008f4064c4136fe5300e546f9f2c58e2d66340e12457aaa06d"
+    },
+    {
+      "pdb": "2K7J",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "97fc095d1ea101339dfcecb38b1f0045767f0af2941e7b43f75ab748d7a50c37"
+    },
+    {
+      "pdb": "2KJ3",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "4f3d860b3f6036133aafc7e80d3132e9576b3c641c6897b5f0a2061c6f4318a1"
+    },
+    {
+      "pdb": "2KS4",
+      "used_in": [
+        "S669 graph",
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "227656214e1ed67e1059e4c84fa03fc3d75a6648e09c82b65a5ed7d3a8ae53ba"
+    },
+    {
+      "pdb": "2LCP",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "226e7fb1416110f331ae0e9ade66d77582a7e8c8f98f3ae8730beb4170ed8569"
+    },
+    {
+      "pdb": "2LSB",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "cbc966516042c4004acc1449bfb658a69d16f39dfec6139bc28d1ef2b65f553c"
+    },
+    {
+      "pdb": "2MPC",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "98b933c8c3172a13209cbd88b0efbbfeb117e75d9c017f4b6daff95fb67af5e6"
+    },
+    {
+      "pdb": "2N7Z",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "b432f9863ef690f73607c1917d819877924a8b784c30fdee495364565a8cdf5c"
+    },
+    {
+      "pdb": "2PTL",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "f56503afc7c574490c59a62eecc3fd0ebf722139ffa7590066bde29124ca6278"
+    },
+    {
+      "pdb": "2RN2",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "fedbb7b497414a2af2864cd7a06330b6f06e3bdec5fae9ccdb647ffb63bdb451"
+    },
+    {
+      "pdb": "2RPN",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "da39dafa88ffabbf403f0cfab4a74ee5cb34eccac3cb0d07ee8b0eacfe0934ba"
+    },
+    {
+      "pdb": "2TS1",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "e9eb279f61e43a847a1d9c78b4fcc93e51dc86b1cbeee2fde62e38b1384492ec"
+    },
+    {
+      "pdb": "2V0U",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "f112a2f2505f2bafee18a7c07c51277bdeeb2596dffc7e8fee9b87da36829593"
+    },
+    {
+      "pdb": "2W0K",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "49be71ae13c980357bebd401747cd0a345bfcda88f4719cadd4c1775e3354d6a"
+    },
+    {
+      "pdb": "2WQG",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "7fb8f6de00accbbfe4c0700135ed1c75263f28315b50f2a983c71f9c1173d727"
+    },
+    {
+      "pdb": "2WSY",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "1cedf7f76be5a1f5151027b08d6031fd45eb83bf14a31a93a51533f2d8342cd1"
+    },
+    {
+      "pdb": "2ZTA",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c71d709f5d11a73156f2610cd94dead5812b1e045e8581b8d23c04ff4de749a2"
+    },
+    {
+      "pdb": "3BDN",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "184d751449a32732c301940fb1771256a7f5c8d6a27814fd58dd7291e38eb993"
+    },
+    {
+      "pdb": "3BN0",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "65532372afa35f0d52609839e95616e043e9c0e4d6cdc7c4fa7daf4f2a8aa6d2"
+    },
+    {
+      "pdb": "3D2A",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a051ddefca14b4d3364b2237bcef5c028a99def1bb418cf7507f0a86f851c17b"
+    },
+    {
+      "pdb": "3DV0",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "d7f621391f05f43b0711e4d919f3906e7aee0e03d07d7ef2936314f496180149"
+    },
+    {
+      "pdb": "3ECU",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "c8cc3ea0abe43ab03575b934327ed4dd9eee6e380651097b49d8f2bb665d50b3"
+    },
+    {
+      "pdb": "3FIS",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "cb64106e5575e5382ca872bfa186a2dbfbc8591aedcb36f44f6f5ecd8add785e"
+    },
+    {
+      "pdb": "3K82",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "7a47105ff58c4632279e2d222f516c8e24d094a7fe4d5c107b99e81be3b47ab8"
+    },
+    {
+      "pdb": "3MON",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "3ec8a943bdcdad233cd4aaea4800bd3d5d86aded5ac0cfd19f30afe288b8d20f"
+    },
+    {
+      "pdb": "3MXF",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "534dcb8ea9fa29956249b5133b22187c3867363b16a6b98dd8219c18c5d3250f"
+    },
+    {
+      "pdb": "3PGK",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "32abf08811f5a2e088cc0839a984bfd7cdf638d093dd59d9802de19ced89ba53"
+    },
+    {
+      "pdb": "3S92",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "b8eb3dbf535a7c9c60074692ec2c799b921c07f9a31d3faf44fd52d009221e60"
+    },
+    {
+      "pdb": "4BUQ",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "d200fc9cfcd66ff6018dae116ebeb3118a32ecb23e43e536dea9c7680baa9091"
+    },
+    {
+      "pdb": "4HE7",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "0f87c1998c9e9cb11f1ca06f9856127ac0552f3eb5b4edd3944e3d596be6dfe0"
+    },
+    {
+      "pdb": "4LYZ",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "869119f51d45eab2f4e9fff84f6cddef00c3e77c2e633b20f52b0fcd5b443523"
+    },
+    {
+      "pdb": "5AZU",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "ce1a9ce09e6838f7525f888a49cc06bec0f00f24a314d7f97c4998cc3cb05c59"
+    },
+    {
+      "pdb": "5CG0",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "ef1c85d1298b088ad2a488f3b20dbec84dd953096affdbef60c9b5838167f6b9"
+    },
+    {
+      "pdb": "5DFR",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "52dc93a35ce2df4de31a369f0adfc796d24f04409a66bdd1448f75be9bdb4560"
+    },
+    {
+      "pdb": "5VP3",
+      "used_in": [
+        "S669 graph"
+      ],
+      "sha256": "a7022fc3b652c7b60c4d935229293d65b24f3cd05cf432af9bb57573bbf2a5b8"
+    },
+    {
+      "pdb": "6BQG",
+      "used_in": [
+        "FireProtDB direct mutation-number match"
+      ],
+      "sha256": "92802a710045109f219e8bc1e41fdb198a536108828f543eb27d1d95abb7f926"
+    }
+  ]
+}
