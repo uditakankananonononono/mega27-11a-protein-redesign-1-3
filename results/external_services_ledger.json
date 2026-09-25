@@ -186,16 +186,40 @@
       "purpose": "Retrieved human TP53 gene 7157 summary as independent identifier check; NCBI Gene distinct database from ClinVar/dbSNP",
       "evidence": "data/external_service_evidence/ncbi_gene_tp53.json",
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id=7157&retmode=json"
+    },
+    {
+      "service": "Human Protein Atlas",
+      "purpose": "Retrieved TP53 Ensembl ENSG00000141510, UniProt P04637 and protein-level tissue annotation; tissue abundance does not imply Y220C rescue",
+      "evidence": "data/external_service_evidence/human_protein_atlas_tp53.json",
+      "url": "https://www.proteinatlas.org/ENSG00000141510.json"
+    },
+    {
+      "service": "GlyGen",
+      "purpose": "Queried P04637 protein record to inspect sequence/isoform, observed O-linked glycosylation and variant context; annotations are not rescue assay labels",
+      "evidence": "data/external_service_evidence/glygen_tp53.json",
+      "url": "https://api.glygen.org/protein/detail/P04637"
+    },
+    {
+      "service": "Genomics England PanelApp",
+      "purpose": "Queried TP53 and inspected human familial breast cancer and cancer susceptibility gene panels; panel membership is not mutation effect",
+      "evidence": "data/external_service_evidence/genomics_england_panelapp_tp53.json",
+      "url": "https://panelapp.genomicsengland.co.uk/api/v1/genes/TP53/"
+    },
+    {
+      "service": "EMBL-EBI BioStudies",
+      "purpose": "Queried exact TP53 Y220C phrase; five text-search hits included irrelevant titles, so no study-specific rescue evidence is claimed",
+      "evidence": "data/external_service_evidence/biostudies_p53_mutation.json",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22TP53%20Y220C%22&pageSize=3"
     }
   ],
-  "distinct_count_including_workflow_services": 31,
-  "strict_scientific_data_and_literature_count": 29,
+  "distinct_count_including_workflow_services": 35,
+  "strict_scientific_data_and_literature_count": 33,
   "gate": 40,
-  "remaining_under_broad_count": 9,
-  "caveat": "Strict count collapses all endpoints of the Ensembl REST service into one, including gene lookup and VEP. GitHub and Google Drive workflow infrastructure excluded. Twenty-nine evidenced distinct scientific data or literature services, 11 still required. Every entry needs a real query and a research use; multiple endpoints and aliases do not multiply the count.",
+  "remaining_under_broad_count": 5,
+  "caveat": "Strict count collapses Ensembl gene and VEP endpoints; GitHub and Drive infrastructure excluded. Thirty-three real scientific data/literature services are evidenced, seven remain. Failed or semantically irrelevant queries do not create affirmative biology claims.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 29,
-  "gate_remaining": 11,
+  "gate_count": 33,
+  "gate_remaining": 7,
   "discovered_but_not_counted": {
     "reason": "Only public overview pages read; no mutation-specific query or calculation. Not enough for actually used scientific tool gate.",
     "services": [
