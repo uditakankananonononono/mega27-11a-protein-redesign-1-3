@@ -6,3 +6,4 @@ data/raw/*.pdb
 data/raw/fireprotdb.csv
 paper/*.aux
 paper/*.log
+data/raw/fireprot_pages/

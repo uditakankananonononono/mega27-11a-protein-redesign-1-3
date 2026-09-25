@@ -17,7 +17,7 @@ protein-rescue inspect rcsb_1A0F_A_S11A_6_56
 pytest -q
 ```
 
-The raw FireProtDB bulk export is downloaded manually from its [official export](https://loschmidt.chemi.muni.cz/fireprotdb/download/) or by GET of its documented `/api/search?format=csv&sort=` route; it is not tracked because its size exceeds 300 MB. Downloaded PDB files are ignored in Git and their source addresses and checksums are recorded in `data/structure_fetch_manifest.json` for the initial S669 panel. FireProtDB PDB fetches are reproducible from identifiers in `data/fireprot_pdb_ddg.csv` using the RCSB endpoint. Inspect the source license and the exact model/data purpose before redistribution.
+The raw FireProtDB bulk export used for the present audit timed out and is a partial snapshot, so the observed subset is not the full database. For a complete API export, page requests by offset and check both expected count and end-of-data. The raw FireProtDB bulk export is downloaded manually from its [official export](https://loschmidt.chemi.muni.cz/fireprotdb/download/) or by GET of its documented `/api/search?format=csv&sort=` route; it is not tracked because its size exceeds 300 MB. Downloaded PDB files are ignored in Git and their source addresses and checksums are recorded in `data/structure_fetch_manifest.json` for the initial S669 panel. FireProtDB PDB fetches are reproducible from identifiers in `data/fireprot_pdb_ddg.csv` using the RCSB endpoint. Inspect the source license and the exact model/data purpose before redistribution.
 
 ## Status and limits
 
