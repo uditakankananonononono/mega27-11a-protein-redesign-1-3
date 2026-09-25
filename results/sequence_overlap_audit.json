@@ -1,0 +1,22 @@
+{
+  "unique_pdbs": 52,
+  "unique_reference_sequences": 51,
+  "duplicated_sequences": 1,
+  "duplicated_across_train_test": 0,
+  "crossing": [],
+  "all_duplicates": [
+    {
+      "sequence_length": 153,
+      "pdbs": [
+        "1SPD",
+        "3ECU"
+      ],
+      "train": [],
+      "test": [
+        "1SPD",
+        "3ECU"
+      ]
+    }
+  ],
+  "caveat": "Exact reference-sequence identity only; high homology, similar folds, homologous domains or overlap with published predictor training sets remain unassessed."
+}
