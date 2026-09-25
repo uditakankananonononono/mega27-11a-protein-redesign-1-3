@@ -99,9 +99,9 @@
     },
     {
       "service": "Ensembl REST",
-      "purpose": "Resolved TP53 symbol to ENSG00000141510 for identifier cross-check",
-      "evidence": "data/external_service_evidence/ensembl_tp53_lookup.json",
-      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TP53?content-type=application/json"
+      "purpose": "Resolved TP53 symbol to ENSG00000141510 for identifier cross-check; VEP endpoint additionally mapped exact transcript HGVS Y220C to GRCh38 7674872 and residue 220",
+      "evidence": "data/external_service_evidence/ensembl_tp53_lookup.json; data/external_service_evidence/ensembl_vep_tp53.json",
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TP53?content-type=application/json; https://rest.ensembl.org/vep/human/hgvs/ENST00000269305.9:c.659A%3EG?content-type=application%2Fjson"
     },
     {
       "service": "KEGG REST",
@@ -176,12 +176,6 @@
       "url": "https://mygene.info/v3/query?q=symbol%3ATP53%20AND%20taxid%3A9606&fields=symbol%2Cuniprot%2Crefseq&size=1"
     },
     {
-      "service": "Ensembl Variant Effect Predictor",
-      "purpose": "Mapped exact TP53 Y220C HGVS transcript edit to GRCh38 position 7674872, missense Y/C at protein residue 220",
-      "evidence": "data/external_service_evidence/ensembl_vep_tp53.json",
-      "url": "https://rest.ensembl.org/vep/human/hgvs/ENST00000269305.9:c.659A%3EG?content-type=application%2Fjson"
-    },
-    {
       "service": "Europe PMC",
       "purpose": "Queried the published p53 global suppressor motif article by DOI; bibliographic identity, not new experimental work",
       "evidence": "data/external_service_evidence/ebi_europe_pmc_tp53.json",
@@ -194,14 +188,14 @@
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id=7157&retmode=json"
     }
   ],
-  "distinct_count_including_workflow_services": 32,
-  "strict_scientific_data_and_literature_count": 30,
+  "distinct_count_including_workflow_services": 31,
+  "strict_scientific_data_and_literature_count": 29,
   "gate": 40,
-  "remaining_under_broad_count": 8,
-  "caveat": "Distinct scientific services count excludes GitHub and Drive infrastructure and collapses service aliases. Thirty are evidenced with real queries; this is not the 40-service gate. Ensembl VEP is counted as a separate analysis endpoint from Ensembl REST gene lookup; reclassify conservatively if the gate collapses a parent institution rather than a scientific service.",
+  "remaining_under_broad_count": 9,
+  "caveat": "Strict count collapses all endpoints of the Ensembl REST service into one, including gene lookup and VEP. GitHub and Google Drive workflow infrastructure excluded. Twenty-nine evidenced distinct scientific data or literature services, 11 still required. Every entry needs a real query and a research use; multiple endpoints and aliases do not multiply the count.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 30,
-  "gate_remaining": 10,
+  "gate_count": 29,
+  "gate_remaining": 11,
   "discovered_but_not_counted": {
     "reason": "Only public overview pages read; no mutation-specific query or calculation. Not enough for actually used scientific tool gate.",
     "services": [
