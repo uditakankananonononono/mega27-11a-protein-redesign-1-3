@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from .benchmark import run
 from .features import graph_for_row
+from .audit import audit
+from .fireprot import analyze
 import pandas as pd
 
 
@@ -19,10 +21,24 @@ def main():
     inspect.add_argument('name')
     inspect.add_argument('--csv', type=Path, default=Path('data/raw/S669.csv'))
     inspect.add_argument('--structures', type=Path, default=Path('data/raw'))
+    evaluation = sub.add_parser('audit', help='Group-aware error audit of a held-out result')
+    evaluation.add_argument('--results', type=Path, default=Path('results/s669_group_holdout.json'))
+    evaluation.add_argument('--csv', type=Path, default=Path('data/raw/S669.csv'))
+    evaluation.add_argument('--output', type=Path, default=Path('results/group_sensitivity.json'))
+    fp = sub.add_parser('fireprot-audit', help='Check experimental mutation numbering and sign discordance')
+    fp.add_argument('--csv', type=Path, default=Path('data/fireprot_pdb_ddg.csv'))
+    fp.add_argument('--structures', type=Path, default=Path('data/raw'))
+    fp.add_argument('--output', type=Path, default=Path('results/fireprot_mapping_audit.json'))
     args = p.parse_args()
     if args.command == 'benchmark':
         result = run(args.csv, args.structures, args.output, args.epochs)
         print(json.dumps(dict(audit=result['audit'], split={k:v for k,v in result['split'].items() if isinstance(v,int)}, metrics=result['metrics']), indent=2))
+    elif args.command == 'audit':
+        result = audit(args.results, args.csv, args.output)
+        print(json.dumps({k:v for k,v in result.items() if k not in ('grouped',)},indent=2))
+    elif args.command == 'fireprot-audit':
+        result = analyze(args.csv,args.structures,args.output)
+        print(json.dumps({k:v for k,v in result.items() if k not in ('per_pdb','opposite_sign_examples')},indent=2))
     elif args.command == 'inspect':
         df = pd.read_csv(args.csv)
         rows = df[df.name == args.name]
