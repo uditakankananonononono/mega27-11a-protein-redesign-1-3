@@ -1,0 +1,173 @@
+{
+  "source": "https://tp53.cancer.gov/static/data/FunctionDownload_r21.csv",
+  "source_page": "https://tp53.cancer.gov/get_tp53data",
+  "release": "r21",
+  "total_function_rows": 7570,
+  "variants": [
+    {
+      "variant": "Y220C",
+      "record_count": 31,
+      "distinct_papers": 26,
+      "methods": [
+        "Co-IP, luciferase assay",
+        "Color selection",
+        "Color selection, temperature sensitive assay at 25\u00b0C, 30\u00b0C and 35\u00b0C",
+        "DOX treatment, RT-qPCR",
+        "Endogenous protein by Western Blot, temperature sensitive assay at 32\u00b0C and 37\u00b0C",
+        "FACS analysis, cisplatin treatment",
+        "Growth selection",
+        "Growth selection, temperature sensitive assay at 25 and 30\u00b0C",
+        "Growth selection, temperature sensitive assay at 25 and 37\u00b0C",
+        "Luciferase assay",
+        "Luciferase assay, temperature sensitive assay at 32\u00b0C and 37\u00b0C",
+        "NGS-based growth assay"
+      ],
+      "sample": [
+        {
+          "function_id": 134,
+          "loss_of_function": "TA (WAF1 5')",
+          "method": "Co-IP, luciferase assay",
+          "pubmed": "11238924"
+        },
+        {
+          "function_id": 4399,
+          "loss_of_function": "TA (KILLER/DR5, GML, WAF1)",
+          "method": "Luciferase assay",
+          "pubmed": "15037740"
+        },
+        {
+          "function_id": 4747,
+          "loss_of_function": "TA (WAF1, BAX, RGC)",
+          "method": "Luciferase assay, temperature sensitive assay at 32\u00b0C and 37\u00b0C",
+          "pubmed": "20505364"
+        }
+      ]
+    },
+    {
+      "variant": "G245S",
+      "record_count": 42,
+      "distinct_papers": 31,
+      "methods": [
+        "CAT assay, stable transfection",
+        "CFA, FACS analysis, UV or gamma-irradiation treatment",
+        "Co-IP",
+        "Color selection",
+        "Color selection, temperature sensitive assay at 24\u00b0C and 37\u00b0C",
+        "Color selection, temperature sensitive assay at 25\u00b0C",
+        "DOX treatment, RT-qPCR",
+        "EMSA",
+        "FACS analysis",
+        "FACS analysis, cisplatin treatment",
+        "Growth selection",
+        "Growth selection, temperature sensitive assay at 25 and 30\u00b0C"
+      ],
+      "sample": [
+        {
+          "function_id": 3799,
+          "loss_of_function": null,
+          "method": "EMSA",
+          "pubmed": "8361764"
+        },
+        {
+          "function_id": 1782,
+          "loss_of_function": "TA (WAF1, AIP-1, BAX)",
+          "method": "Luciferase assay",
+          "pubmed": "15958617"
+        },
+        {
+          "function_id": 1783,
+          "loss_of_function": "TA (WAF1, AIP-1, BAX)",
+          "method": "Luciferase assay",
+          "pubmed": "15958617"
+        }
+      ]
+    },
+    {
+      "variant": "R249S",
+      "record_count": 51,
+      "distinct_papers": 36,
+      "methods": [
+        "Beta-gal assay",
+        "CAT (PG13) or  luciferase (MDM2) assay, CFA",
+        "CAT assay",
+        "CFA, beta-gal assay",
+        "Co-IP",
+        "Color selection",
+        "EMSA, temperature sensitive assay at 4 and 32\u00b0C",
+        "FACS analysis",
+        "FACS analysis, cisplatin treatment",
+        "Growth selection",
+        "Growth selection, temperature sensitive assay at 25 and 30\u00b0C",
+        "Growth selection, temperature sensitive assay at 25 and 37\u00b0C"
+      ],
+      "sample": [
+        {
+          "function_id": 2112,
+          "loss_of_function": "TA (PG13)",
+          "method": "CAT assay",
+          "pubmed": "7784055"
+        },
+        {
+          "function_id": 4224,
+          "loss_of_function": "Interference with Beta-catenin-dependent TCF signalling (partial)",
+          "method": "Luciferase assay",
+          "pubmed": "17929268"
+        },
+        {
+          "function_id": 3727,
+          "loss_of_function": "DNAb (RGC, WAF1)",
+          "method": "EMSA, temperature sensitive assay at 4 and 32\u00b0C",
+          "pubmed": "17070499"
+        }
+      ]
+    },
+    {
+      "variant": "N239Y",
+      "record_count": 1,
+      "distinct_papers": 1,
+      "methods": [
+        "NGS-based growth assay"
+      ],
+      "sample": [
+        {
+          "function_id": 7622,
+          "loss_of_function": null,
+          "method": "NGS-based growth assay",
+          "pubmed": "29979965"
+        }
+      ]
+    },
+    {
+      "variant": "H168R",
+      "record_count": 4,
+      "distinct_papers": 3,
+      "methods": [
+        "Color selection",
+        "Growth selection, temperature sensitive assay at 25 and 30\u00b0C",
+        "Growth selection, temperature sensitive assay at 25 and 37\u00b0C",
+        "NGS-based growth assay"
+      ],
+      "sample": [
+        {
+          "function_id": 6179,
+          "loss_of_function": "GS (in vitro)",
+          "method": "NGS-based growth assay",
+          "pubmed": "29979965"
+        },
+        {
+          "function_id": 1448,
+          "loss_of_function": "TA (CSR, Cyclin G, CD95-Fas, MDM2, WAF1 3', type IV collagenase, 14-3-3s, B99, p53AIP1, RGC, S100A2)",
+          "method": "Growth selection, temperature sensitive assay at 25 and 37\u00b0C",
+          "pubmed": "16861262"
+        },
+        {
+          "function_id": 770,
+          "loss_of_function": "TA (RGC)",
+          "method": "Color selection",
+          "pubmed": "10519380"
+        }
+      ]
+    }
+  ],
+  "caveat": "Database rows summarize heterogeneous published assays and conditions; counts are not independent rescue replicates. Single-mutant functional annotations do not establish second-site double-mutant rescue."
+}

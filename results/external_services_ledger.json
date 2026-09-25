@@ -210,16 +210,22 @@
       "purpose": "Queried exact TP53 Y220C phrase; five text-search hits included irrelevant titles, so no study-specific rescue evidence is claimed",
       "evidence": "data/external_service_evidence/biostudies_p53_mutation.json",
       "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22TP53%20Y220C%22&pageSize=3"
+    },
+    {
+      "service": "NCI TP53 Database",
+      "purpose": "Downloaded release r21 TP53 functional-annotation CSV and audited exact Y220C, G245S, R249S, N239Y and H168R published assay records without pooling them as rescue validation",
+      "evidence": "data/tp53_function_r21.csv; results/tp53_function_audit.json",
+      "url": "https://tp53.cancer.gov/static/data/FunctionDownload_r21.csv"
     }
   ],
-  "distinct_count_including_workflow_services": 35,
-  "strict_scientific_data_and_literature_count": 33,
+  "distinct_count_including_workflow_services": 36,
+  "strict_scientific_data_and_literature_count": 34,
   "gate": 40,
-  "remaining_under_broad_count": 5,
+  "remaining_under_broad_count": 4,
   "caveat": "Strict count collapses Ensembl gene and VEP endpoints; GitHub and Drive infrastructure excluded. Thirty-three real scientific data/literature services are evidenced, seven remain. Failed or semantically irrelevant queries do not create affirmative biology claims.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 33,
-  "gate_remaining": 7,
+  "gate_count": 34,
+  "gate_remaining": 6,
   "discovered_but_not_counted": {
     "reason": "Only public overview pages read; no mutation-specific query or calculation. Not enough for actually used scientific tool gate.",
     "services": [
