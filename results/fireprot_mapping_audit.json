@@ -7,6 +7,7 @@
   "direct_numbering_experiments": 1470,
   "chains_checked": 238,
   "opposite_sign_same_pdb_mutation_pairs": 147,
+  "same_recorded_ph_and_temperature_discordant_pairs": 88,
   "opposite_sign_examples": [
     {
       "pdb": "1BNI",

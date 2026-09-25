@@ -30,13 +30,16 @@ def analyze(path:Path, structures:Path, output:Path):
         per.append(dict(pdb=pdb,rows=len(group),direct_numbering_matches=direct,chains=len(chain_maps)))
     df['experiment']=df.EXPERIMENT_ID.astype(str)
     contradiction=[]
+    same_conditions_discordant=0
     for (pdb,mutation),g in df.groupby(['WWPDB','SUBSTITUTION']):
         if len(g)<2:continue
         neg=g[g.DDG < 0];pos=g[g.DDG > 0]
         if len(neg) and len(pos):
+            if any((h.DDG.min()<0 and h.DDG.max()>0) for _,h in g.groupby(['PH','EXP_TEMPERATURE'],dropna=False)):
+                same_conditions_discordant += 1
             contradiction.append(dict(pdb=pdb,mutation=mutation,experiments=len(g),min_ddg=float(g.DDG.min()),max_ddg=float(g.DDG.max()),source_experiment_ids=g.EXPERIMENT_ID.astype(str).tolist()))
     result=dict(source=str(path),rows=len(df),distinct_pdbs=int(df.WWPDB.nunique()),structures_available=len(per),structures_with_direct_matches=sum(p['direct_numbering_matches']>0 for p in per),direct_numbering_experiments=len(valid),chains_checked=chains_checked,
-        opposite_sign_same_pdb_mutation_pairs=len(contradiction),opposite_sign_examples=contradiction[:20],per_pdb=per,
+        opposite_sign_same_pdb_mutation_pairs=len(contradiction),same_recorded_ph_and_temperature_discordant_pairs=same_conditions_discordant,opposite_sign_examples=contradiction[:20],per_pdb=per,
         caveats=['FireProtDB DDG convention differs from S669 and cannot be pooled without explicit sign calibration.','Repeated rows may differ in measurement conditions or source proteins; opposite signs do not by themselves prove contradictory experimental findings.','PDB numbering must match independently; absent matching residue numbers require sequence alignment, not assumed conversion.'])
     output.parent.mkdir(parents=True,exist_ok=True)
     output.write_text(json.dumps(result,indent=2)+'\n')
