@@ -54,14 +54,44 @@
       "purpose": "Verified the user's program results folder for eventual upload; no 11a upload made",
       "evidence": "README.md (local only; parent was informed of pending delivery)",
       "url": "https://drive.google.com/drive/folders/1D-yJqoTmmIb9EvrTHN0LiVYfZIajKGeP?authuser=uditakankana%40gmail.com"
+    },
+    {
+      "service": "PDBe API",
+      "purpose": "Read curated 1TSR entry summary to cross-check title and structure identity",
+      "evidence": "data/external_service_evidence/pdbe_1tsr.json",
+      "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/summary/1tsr"
+    },
+    {
+      "service": "AlphaFold Protein Structure Database",
+      "purpose": "Read latest TP53 predicted model metadata for an alternate-structure lead; NOT treated as mutant state",
+      "evidence": "data/external_service_evidence/alphafold_p04637.json",
+      "url": "https://alphafold.ebi.ac.uk/api/prediction/P04637"
+    },
+    {
+      "service": "InterPro",
+      "purpose": "Read TP53 P04637 domain annotation metadata for sequence context",
+      "evidence": "data/external_service_evidence/interpro_p04637.json",
+      "url": "https://www.ebi.ac.uk/interpro/api/protein/UniProt/P04637/"
+    },
+    {
+      "service": "ChEMBL",
+      "purpose": "Queried TP53 target search and inspected results; broad text query not assumed to identify TP53 precisely",
+      "evidence": "data/external_service_evidence/chembl_tp53_targets.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target/search?q=TP53&format=json"
+    },
+    {
+      "service": "MyVariant.info",
+      "purpose": "Queried TP53 variant index; broad results not used as validated disease variant evidence",
+      "evidence": "data/external_service_evidence/myvariant_tp53.json",
+      "url": "https://myvariant.info/v1/query?q=TP53&size=2"
     }
   ],
-  "distinct_count_including_workflow_services": 9,
-  "strict_scientific_data_and_literature_count": 7,
+  "distinct_count_including_workflow_services": 14,
+  "strict_scientific_data_and_literature_count": 12,
   "gate": 40,
-  "remaining_under_broad_count": 31,
+  "remaining_under_broad_count": 26,
   "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 7,
-  "gate_remaining": 33
+  "gate_count": 12,
+  "gate_remaining": 28
 }
