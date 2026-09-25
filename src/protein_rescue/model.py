@@ -15,7 +15,9 @@ class ResidueGNN(nn.Module):
         h = torch.relu(self.embedding(x))
         h = torch.relu(self.conv1(adjacency @ h)) + h
         h = torch.relu(self.conv2(adjacency @ h)) + h
-        pooled = torch.cat([h.mean(dim=1), (h * x[:, :, 40:41]).sum(dim=1)], dim=1)
+        mask = (x.abs().sum(dim=2, keepdim=True) > 0).to(h.dtype)
+        mean = (h * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1)
+        pooled = torch.cat([mean, (h * x[:, :, 40:41]).sum(dim=1)], dim=1)
         return self.out(pooled).flatten()
 
 

@@ -26,3 +26,13 @@ def test_metrics_exact():
 
 def test_aa_alphabet():
     assert len(AA)==20 and len(set(AA))==20
+
+
+def test_prediction_invariant_to_padding():
+    torch.manual_seed(3)
+    x=torch.zeros((1,4,42)); x[:,:,0]=1; x[:,0,40]=1
+    a=torch.eye(4).unsqueeze(0)
+    padded=torch.zeros((1,7,42)); padded[:,:4]=x
+    ap=torch.zeros((1,7,7)); ap[:,:4,:4]=a
+    model=ResidueGNN()
+    assert torch.allclose(model(x,a),model(padded,ap),atol=1e-6)
