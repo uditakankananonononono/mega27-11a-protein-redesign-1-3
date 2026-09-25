@@ -20,6 +20,7 @@ def main():
     benchmark.add_argument('--structures', type=Path, default=Path('data/raw'))
     benchmark.add_argument('--output', type=Path, default=Path('results/s669_group_holdout.json'))
     benchmark.add_argument('--epochs', type=int, default=80)
+    benchmark.add_argument('--graph-cache', type=Path, default=None)
     inspect = sub.add_parser('inspect', help='Validate and inspect a mutation graph by S669 row name')
     inspect.add_argument('name')
     inspect.add_argument('--csv', type=Path, default=Path('data/raw/S669.csv'))
@@ -48,7 +49,7 @@ def main():
     gate.add_argument('--context',type=Path,required=True,help='JSON object with structure, assay, training, validation flags')
     args = p.parse_args()
     if args.command == 'benchmark':
-        result = run(args.csv, args.structures, args.output, args.epochs)
+        result = run(args.csv, args.structures, args.output, args.epochs, graph_cache=args.graph_cache)
         print(json.dumps(dict(audit=result['audit'], split={k:v for k,v in result['split'].items() if isinstance(v,int)}, metrics=result['metrics']), indent=2))
     elif args.command == 'audit':
         result = audit(args.results, args.csv, args.output)

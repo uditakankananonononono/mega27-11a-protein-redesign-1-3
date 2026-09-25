@@ -1,6 +1,7 @@
 """One strictly protein-group held-out benchmark; no evaluation leakage."""
 from pathlib import Path
 import json
+import pickle
 import numpy as np
 import torch
 from scipy.stats import spearmanr, pearsonr
@@ -13,16 +14,35 @@ from .model import ResidueGNN, collate
 
 
 def metrics(y, prediction):
+    if len(y) == 0:
+        return dict(n=0, mae=None, rmse=None, spearman=None, pearson=None)
+    constant = len(y) < 2 or np.std(y) < 1e-12 or np.std(prediction) < 1e-12
     return dict(n=len(y), mae=float(np.mean(np.abs(y - prediction))), rmse=float(np.sqrt(np.mean((y-prediction)**2))),
-                spearman=None if np.std(prediction) == 0 else float(spearmanr(y, prediction).statistic),
-                pearson=None if np.std(prediction) == 0 else float(pearsonr(y, prediction).statistic))
+                spearman=None if constant else float(spearmanr(y, prediction).statistic),
+                pearson=None if constant else float(pearsonr(y, prediction).statistic))
 
 
-def run(data: Path, structures: Path, output: Path, epochs: int = 80, seed: int = 27):
+def run(data: Path, structures: Path, output: Path, epochs: int = 80, seed: int = 27, graph_cache: Path | None = None):
     torch.manual_seed(seed)
     np.random.seed(seed)
     torch.set_num_threads(2)
-    graphs, audit = load_graphs(data, structures)
+    if graph_cache is None:
+        graphs, audit = load_graphs(data, structures)
+    else:
+        # Only use checkpoints built locally from the same trusted input and code.
+        parts = sorted(graph_cache.glob("graphs-*.pkl"))
+        indices = []
+        graphs = []
+        for part in parts:
+            lo, hi = map(int, part.stem.removeprefix("graphs-").split("-"))
+            with part.open("rb") as f:
+                rows = pickle.load(f)
+            assert len(rows) == hi - lo + 1
+            indices.extend(range(lo, hi + 1))
+            graphs.extend(rows)
+        assert indices == list(range(len(__import__("pandas").read_csv(data))))
+        assert all(g is not None for g in graphs)
+        audit = dict(total=len(indices), valid=len(graphs), unavailable=0)
     if len(graphs) < 20:
         raise ValueError(f'Too few aligned structure examples: {audit}')
     y = np.array([g['y'] for g in graphs])
