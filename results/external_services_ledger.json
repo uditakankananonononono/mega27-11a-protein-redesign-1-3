@@ -102,14 +102,32 @@
       "purpose": "Resolved TP53 symbol to ENSG00000141510 for identifier cross-check",
       "evidence": "data/external_service_evidence/ensembl_tp53_lookup.json",
       "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TP53?content-type=application/json"
+    },
+    {
+      "service": "KEGG REST",
+      "purpose": "Read human TP53 hsa:7157 gene and orthology annotation; functional context only",
+      "evidence": "data/external_service_evidence/kegg_tp53.txt",
+      "url": "https://rest.kegg.jp/get/hsa:7157"
+    },
+    {
+      "service": "STRING",
+      "purpose": "Queried human TP53 network; limited response is interaction context, not variant rescue evidence",
+      "evidence": "data/external_service_evidence/string_tp53_network.json",
+      "url": "https://string-db.org/api/json/network?identifiers=TP53&species=9606&limit=3"
+    },
+    {
+      "service": "IntAct",
+      "purpose": "Resolved P04637 to TP53 interactor accession EBI-366083; not proof of mutation-specific binding",
+      "evidence": "data/external_service_evidence/intact_tp53_interactor.json",
+      "url": "https://www.ebi.ac.uk/intact/ws/interactor/findInteractor/P04637"
     }
   ],
-  "distinct_count_including_workflow_services": 17,
-  "strict_scientific_data_and_literature_count": 15,
+  "distinct_count_including_workflow_services": 20,
+  "strict_scientific_data_and_literature_count": 18,
   "gate": 40,
-  "remaining_under_broad_count": 23,
+  "remaining_under_broad_count": 20,
   "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 15,
-  "gate_remaining": 25
+  "gate_count": 18,
+  "gate_remaining": 22
 }
