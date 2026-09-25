@@ -47,9 +47,15 @@ def run(data: Path, structures: Path, output: Path, epochs: int = 80, seed: int 
     model.eval()
     with torch.no_grad():
         prediction = model(xtest, atest).numpy()
+    raw = __import__('pandas').read_csv(data).set_index('name')
+    published = {}
+    for method in ['GeoDDG-Seq_dir', 'GeoDDG-3D_dir', 'PremPS_dir', 'DDGun_dir', 'ACDC-NN_dir', 'DDMut_dir']:
+        observed = np.array([raw.loc[graphs[i]['name'], method] for i in test], dtype=float)
+        keep = np.isfinite(observed)
+        published[method] = metrics(y[test][keep], observed[keep])
     result = dict(seed=seed, epochs=epochs, audit=audit,
                   split=dict(train=len(train), test=len(test), train_pdbs=sorted(set(groups[train])), test_pdbs=sorted(set(groups[test]))),
-                  metrics={name: metrics(y[test], pred) for name, pred in [('train_mean', baseline), ('ridge', ridge_pred), ('gnn', prediction)]},
+                  metrics={name: metrics(y[test], pred) for name, pred in [('train_mean', baseline), ('ridge', ridge_pred), ('gnn', prediction)]} | published,
                   predictions=[dict(name=graphs[i]['name'], pdb=groups[i], experimental_ddg=float(y[i]), train_mean=float(baseline[j]), ridge=float(ridge_pred[j]), gnn=float(prediction[j])) for j,i in enumerate(test)])
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, indent=2, allow_nan=False) + '\n')
