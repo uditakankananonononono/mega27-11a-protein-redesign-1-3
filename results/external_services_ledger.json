@@ -84,14 +84,32 @@
       "purpose": "Queried TP53 variant index; broad results not used as validated disease variant evidence",
       "evidence": "data/external_service_evidence/myvariant_tp53.json",
       "url": "https://myvariant.info/v1/query?q=TP53&size=2"
+    },
+    {
+      "service": "MaveDB",
+      "purpose": "Read TP53 multiplexed functional score-set metadata; a naive Bayes predictor is not treated as direct DDG training labels",
+      "evidence": "paper/manuscript.tex source/context; public score-set page read",
+      "url": "https://www.mavedb.org/score-sets/urn:mavedb:00001236-0-1"
+    },
+    {
+      "service": "NCBI ClinVar",
+      "purpose": "Queried exact TP53 Y220C through E-utilities: VCV000127819, c.659A>G, p.Tyr220Cys; not treated as rescue evidence",
+      "evidence": "data/external_service_evidence/clinvar_tp53_y220c_search.json; data/external_service_evidence/clinvar_y220c_summary.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=127819&retmode=json"
+    },
+    {
+      "service": "Ensembl REST",
+      "purpose": "Resolved TP53 symbol to ENSG00000141510 for identifier cross-check",
+      "evidence": "data/external_service_evidence/ensembl_tp53_lookup.json",
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TP53?content-type=application/json"
     }
   ],
-  "distinct_count_including_workflow_services": 14,
-  "strict_scientific_data_and_literature_count": 12,
+  "distinct_count_including_workflow_services": 17,
+  "strict_scientific_data_and_literature_count": 15,
   "gate": 40,
-  "remaining_under_broad_count": 26,
+  "remaining_under_broad_count": 23,
   "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 12,
-  "gate_remaining": 28
+  "gate_count": 15,
+  "gate_remaining": 25
 }
