@@ -120,14 +120,32 @@
       "purpose": "Resolved P04637 to TP53 interactor accession EBI-366083; not proof of mutation-specific binding",
       "evidence": "data/external_service_evidence/intact_tp53_interactor.json",
       "url": "https://www.ebi.ac.uk/intact/ws/interactor/findInteractor/P04637"
+    },
+    {
+      "service": "Reactome ContentService",
+      "purpose": "Mapped UniProt P04637 to 46 pathway records; context only, not mutant-specific assay",
+      "evidence": "data/external_service_evidence/reactome_p04637_pathways.json",
+      "url": "https://reactome.org/ContentService/data/mapping/UniProt/P04637/pathways"
+    },
+    {
+      "service": "QuickGO",
+      "purpose": "Queried P04637 GO annotation endpoint and verified returned annotation records",
+      "evidence": "data/external_service_evidence/quickgo_p04637.json",
+      "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?geneProductId=UniProtKB:P04637&limit=2"
+    },
+    {
+      "service": "EBI OLS",
+      "purpose": "Queried TP53 ontology search and found ambiguous HGNC symbol results; not used as disease causality proof",
+      "evidence": "data/external_service_evidence/ols_tp53_mondo_search.json",
+      "url": "https://www.ebi.ac.uk/ols4/api/search?q=TP53&ontology=mondo&rows=2"
     }
   ],
-  "distinct_count_including_workflow_services": 20,
-  "strict_scientific_data_and_literature_count": 18,
+  "distinct_count_including_workflow_services": 23,
+  "strict_scientific_data_and_literature_count": 21,
   "gate": 40,
-  "remaining_under_broad_count": 20,
+  "remaining_under_broad_count": 17,
   "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 18,
-  "gate_remaining": 22
+  "gate_count": 21,
+  "gate_remaining": 19
 }
