@@ -7,3 +7,6 @@ data/raw/fireprotdb.csv
 paper/*.aux
 paper/*.log
 data/raw/fireprot_pages/
+
+# Generated graph cache is reproducible from S669 CSV and PDBs; independently backed up to Drive.
+results/checkpoints/
