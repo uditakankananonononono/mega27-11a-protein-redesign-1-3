@@ -7,6 +7,7 @@ from .features import graph_for_row
 from .audit import audit
 from .fireprot import analyze
 from .targets import map_site
+from .epistasis import double_mutant_cycle, literature_controls
 import pandas as pd
 
 
@@ -35,6 +36,13 @@ def main():
     target.add_argument('position', type=int)
     target.add_argument('--structures',type=Path,default=Path('data/raw'))
     target.add_argument('--sequences',type=Path,default=Path('data/targets'))
+    ep = sub.add_parser('cycle', help='Calculate experimental double-mutant interaction; not rescue prediction')
+    ep.add_argument('single_a',type=float)
+    ep.add_argument('single_b',type=float)
+    ep.add_argument('combined',type=float)
+    ep.add_argument('--se-a',type=float)
+    ep.add_argument('--se-b',type=float)
+    ep.add_argument('--se-combined',type=float)
     args = p.parse_args()
     if args.command == 'benchmark':
         result = run(args.csv, args.structures, args.output, args.epochs)
@@ -45,6 +53,8 @@ def main():
     elif args.command == 'fireprot-audit':
         result = analyze(args.csv,args.structures,args.output)
         print(json.dumps({k:v for k,v in result.items() if k not in ('per_pdb','opposite_sign_examples')},indent=2))
+    elif args.command == 'cycle':
+        print(json.dumps(double_mutant_cycle(args.single_a,args.single_b,args.combined,args.se_a,args.se_b,args.se_combined),indent=2))
     elif args.command == 'map-site':
         print(json.dumps(map_site(args.gene,args.position,args.structures,args.sequences),indent=2))
     elif args.command == 'inspect':

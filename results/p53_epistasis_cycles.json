@@ -1,0 +1,20 @@
+{
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC305574/ Table I and Table II, and https://www.pnas.org/doi/10.1073/pnas.0401162101",
+  "models": "Experimental inputs from source, no GNN inference",
+  "controls": {
+    "G245S/N239Y": {
+      "additive_ddg": -0.15000000000000013,
+      "observed_ddg": 0.0,
+      "interaction_ddg": 0.15000000000000013,
+      "interpretation": "A nonzero interaction is a nonadditive difference in the measurement convention supplied; it does not establish functional rescue or causal contact.",
+      "interaction_se_independence_assumption": 0.38691084244306206
+    },
+    "R249S/H168R": {
+      "additive_ddg": 4.4399999999999995,
+      "observed_ddg": 1.72,
+      "interaction_ddg": -2.7199999999999998,
+      "interpretation": "A nonzero interaction is a nonadditive difference in the measurement convention supplied; it does not establish functional rescue or causal contact.",
+      "interaction_se_independence_assumption": 0.3637306695894642
+    }
+  }
+}
