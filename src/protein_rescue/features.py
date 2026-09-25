@@ -33,7 +33,7 @@ def graph_for_row(row: pd.Series, structures: Path, radius: float = 12., nodes: 
     index = int(index) - 1
     ref = str(row['wt_seq'])
     alt = str(row['mut_seq'])
-    if not (0 <= index < len(ref) == len(alt) and ref[index] == wt and alt[index] == mutant
+    if not (wt in AA and mutant in AA and 0 <= index < len(ref) == len(alt) and ref[index] == wt and alt[index] == mutant
             and sum(a != b for a, b in zip(ref, alt)) == 1):
         return None
     path = structures / f'{pdb}.pdb'

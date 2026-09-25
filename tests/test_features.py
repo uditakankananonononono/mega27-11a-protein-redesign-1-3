@@ -36,3 +36,10 @@ def test_prediction_invariant_to_padding():
     ap=torch.zeros((1,7,7)); ap[:,:4,:4]=a
     model=ResidueGNN()
     assert torch.allclose(model(x,a),model(padded,ap),atol=1e-6)
+
+
+def test_invalid_mutant_is_rejected_without_index_error(tmp_path):
+    import pandas as pd
+    from protein_rescue.features import graph_for_row
+    row=pd.Series({'name':'rcsb_1ABC_A_A1Z_7_25','wt_seq':'ACDE','mut_seq':'ZCDE','ddG':1.})
+    assert graph_for_row(row,tmp_path) is None
