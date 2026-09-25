@@ -1,0 +1,116 @@
+{
+  "source_results": "results/s669_group_holdout.json",
+  "comparator": "GeoDDG-Seq_dir",
+  "definition": "positive delta: GNN absolute error exceeds GeoDDG-Seq absolute error",
+  "rows": 149,
+  "protein_groups": 13,
+  "largest_two_row_fraction": 0.7919463087248322,
+  "row_weighted_delta_mae": 0.23948264285997056,
+  "protein_equal_delta_mae": 0.3684319015297511,
+  "bootstrap_row_95": [
+    0.11117695049547133,
+    0.23803988775725937,
+    0.37141844561806053
+  ],
+  "bootstrap_protein_equal_95": [
+    -0.12890160998511388,
+    0.3554282123173417,
+    0.9031483395186367
+  ],
+  "grouped": [
+    {
+      "pdb": "1A0F",
+      "n": 1,
+      "gnn_mae": 1.157531726360321,
+      "geo_mae": 1.368979412317276,
+      "delta": -0.21144768595695496
+    },
+    {
+      "pdb": "1DIV",
+      "n": 50,
+      "gnn_mae": 0.9023839151471853,
+      "geo_mae": 0.6873270144343376,
+      "delta": 0.21505690071284775
+    },
+    {
+      "pdb": "1FXA",
+      "n": 11,
+      "gnn_mae": 0.8346716241403059,
+      "geo_mae": 0.5881389052183791,
+      "delta": 0.24653271892192682
+    },
+    {
+      "pdb": "1GWY",
+      "n": 1,
+      "gnn_mae": 0.27733848094940194,
+      "geo_mae": 0.9882894515991212,
+      "delta": -0.7109509706497192
+    },
+    {
+      "pdb": "1IV9",
+      "n": 1,
+      "gnn_mae": 4.709501927137375,
+      "geo_mae": 2.7527513256073,
+      "delta": 1.956750601530075
+    },
+    {
+      "pdb": "1NM1",
+      "n": 2,
+      "gnn_mae": 1.0210487937927246,
+      "geo_mae": 0.4795130586624145,
+      "delta": 0.5415357351303101
+    },
+    {
+      "pdb": "1OSI",
+      "n": 4,
+      "gnn_mae": 0.943601048886776,
+      "geo_mae": 0.8335453188419342,
+      "delta": 0.11005573004484182
+    },
+    {
+      "pdb": "1R6R",
+      "n": 4,
+      "gnn_mae": 2.335122383832932,
+      "geo_mae": 2.3423191870003937,
+      "delta": -0.007196803167462296
+    },
+    {
+      "pdb": "1SPD",
+      "n": 2,
+      "gnn_mae": 2.4561107873916628,
+      "geo_mae": 0.4532439172267914,
+      "delta": 2.0028668701648713
+    },
+    {
+      "pdb": "2PTL",
+      "n": 68,
+      "gnn_mae": 0.9774758541496361,
+      "geo_mae": 0.8076277554484413,
+      "delta": 0.1698480987011948
+    },
+    {
+      "pdb": "3D2A",
+      "n": 3,
+      "gnn_mae": 4.392151823043823,
+      "geo_mae": 2.5634609514474866,
+      "delta": 1.8286908715963364
+    },
+    {
+      "pdb": "3ECU",
+      "n": 1,
+      "gnn_mae": 0.8066191218793393,
+      "geo_mae": 1.2998992085456849,
+      "delta": -0.4932800866663456
+    },
+    {
+      "pdb": "3FIS",
+      "n": 1,
+      "gnn_mae": 0.1779504418373108,
+      "geo_mae": 1.0367977023124695,
+      "delta": -0.8588472604751587
+    }
+  ],
+  "seed": 27,
+  "bootstrap_samples": 5000,
+  "caveat": "Bootstrap conditions on this single fixed held-out split; group count is small. Existing comparator scores may have unknown training overlap with these proteins; no head-to-head train-data equivalence is claimed."
+}
