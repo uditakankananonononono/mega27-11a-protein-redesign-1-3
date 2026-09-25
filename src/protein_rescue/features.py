@@ -1,6 +1,7 @@
 """Experimental mutation rows to aligned residue contact graphs; no network in this module."""
 from __future__ import annotations
 import re
+from functools import lru_cache
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -12,6 +13,7 @@ AA = 'ACDEFGHIKLMNPQRSTVWY'
 PAT = re.compile(r'^rcsb_([A-Za-z0-9]{4})_([^_]+)_([A-Z])(\d+)([A-Z])_')
 
 
+@lru_cache(maxsize=4096)
 def align_index(reference: str, observed: str, ref_index: int) -> int | None:
     """Map zero-based reference index to observed index using global sequence alignment."""
     aligner = PairwiseAligner()
@@ -23,6 +25,11 @@ def align_index(reference: str, observed: str, ref_index: int) -> int | None:
     a, b = aligner.align(reference, observed)[0].indices
     hits = b[a == ref_index]
     return int(hits[0]) if len(hits) and hits[0] >= 0 else None
+
+
+@lru_cache(maxsize=512)
+def _cached_structure(path: str):
+    return PDBParser(QUIET=True).get_structure(Path(path).stem, path)[0]
 
 
 def graph_for_row(row: pd.Series, structures: Path, radius: float = 12., nodes: int = 32):
@@ -46,7 +53,7 @@ def graph_for_row(row: pd.Series, structures: Path, radius: float = 12., nodes: 
     path = structures / f'{pdb}.pdb'
     if not path.is_file():
         return None
-    model = PDBParser(QUIET=True).get_structure(pdb, str(path))[0]
+    model = _cached_structure(str(path))
     if chain not in model:
         return None
     residues = [r for r in model[chain] if r.id[0] == ' ' and 'CA' in r and seq1(r.resname, custom_map={'UNK': 'X'}) in AA]
