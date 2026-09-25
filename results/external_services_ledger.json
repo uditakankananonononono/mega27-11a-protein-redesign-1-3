@@ -156,25 +156,25 @@
       "purpose": "Queried GRCh38 TP53 Y220C genomic interval and found overlapping transcript annotations; coordinate context only",
       "evidence": "data/external_service_evidence/ucsc_tp53_y220c_locus.json",
       "url": "https://api.genome.ucsc.edu/getData/track?genome=hg38;track=refGene;chrom=chr17;start=7674800;end=7674950"
+    },
+    {
+      "service": "ThermoMutDB",
+      "purpose": "Executed official DDG-range API and retrieved mutation thermodynamics records, first PDB 1WQ5; separate dataset rows not merged with S669",
+      "evidence": "data/external_service_evidence/thermomutdb_ddg_1to5.json",
+      "url": "https://biosig.lab.uq.edu.au/thermomutdb/api/v1/ThermodynamicData/ddg/from/1/to/5"
     }
   ],
-  "distinct_count_including_workflow_services": 26,
-  "strict_scientific_data_and_literature_count": 24,
+  "distinct_count_including_workflow_services": 27,
+  "strict_scientific_data_and_literature_count": 25,
   "gate": 40,
-  "remaining_under_broad_count": 14,
+  "remaining_under_broad_count": 13,
   "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 24,
-  "gate_remaining": 16,
+  "gate_count": 25,
+  "gate_remaining": 15,
   "discovered_but_not_counted": {
     "reason": "Only public overview pages read; no mutation-specific query or calculation. Not enough for actually used scientific tool gate.",
     "services": [
-      {
-        "service": "ThermoMutDB",
-        "purpose": "Read live thermodynamic mutation database scope and REST/API metadata; identified temperature/pH assay fields, no accession-level row counted",
-        "evidence": "data/external_service_evidence/thermo_database_check.md",
-        "url": "https://biosig.lab.uq.edu.au/thermomutdb/"
-      },
       {
         "service": "ProThermDB",
         "purpose": "Read separate thermodynamic database scope and download constraints; no mutation-specific data used",
