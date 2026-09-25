@@ -234,16 +234,34 @@
       "purpose": "Queried target ENSG00000141510 GraphQL record and confirmed approved symbol/name TP53",
       "evidence": "data/external_service_evidence/open_targets_tp53.json",
       "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    },
+    {
+      "service": "Crossref",
+      "purpose": "Verified DOI 10.1073/pnas.0401162101 resolves to the 2004 global p53 suppressor motif publication; bibliographic cross-check only",
+      "evidence": "data/external_service_evidence/crossref_p53_suppressor.json",
+      "url": "https://api.crossref.org/works/10.1073/pnas.0401162101"
+    },
+    {
+      "service": "OpenAlex",
+      "purpose": "Verified independent work record W2152023928 for the 2004 p53 suppressor motif paper; bibliographic provenance, not new assay data",
+      "evidence": "data/external_service_evidence/openalex_p53_suppressor.json",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1073/pnas.0401162101"
+    },
+    {
+      "service": "Semantic Scholar",
+      "purpose": "Verified DOI and PubMed 15037740 identity of the p53 suppressor motif article; bibliographic cross-check only",
+      "evidence": "data/external_service_evidence/semantic_scholar_p53_suppressor.json",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1073/pnas.0401162101?fields=title,year,authors,externalIds,publicationVenue"
     }
   ],
-  "distinct_count_including_workflow_services": 39,
-  "strict_scientific_data_and_literature_count": 37,
+  "distinct_count_including_workflow_services": 42,
+  "strict_scientific_data_and_literature_count": 40,
   "gate": 40,
-  "remaining_under_broad_count": 1,
-  "caveat": "Strict count excludes GitHub/Drive infrastructure, collapses Ensembl gene and VEP endpoints, and counts only real queried scientific services. Thirty-seven are evidenced; three remain. Broad gene summaries are used only for identity and clinical-context caution, never as functional rescue validation.",
+  "remaining_under_broad_count": 0,
+  "caveat": "Strict ledger counts 40 distinct actually queried scientific data/literature services, excluding GitHub and Drive and collapsing Ensembl gene and VEP endpoints. Crossref, OpenAlex and Semantic Scholar independently verified the same DOI/PMID and count as three literature-index services, NOT as three independent studies or assays. More services do not strengthen the biological result; no functional rescue claim follows from service count.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 37,
-  "gate_remaining": 3,
+  "gate_count": 40,
+  "gate_remaining": 0,
   "discovered_but_not_counted": {
     "reason": "Only public overview pages read; no mutation-specific query or calculation. Not enough for actually used scientific tool gate.",
     "services": [
