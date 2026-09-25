@@ -1,0 +1,23 @@
+{
+  "claim": "TP53 Y220C is a distinct clinically catalogued variant, but its second-site rescue is not established by this project's model",
+  "clinvar": {
+    "accession": "VCV000127819",
+    "title": "NM_000546.6(TP53):c.659A>G (p.Tyr220Cys)",
+    "dbsnp": "rs121912666",
+    "uniprot_variant": "P04637#VAR_005957",
+    "reference": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=127819&retmode=json",
+    "raw": "data/external_service_evidence/clinvar_y220c_summary.json"
+  },
+  "ensembl": {
+    "gene": "ENSG00000141510",
+    "reference": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TP53?content-type=application/json"
+  },
+  "chembl": {
+    "human_p53_target": "CHEMBL4096",
+    "uniprot": "P04637",
+    "warning": "Text search also returns mouse CHEMBL4164 and unrelated TP53-binding targets; do not merge species or target types",
+    "reference": "https://www.ebi.ac.uk/chembl/api/data/target/search?q=cellular%20tumor%20antigen%20p53&format=json"
+  },
+  "pdb": "1TSR chain A residue 220 is Y in the resolved wild-type structure",
+  "interpretation": "Identity cross-check only. ClinVar membership, an AlphaFold structure or ChEMBL target does not demonstrate a rescue mutation or treatment effect."
+}
