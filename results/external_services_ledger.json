@@ -60,5 +60,8 @@
   "strict_scientific_data_and_literature_count": 7,
   "gate": 40,
   "remaining_under_broad_count": 31,
-  "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger."
+  "caveat": "Conservative audit, not certification that 40 tools were used. RCSB, GeoStab repository, Zenodo, FireProtDB, UniProt, PubMed Central, PNAS, GitHub account and Google Drive account are nine named external surfaces actually read. A domain-level count collapses public GitHub data and authenticated GitHub to eight; a strict science-only count is seven. Do not report 40/40 from this ledger.",
+  "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
+  "gate_count": 7,
+  "gate_remaining": 33
 }
