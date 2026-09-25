@@ -1,0 +1,6794 @@
+{
+  "total_filtered_experiments": 3865,
+  "repeated_pdb_mutation_groups": 753,
+  "repeated_with_any_nonzero_span": 675,
+  "span_quantiles": {
+    "0.25": 0.16000000000000003,
+    "0.5": 0.5,
+    "0.75": 1.3999999999999995,
+    "0.9": 3.6800000000000064,
+    "0.95": 5.103999999999999
+  },
+  "repeated_sign_discordant": 147,
+  "repeated_same_recorded_ph_temp_sign_discordant": 88,
+  "repeated_group_detail": [
+    {
+      "pdb": "1AMQ",
+      "mutation": "D11A",
+      "n": 3,
+      "span": 0.8000000000000007,
+      "same_ph_temp_max_span": 0.8000000000000007,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "E253K",
+      "n": 2,
+      "span": 0.5,
+      "same_ph_temp_max_span": 0.5,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "E253Q",
+      "n": 2,
+      "span": 0.8999999999999995,
+      "same_ph_temp_max_span": 0.8999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "E3A",
+      "n": 2,
+      "span": 0.7999999999999998,
+      "same_ph_temp_max_span": 0.7999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "F2A",
+      "n": 2,
+      "span": 0.10000000000000053,
+      "same_ph_temp_max_span": 0.10000000000000053,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "I5A",
+      "n": 2,
+      "span": 0.1999999999999993,
+      "same_ph_temp_max_span": 0.1999999999999993,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "K63E",
+      "n": 2,
+      "span": 0.7000000000000002,
+      "same_ph_temp_max_span": 0.7000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "K63M",
+      "n": 2,
+      "span": 0.7000000000000002,
+      "same_ph_temp_max_span": 0.7000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "N282D",
+      "n": 2,
+      "span": 0.8,
+      "same_ph_temp_max_span": 0.8,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "N285R",
+      "n": 2,
+      "span": 1.5,
+      "same_ph_temp_max_span": 1.5,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "R254K",
+      "n": 2,
+      "span": 2.5999999999999996,
+      "same_ph_temp_max_span": 2.5999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1AMQ",
+      "mutation": "R254M",
+      "n": 2,
+      "span": 0.3999999999999999,
+      "same_ph_temp_max_span": 0.3999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1B26",
+      "mutation": "E232A",
+      "n": 3,
+      "span": 0.7799999999999999,
+      "same_ph_temp_max_span": 0.6,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1B26",
+      "mutation": "K194A",
+      "n": 3,
+      "span": 0.75,
+      "same_ph_temp_max_span": 0.63,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1B26",
+      "mutation": "R191A",
+      "n": 3,
+      "span": 0.08999999999999997,
+      "same_ph_temp_max_span": 0.08999999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "A79G",
+      "n": 2,
+      "span": 0.26,
+      "same_ph_temp_max_span": 0.26,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "D101A",
+      "n": 4,
+      "span": 0.43999999999999995,
+      "same_ph_temp_max_span": 0.43999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "D101N",
+      "n": 9,
+      "span": 0.8899999999999999,
+      "same_ph_temp_max_span": 0.8899999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "D122N",
+      "n": 2,
+      "span": 0.20000000000000018,
+      "same_ph_temp_max_span": 0.20000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "D55A",
+      "n": 4,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.14,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "D59A",
+      "n": 5,
+      "span": 1.4900000000000002,
+      "same_ph_temp_max_span": 1.4900000000000002,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "D59G",
+      "n": 3,
+      "span": 1.0,
+      "same_ph_temp_max_span": 1.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "E120A",
+      "n": 2,
+      "span": 0.20000000000000018,
+      "same_ph_temp_max_span": 0.20000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "E76A",
+      "n": 2,
+      "span": 0.16000000000000014,
+      "same_ph_temp_max_span": 0.16000000000000014,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "E76G",
+      "n": 4,
+      "span": 0.44000000000000017,
+      "same_ph_temp_max_span": 0.44000000000000017,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "G81H",
+      "n": 3,
+      "span": 0.8500000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "H65A",
+      "n": 2,
+      "span": 0.25,
+      "same_ph_temp_max_span": 0.25,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "H65G",
+      "n": 4,
+      "span": 1.49,
+      "same_ph_temp_max_span": 0.19000000000000006,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "H65K",
+      "n": 2,
+      "span": 0.020000000000000018,
+      "same_ph_temp_max_span": 0.020000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "H65Q",
+      "n": 2,
+      "span": 0.16000000000000014,
+      "same_ph_temp_max_span": 0.16000000000000014,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I102A",
+      "n": 2,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.19999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I102T",
+      "n": 2,
+      "span": 0.24,
+      "same_ph_temp_max_span": 0.24,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I102V",
+      "n": 3,
+      "span": 0.33,
+      "same_ph_temp_max_span": 0.33,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I123A",
+      "n": 3,
+      "span": 0.8800000000000001,
+      "same_ph_temp_max_span": 0.8800000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I123V",
+      "n": 3,
+      "span": 0.16000000000000003,
+      "same_ph_temp_max_span": 0.16000000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I135A",
+      "n": 5,
+      "span": 1.7000000000000002,
+      "same_ph_temp_max_span": 1.7000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I135V",
+      "n": 6,
+      "span": 0.5399999999999998,
+      "same_ph_temp_max_span": 0.2999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I143A",
+      "n": 7,
+      "span": 1.63,
+      "same_ph_temp_max_span": 1.63,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I143V",
+      "n": 8,
+      "span": 0.51,
+      "same_ph_temp_max_span": 0.51,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I156A",
+      "n": 3,
+      "span": 0.9500000000000002,
+      "same_ph_temp_max_span": 0.9500000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I156V",
+      "n": 3,
+      "span": 0.05999999999999994,
+      "same_ph_temp_max_span": 0.05999999999999994,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I51A",
+      "n": 3,
+      "span": 0.75,
+      "same_ph_temp_max_span": 0.75,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I51V",
+      "n": 3,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.14,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I72V",
+      "n": 3,
+      "span": 0.35,
+      "same_ph_temp_max_span": 0.35,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "I98V",
+      "n": 4,
+      "span": 0.7300000000000002,
+      "same_ph_temp_max_span": 0.7200000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "K109R",
+      "n": 4,
+      "span": 0.41,
+      "same_ph_temp_max_span": 0.41,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "K74A",
+      "n": 2,
+      "span": 0.17000000000000004,
+      "same_ph_temp_max_span": 0.17000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "K74G",
+      "n": 2,
+      "span": 0.5800000000000001,
+      "same_ph_temp_max_span": 0.5800000000000001,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "L136T",
+      "n": 3,
+      "span": 0.73,
+      "same_ph_temp_max_span": 0.73,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "L136V",
+      "n": 3,
+      "span": 0.43999999999999995,
+      "same_ph_temp_max_span": 0.43999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "L61A",
+      "n": 5,
+      "span": 0.5999999999999996,
+      "same_ph_temp_max_span": 0.47999999999999954,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "L80Q",
+      "n": 2,
+      "span": 0.10999999999999988,
+      "same_ph_temp_max_span": 0.10999999999999988,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N105A",
+      "n": 4,
+      "span": 0.3699999999999999,
+      "same_ph_temp_max_span": 0.16999999999999993,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N105D",
+      "n": 2,
+      "span": 0.09000000000000002,
+      "same_ph_temp_max_span": 0.09000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N124A",
+      "n": 3,
+      "span": 0.42999999999999994,
+      "same_ph_temp_max_span": 0.42999999999999994,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N131A",
+      "n": 3,
+      "span": 0.6500000000000001,
+      "same_ph_temp_max_span": 0.6500000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N52A",
+      "n": 3,
+      "span": 0.47,
+      "same_ph_temp_max_span": 0.47,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N70A",
+      "n": 3,
+      "span": 0.2999999999999998,
+      "same_ph_temp_max_span": 0.2999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "N88D",
+      "n": 3,
+      "span": 0.11000000000000032,
+      "same_ph_temp_max_span": 0.11000000000000032,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Q151A",
+      "n": 2,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.14,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Q78A",
+      "n": 2,
+      "span": 0.22999999999999998,
+      "same_ph_temp_max_span": 0.22999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Q78S",
+      "n": 3,
+      "span": 0.22999999999999998,
+      "same_ph_temp_max_span": 0.22999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "R116M",
+      "n": 2,
+      "span": 0.7399999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "R130Q",
+      "n": 2,
+      "span": 0.46999999999999975,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "R157A",
+      "n": 3,
+      "span": 0.53,
+      "same_ph_temp_max_span": 0.53,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "S138A",
+      "n": 6,
+      "span": 1.2500000000000002,
+      "same_ph_temp_max_span": 0.4800000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "S139A",
+      "n": 4,
+      "span": 0.48,
+      "same_ph_temp_max_span": 0.48,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T146V",
+      "n": 2,
+      "span": 0.07000000000000028,
+      "same_ph_temp_max_span": 0.07000000000000028,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T152V",
+      "n": 3,
+      "span": 0.10999999999999988,
+      "same_ph_temp_max_span": 0.10999999999999988,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T53A",
+      "n": 4,
+      "span": 0.5099999999999998,
+      "same_ph_temp_max_span": 0.5099999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T53G",
+      "n": 3,
+      "span": 0.7300000000000001,
+      "same_ph_temp_max_span": 0.7300000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T53H",
+      "n": 2,
+      "span": 1.0899999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T63R",
+      "n": 5,
+      "span": 1.56,
+      "same_ph_temp_max_span": 1.56,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T63S",
+      "n": 4,
+      "span": 0.51,
+      "same_ph_temp_max_span": 0.51,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T73A",
+      "n": 4,
+      "span": 0.4700000000000002,
+      "same_ph_temp_max_span": 0.4700000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "T73G",
+      "n": 4,
+      "span": 1.07,
+      "same_ph_temp_max_span": 0.5700000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "V57A",
+      "n": 3,
+      "span": 0.22999999999999998,
+      "same_ph_temp_max_span": 0.22999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "V57T",
+      "n": 3,
+      "span": 0.5900000000000001,
+      "same_ph_temp_max_span": 0.5900000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "V83A",
+      "n": 3,
+      "span": 0.4099999999999999,
+      "same_ph_temp_max_span": 0.4099999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "V83T",
+      "n": 3,
+      "span": 0.09999999999999987,
+      "same_ph_temp_max_span": 0.09999999999999987,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "V92A",
+      "n": 3,
+      "span": 0.6600000000000001,
+      "same_ph_temp_max_span": 0.6600000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "V92T",
+      "n": 3,
+      "span": 0.21999999999999975,
+      "same_ph_temp_max_span": 0.21999999999999975,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "W141F",
+      "n": 2,
+      "span": 0.4600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "W141L",
+      "n": 3,
+      "span": 0.9500000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "W141Y",
+      "n": 2,
+      "span": 0.28,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Y125F",
+      "n": 3,
+      "span": 0.3600000000000001,
+      "same_ph_temp_max_span": 0.3600000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Y150F",
+      "n": 2,
+      "span": 0.18,
+      "same_ph_temp_max_span": 0.18,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Y60A",
+      "n": 4,
+      "span": 0.71,
+      "same_ph_temp_max_span": 0.71,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Y64A",
+      "n": 4,
+      "span": 0.7600000000000002,
+      "same_ph_temp_max_span": 0.7600000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNI",
+      "mutation": "Y64G",
+      "n": 2,
+      "span": 0.9000000000000004,
+      "same_ph_temp_max_span": 0.9000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BNL",
+      "mutation": "D1647A",
+      "n": 2,
+      "span": 6.13,
+      "same_ph_temp_max_span": 6.13,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "F57A",
+      "n": 3,
+      "span": 1.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "F80A",
+      "n": 2,
+      "span": 0.10000000000000053,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "G72A",
+      "n": 4,
+      "span": 2.7,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "N78G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "P48A",
+      "n": 2,
+      "span": 0.40000000000000013,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "Y58A",
+      "n": 2,
+      "span": 0.09999999999999964,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "Y70A",
+      "n": 2,
+      "span": 3.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1BPI",
+      "mutation": "Y70G",
+      "n": 3,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C2R",
+      "mutation": "Y96C",
+      "n": 2,
+      "span": 3.05,
+      "same_ph_temp_max_span": 3.05,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C2R",
+      "mutation": "Y96F",
+      "n": 2,
+      "span": 3.41,
+      "same_ph_temp_max_span": 3.41,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E12K",
+      "n": 3,
+      "span": 0.32999999999999996,
+      "same_ph_temp_max_span": 0.32999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E21A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E21K",
+      "n": 3,
+      "span": 0.6,
+      "same_ph_temp_max_span": 0.6,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E36K",
+      "n": 3,
+      "span": 1.77,
+      "same_ph_temp_max_span": 1.77,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E46A",
+      "n": 5,
+      "span": 0.32,
+      "same_ph_temp_max_span": 0.1,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E46K",
+      "n": 3,
+      "span": 0.43000000000000005,
+      "same_ph_temp_max_span": 0.43000000000000005,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E50K",
+      "n": 3,
+      "span": 1.02,
+      "same_ph_temp_max_span": 1.02,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "E50W",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "F38W",
+      "n": 2,
+      "span": 1.2,
+      "same_ph_temp_max_span": 1.2,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "G23Q",
+      "n": 5,
+      "span": 0.31,
+      "same_ph_temp_max_span": 0.020000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "H29E",
+      "n": 3,
+      "span": 0.47000000000000003,
+      "same_ph_temp_max_span": 0.47000000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "L66A",
+      "n": 3,
+      "span": 0.09000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "L66E",
+      "n": 3,
+      "span": 0.43000000000000005,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "N11S",
+      "n": 5,
+      "span": 0.33,
+      "same_ph_temp_max_span": 0.11000000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "N55K",
+      "n": 3,
+      "span": 0.48,
+      "same_ph_temp_max_span": 0.48,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "Q2L",
+      "n": 5,
+      "span": 0.26000000000000006,
+      "same_ph_temp_max_span": 0.26000000000000006,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "Q53E",
+      "n": 5,
+      "span": 0.12000000000000001,
+      "same_ph_temp_max_span": 0.1,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "R3E",
+      "n": 3,
+      "span": 0.16000000000000003,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "R3K",
+      "n": 2,
+      "span": 0.04999999999999999,
+      "same_ph_temp_max_span": 0.04999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "R3L",
+      "n": 3,
+      "span": 1.26,
+      "same_ph_temp_max_span": 0.7100000000000001,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "R56E",
+      "n": 3,
+      "span": 0.52,
+      "same_ph_temp_max_span": 0.52,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "S24D",
+      "n": 5,
+      "span": 0.12,
+      "same_ph_temp_max_span": 0.03,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "T31S",
+      "n": 5,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.01999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "V64T",
+      "n": 5,
+      "span": 0.12,
+      "same_ph_temp_max_span": 0.07,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1C9O",
+      "mutation": "Y15F",
+      "n": 5,
+      "span": 0.17,
+      "same_ph_temp_max_span": 0.12000000000000001,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CEY",
+      "mutation": "F14N",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CHK",
+      "mutation": "W141F",
+      "n": 3,
+      "span": 2.38,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CHK",
+      "mutation": "W267F",
+      "n": 3,
+      "span": 1.6600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CHK",
+      "mutation": "W68F",
+      "n": 3,
+      "span": 2.67,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "A46E",
+      "n": 4,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "A46K",
+      "n": 5,
+      "span": 0.7699999999999999,
+      "same_ph_temp_max_span": 0.7699999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "A46L",
+      "n": 3,
+      "span": 0.5599999999999999,
+      "same_ph_temp_max_span": 0.5599999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "D24K",
+      "n": 2,
+      "span": 0.04999999999999999,
+      "same_ph_temp_max_span": 0.04999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "D24N",
+      "n": 2,
+      "span": 0.10000000000000003,
+      "same_ph_temp_max_span": 0.10000000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E12K",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E19Q",
+      "n": 3,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E21K",
+      "n": 3,
+      "span": 0.07,
+      "same_ph_temp_max_span": 0.07,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E21Q",
+      "n": 2,
+      "span": 0.020000000000000018,
+      "same_ph_temp_max_span": 0.020000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E3K",
+      "n": 4,
+      "span": 2.0199999999999996,
+      "same_ph_temp_max_span": 2.0199999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E3L",
+      "n": 4,
+      "span": 1.22,
+      "same_ph_temp_max_span": 1.17,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E3Q",
+      "n": 6,
+      "span": 0.6499999999999999,
+      "same_ph_temp_max_span": 0.6499999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E3R",
+      "n": 27,
+      "span": 1.9000000000000001,
+      "same_ph_temp_max_span": 1.8900000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E3V",
+      "n": 6,
+      "span": 1.1099999999999999,
+      "same_ph_temp_max_span": 1.1099999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E42K",
+      "n": 5,
+      "span": 0.21,
+      "same_ph_temp_max_span": 0.21,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E42Q",
+      "n": 3,
+      "span": 0.04999999999999999,
+      "same_ph_temp_max_span": 0.04999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E43K",
+      "n": 6,
+      "span": 0.24,
+      "same_ph_temp_max_span": 0.24,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E43Q",
+      "n": 5,
+      "span": 0.19,
+      "same_ph_temp_max_span": 0.19,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E43S",
+      "n": 8,
+      "span": 0.18999999999999997,
+      "same_ph_temp_max_span": 0.18999999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E50K",
+      "n": 4,
+      "span": 0.47000000000000003,
+      "same_ph_temp_max_span": 0.47000000000000003,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E53K",
+      "n": 3,
+      "span": 0.19,
+      "same_ph_temp_max_span": 0.19,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E53Q",
+      "n": 6,
+      "span": 0.19,
+      "same_ph_temp_max_span": 0.19,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E66K",
+      "n": 5,
+      "span": 1.2400000000000002,
+      "same_ph_temp_max_span": 1.2400000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E66L",
+      "n": 9,
+      "span": 1.44,
+      "same_ph_temp_max_span": 1.44,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "E66V",
+      "n": 3,
+      "span": 1.13,
+      "same_ph_temp_max_span": 1.13,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "F15A",
+      "n": 4,
+      "span": 3.39,
+      "same_ph_temp_max_span": 2.08,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "F17A",
+      "n": 4,
+      "span": 2.08,
+      "same_ph_temp_max_span": 1.36,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "F27A",
+      "n": 5,
+      "span": 0.77,
+      "same_ph_temp_max_span": 0.77,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "F38A",
+      "n": 2,
+      "span": 0.16,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "K13E",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "K13Q",
+      "n": 3,
+      "span": 0.16999999999999998,
+      "same_ph_temp_max_span": 0.16999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "K39E",
+      "n": 3,
+      "span": 0.26,
+      "same_ph_temp_max_span": 0.26,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "K39Q",
+      "n": 5,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.14,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "K65I",
+      "n": 5,
+      "span": 1.54,
+      "same_ph_temp_max_span": 1.54,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "K65Q",
+      "n": 3,
+      "span": 0.33,
+      "same_ph_temp_max_span": 0.33,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "L2R",
+      "n": 3,
+      "span": 1.28,
+      "same_ph_temp_max_span": 1.28,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "M1R",
+      "n": 7,
+      "span": 0.93,
+      "same_ph_temp_max_span": 0.93,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "N10D",
+      "n": 6,
+      "span": 0.39,
+      "same_ph_temp_max_span": 0.39,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "N55D",
+      "n": 6,
+      "span": 0.15000000000000002,
+      "same_ph_temp_max_span": 0.15000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "N55K",
+      "n": 4,
+      "span": 0.31,
+      "same_ph_temp_max_span": 0.31,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "R56Q",
+      "n": 5,
+      "span": 0.21,
+      "same_ph_temp_max_span": 0.21,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "S48E",
+      "n": 3,
+      "span": 0.05,
+      "same_ph_temp_max_span": 0.05,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "S48K",
+      "n": 15,
+      "span": 0.94,
+      "same_ph_temp_max_span": 0.7999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "S48R",
+      "n": 5,
+      "span": 0.9600000000000001,
+      "same_ph_temp_max_span": 0.9600000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CSP",
+      "mutation": "T64R",
+      "n": 3,
+      "span": 0.6000000000000001,
+      "same_ph_temp_max_span": 0.6000000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CYO",
+      "mutation": "F40L",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CYO",
+      "mutation": "F40Y",
+      "n": 2,
+      "span": 0.24,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CYO",
+      "mutation": "V50E",
+      "n": 2,
+      "span": 0.6200000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CYO",
+      "mutation": "V50H",
+      "n": 2,
+      "span": 0.04999999999999982,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1CYO",
+      "mutation": "V50Y",
+      "n": 2,
+      "span": 0.020000000000000018,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DIV",
+      "mutation": "D23A",
+      "n": 4,
+      "span": 1.76,
+      "same_ph_temp_max_span": 1.76,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1DIV",
+      "mutation": "D23N",
+      "n": 3,
+      "span": 0.7,
+      "same_ph_temp_max_span": 0.7,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DIV",
+      "mutation": "H106Q",
+      "n": 4,
+      "span": 1.5399999999999998,
+      "same_ph_temp_max_span": 0.7699999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DIV",
+      "mutation": "H134Q",
+      "n": 4,
+      "span": 1.74,
+      "same_ph_temp_max_span": 0.6299999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DIV",
+      "mutation": "H144Q",
+      "n": 4,
+      "span": 0.51,
+      "same_ph_temp_max_span": 0.2599999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DIV",
+      "mutation": "K12M",
+      "n": 5,
+      "span": 1.44,
+      "same_ph_temp_max_span": 0.39,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DPM",
+      "mutation": "H257L",
+      "n": 3,
+      "span": 2.5,
+      "same_ph_temp_max_span": 2.5,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1DXX",
+      "mutation": "K18N",
+      "n": 3,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1EKG",
+      "mutation": "L198C",
+      "n": 3,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1EKG",
+      "mutation": "L200C",
+      "n": 3,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.19999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1EKG",
+      "mutation": "L203C",
+      "n": 3,
+      "span": 2.0,
+      "same_ph_temp_max_span": 2.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1G3P",
+      "mutation": "T119I",
+      "n": 2,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.14,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HFY",
+      "mutation": "A49I",
+      "n": 2,
+      "span": 2.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HFY",
+      "mutation": "A49T",
+      "n": 2,
+      "span": 1.8399999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HFY",
+      "mutation": "T48I",
+      "n": 3,
+      "span": 4.33,
+      "same_ph_temp_max_span": 3.0300000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HFY",
+      "mutation": "T52I",
+      "n": 2,
+      "span": 1.4200000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "F57A",
+      "n": 2,
+      "span": 2.0,
+      "same_ph_temp_max_span": 2.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "I82A",
+      "n": 2,
+      "span": 2.1999999999999997,
+      "same_ph_temp_max_span": 2.1999999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "L145A",
+      "n": 2,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.19999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "M147A",
+      "n": 2,
+      "span": 1.1,
+      "same_ph_temp_max_span": 1.1,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "M44A",
+      "n": 2,
+      "span": 0.7,
+      "same_ph_temp_max_span": 0.7,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "Q143A",
+      "n": 2,
+      "span": 0.6,
+      "same_ph_temp_max_span": 0.6,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "Q55A",
+      "n": 2,
+      "span": 0.8999999999999999,
+      "same_ph_temp_max_span": 0.8999999999999999,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "R80A",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.30000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HK0",
+      "mutation": "V132A",
+      "n": 2,
+      "span": 1.6,
+      "same_ph_temp_max_span": 1.6,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HME",
+      "mutation": "D139H",
+      "n": 2,
+      "span": 0.7,
+      "same_ph_temp_max_span": 0.7,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HME",
+      "mutation": "D140H",
+      "n": 2,
+      "span": 1.31,
+      "same_ph_temp_max_span": 1.31,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1HME",
+      "mutation": "G123H",
+      "n": 2,
+      "span": 0.81,
+      "same_ph_temp_max_span": 0.81,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1HME",
+      "mutation": "I122H",
+      "n": 2,
+      "span": 1.23,
+      "same_ph_temp_max_span": 1.23,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1HME",
+      "mutation": "S121H",
+      "n": 2,
+      "span": 0.3500000000000001,
+      "same_ph_temp_max_span": 0.3500000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1IGV",
+      "mutation": "E21Q",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1IOB",
+      "mutation": "T125G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1IOB",
+      "mutation": "T125Q",
+      "n": 2,
+      "span": 0.6000000000000001,
+      "same_ph_temp_max_span": 0.6000000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1IRO",
+      "mutation": "I33L",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1IRO",
+      "mutation": "V24I",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "A145G",
+      "n": 5,
+      "span": 1.03,
+      "same_ph_temp_max_span": 1.03,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "A253G",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "D278G",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "E159G",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "F250A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "F254A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "F280A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "H124N",
+      "n": 3,
+      "span": 0.86,
+      "same_ph_temp_max_span": 0.86,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "I187A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "I72A",
+      "n": 3,
+      "span": 0.85,
+      "same_ph_temp_max_span": 0.85,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "L162A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "L178A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "L207A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "L221A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "L95A",
+      "n": 6,
+      "span": 3.13,
+      "same_ph_temp_max_span": 3.13,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "M106A",
+      "n": 3,
+      "span": 0.72,
+      "same_ph_temp_max_span": 0.72,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "V103A",
+      "n": 6,
+      "span": 1.5599999999999998,
+      "same_ph_temp_max_span": 1.5599999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "V152A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "V180A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "V246A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1J7N",
+      "mutation": "Y181A",
+      "n": 3,
+      "span": 0.64,
+      "same_ph_temp_max_span": 0.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1JL5",
+      "mutation": "F289L",
+      "n": 3,
+      "span": 2.0999999999999996,
+      "same_ph_temp_max_span": 2.0999999999999996,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1JL5",
+      "mutation": "I309L",
+      "n": 2,
+      "span": 0.49999999999999994,
+      "same_ph_temp_max_span": 0.49999999999999994,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "A65P",
+      "n": 2,
+      "span": 1.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "D109P",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "D120N",
+      "n": 2,
+      "span": 0.74,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "D138N",
+      "n": 2,
+      "span": 0.7200000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "D85N",
+      "n": 2,
+      "span": 0.55,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "E25Q",
+      "n": 2,
+      "span": 0.1399999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "G55Q",
+      "n": 3,
+      "span": 0.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "H96G",
+      "n": 3,
+      "span": 0.41000000000000003,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I107V",
+      "n": 2,
+      "span": 0.13,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I124V",
+      "n": 2,
+      "span": 0.26,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I41V",
+      "n": 2,
+      "span": 0.04999999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I74A",
+      "n": 2,
+      "span": 0.009999999999999787,
+      "same_ph_temp_max_span": 0.009999999999999787,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I74T",
+      "n": 3,
+      "span": 3.04,
+      "same_ph_temp_max_span": 0.010000000000000231,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I74V",
+      "n": 3,
+      "span": 0.14000000000000012,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I77A",
+      "n": 3,
+      "span": 0.4099999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I77G",
+      "n": 2,
+      "span": 0.010000000000000231,
+      "same_ph_temp_max_span": 0.010000000000000231,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "I77V",
+      "n": 3,
+      "span": 0.17000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "P121G",
+      "n": 2,
+      "span": 0.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "P89G",
+      "n": 2,
+      "span": 0.40000000000000013,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "Q76G",
+      "n": 3,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "R68G",
+      "n": 3,
+      "span": 0.27,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V111A",
+      "n": 2,
+      "span": 0.26,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V117A",
+      "n": 2,
+      "span": 0.08999999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V118A",
+      "n": 2,
+      "span": 0.30999999999999994,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V128A",
+      "n": 2,
+      "span": 0.46,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V128P",
+      "n": 2,
+      "span": 1.9,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V139A",
+      "n": 2,
+      "span": 0.31000000000000005,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V143A",
+      "n": 2,
+      "span": 0.28,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V148A",
+      "n": 2,
+      "span": 0.28000000000000014,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V20A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V92A",
+      "n": 2,
+      "span": 0.07,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1LZ1",
+      "mutation": "V92S",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MJC",
+      "mutation": "S52W",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MJC",
+      "mutation": "T68W",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MJC",
+      "mutation": "Y42W",
+      "n": 2,
+      "span": 0.1,
+      "same_ph_temp_max_span": 0.1,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MSI",
+      "mutation": "D36A",
+      "n": 2,
+      "span": 0.08999999999999997,
+      "same_ph_temp_max_span": 0.08999999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MSI",
+      "mutation": "D58N",
+      "n": 2,
+      "span": 0.12,
+      "same_ph_temp_max_span": 0.12,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MSI",
+      "mutation": "E25A",
+      "n": 2,
+      "span": 0.08,
+      "same_ph_temp_max_span": 0.08,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1MSI",
+      "mutation": "R23A",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.4,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MSI",
+      "mutation": "R39A",
+      "n": 2,
+      "span": 0.12,
+      "same_ph_temp_max_span": 0.12,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1MSI",
+      "mutation": "R47A",
+      "n": 2,
+      "span": 0.23000000000000004,
+      "same_ph_temp_max_span": 0.23000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1N0J",
+      "mutation": "Q167N",
+      "n": 2,
+      "span": 2.73,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1N0J",
+      "mutation": "Y58F",
+      "n": 2,
+      "span": 9.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1ONC",
+      "mutation": "M23L",
+      "n": 11,
+      "span": 0.8399999999999999,
+      "same_ph_temp_max_span": 0.43000000000000016,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1QLP",
+      "mutation": "A272L",
+      "n": 2,
+      "span": 2.3,
+      "same_ph_temp_max_span": 2.3,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1QLP",
+      "mutation": "K355F",
+      "n": 2,
+      "span": 0.8700000000000001,
+      "same_ph_temp_max_span": 0.8700000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1QLP",
+      "mutation": "K355I",
+      "n": 2,
+      "span": 0.7,
+      "same_ph_temp_max_span": 0.7,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1QLP",
+      "mutation": "K355T",
+      "n": 2,
+      "span": 0.32,
+      "same_ph_temp_max_span": 0.32,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1QLP",
+      "mutation": "K355V",
+      "n": 2,
+      "span": 0.41000000000000003,
+      "same_ph_temp_max_span": 0.41000000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1QLP",
+      "mutation": "S354R",
+      "n": 2,
+      "span": 1.6,
+      "same_ph_temp_max_span": 1.6,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D33A",
+      "n": 2,
+      "span": 0.20000000000000018,
+      "same_ph_temp_max_span": 0.20000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79A",
+      "n": 4,
+      "span": 3.5999999999999996,
+      "same_ph_temp_max_span": 0.09999999999999964,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79E",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79F",
+      "n": 4,
+      "span": 4.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79H",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79I",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79K",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79L",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79N",
+      "n": 4,
+      "span": 3.5,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79R",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "D79W",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "E41K",
+      "n": 3,
+      "span": 0.8,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "E54Q",
+      "n": 2,
+      "span": 0.5999999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "E74K",
+      "n": 4,
+      "span": 2.2,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "H85Q",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "N39A",
+      "n": 2,
+      "span": 0.20000000000000018,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "Q38A",
+      "n": 2,
+      "span": 0.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "Q94K",
+      "n": 3,
+      "span": 0.9000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "R40E",
+      "n": 2,
+      "span": 0.7,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RGG",
+      "mutation": "R65A",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "A35G",
+      "n": 4,
+      "span": 0.49999999999999994,
+      "same_ph_temp_max_span": 0.49999999999999994,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "E22Q",
+      "n": 4,
+      "span": 2.3,
+      "same_ph_temp_max_span": 2.3,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "F60A",
+      "n": 4,
+      "span": 2.5,
+      "same_ph_temp_max_span": 2.5,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "I26A",
+      "n": 4,
+      "span": 0.6000000000000001,
+      "same_ph_temp_max_span": 0.6000000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "I52A",
+      "n": 4,
+      "span": 1.7,
+      "same_ph_temp_max_span": 1.7,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "I8A",
+      "n": 4,
+      "span": 1.5000000000000004,
+      "same_ph_temp_max_span": 1.5000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "L21A",
+      "n": 4,
+      "span": 2.8,
+      "same_ph_temp_max_span": 2.8,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "L48A",
+      "n": 4,
+      "span": 3.8,
+      "same_ph_temp_max_span": 3.8,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "L75A",
+      "n": 4,
+      "span": 0.20000000000000007,
+      "same_ph_temp_max_span": 0.20000000000000007,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "L79A",
+      "n": 4,
+      "span": 1.3999999999999995,
+      "same_ph_temp_max_span": 1.3999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "V37A",
+      "n": 4,
+      "span": 2.2,
+      "same_ph_temp_max_span": 2.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "V65A",
+      "n": 4,
+      "span": 0.7000000000000002,
+      "same_ph_temp_max_span": 0.7000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "V6A",
+      "n": 4,
+      "span": 3.3,
+      "same_ph_temp_max_span": 3.3,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "V85A",
+      "n": 4,
+      "span": 1.6,
+      "same_ph_temp_max_span": 1.6,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "V88A",
+      "n": 4,
+      "span": 1.9,
+      "same_ph_temp_max_span": 1.9,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1RIS",
+      "mutation": "Y33A",
+      "n": 4,
+      "span": 4.5,
+      "same_ph_temp_max_span": 4.5,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1RTP",
+      "mutation": "A22P",
+      "n": 2,
+      "span": 2.87,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1SCE",
+      "mutation": "P90V",
+      "n": 2,
+      "span": 0.010000000000000009,
+      "same_ph_temp_max_span": 0.010000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1SCE",
+      "mutation": "P92V",
+      "n": 2,
+      "span": 0.09999999999999999,
+      "same_ph_temp_max_span": 0.09999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A140E",
+      "n": 6,
+      "span": 3.1000000000000005,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A151T",
+      "n": 4,
+      "span": 1.27,
+      "same_ph_temp_max_span": 1.27,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A172E",
+      "n": 5,
+      "span": 1.5,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A172S",
+      "n": 5,
+      "span": 0.7000000000000002,
+      "same_ph_temp_max_span": 0.20000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A191E",
+      "n": 5,
+      "span": 3.6999999999999993,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A194F",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.30000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "A214E",
+      "n": 4,
+      "span": 2.7,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D101A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D101G",
+      "n": 2,
+      "span": 0.2,
+      "same_ph_temp_max_span": 0.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D103A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D103G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D159A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D159G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D177A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "D177G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "E134A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "E134G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "E139F",
+      "n": 2,
+      "span": 0.20000000000000007,
+      "same_ph_temp_max_span": 0.20000000000000007,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "F116E",
+      "n": 5,
+      "span": 4.199999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G102E",
+      "n": 5,
+      "span": 0.8999999999999995,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G111A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G111F",
+      "n": 2,
+      "span": 0.2999999999999998,
+      "same_ph_temp_max_span": 0.2999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G132A",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G132F",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.4,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G161A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G161S",
+      "n": 5,
+      "span": 1.7,
+      "same_ph_temp_max_span": 0.2999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G168A",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G170V",
+      "n": 7,
+      "span": 1.6,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G170W",
+      "n": 2,
+      "span": 0.53,
+      "same_ph_temp_max_span": 0.53,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G178A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "G189A",
+      "n": 2,
+      "span": 0.09999999999999964,
+      "same_ph_temp_max_span": 0.09999999999999964,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "H206L",
+      "n": 3,
+      "span": 1.2,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "I100M",
+      "n": 5,
+      "span": 0.49999999999999994,
+      "same_ph_temp_max_span": 0.19999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "I154E",
+      "n": 5,
+      "span": 3.8,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "I174E",
+      "n": 5,
+      "span": 4.5,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "I174V",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "I97A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "I97G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K110A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K110G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K127A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K127G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K131A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K131G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K152F",
+      "n": 2,
+      "span": 0.2,
+      "same_ph_temp_max_span": 0.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K152W",
+      "n": 2,
+      "span": 0.69,
+      "same_ph_temp_max_span": 0.69,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K216F",
+      "n": 2,
+      "span": 0.2,
+      "same_ph_temp_max_span": 0.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K218A",
+      "n": 2,
+      "span": 0.20000000000000007,
+      "same_ph_temp_max_span": 0.20000000000000007,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K218G",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.30000000000000004,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K98A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "K98G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L107A",
+      "n": 3,
+      "span": 0.19999999999999973,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L107E",
+      "n": 5,
+      "span": 3.9000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L118C",
+      "n": 3,
+      "span": 3.5999999999999996,
+      "same_ph_temp_max_span": 3.5999999999999996,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L118E",
+      "n": 7,
+      "span": 4.6000000000000005,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L119E",
+      "n": 4,
+      "span": 1.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L120A",
+      "n": 2,
+      "span": 0.09999999999999987,
+      "same_ph_temp_max_span": 0.09999999999999987,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L120E",
+      "n": 6,
+      "span": 3.3999999999999995,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L120G",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L185E",
+      "n": 5,
+      "span": 4.3999999999999995,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "L207E",
+      "n": 5,
+      "span": 5.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N182E",
+      "n": 5,
+      "span": 4.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N200A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N200E",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N200G",
+      "n": 2,
+      "span": 0.09999999999999987,
+      "same_ph_temp_max_span": 0.09999999999999987,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N201A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N201G",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N220A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "N220G",
+      "n": 2,
+      "span": 0.1,
+      "same_ph_temp_max_span": 0.1,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "P113A",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "P199G",
+      "n": 2,
+      "span": 0.7000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "R187F",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "S223A",
+      "n": 2,
+      "span": 0.28,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "T115S",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.30000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "T123E",
+      "n": 5,
+      "span": 2.1999999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "T144E",
+      "n": 6,
+      "span": 4.2,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V105E",
+      "n": 5,
+      "span": 3.0999999999999996,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V121E",
+      "n": 5,
+      "span": 3.3000000000000003,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V133A",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V133G",
+      "n": 2,
+      "span": 0.10000000000000003,
+      "same_ph_temp_max_span": 0.10000000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V148K",
+      "n": 2,
+      "span": 0.7999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V148L",
+      "n": 7,
+      "span": 1.1,
+      "same_ph_temp_max_span": 0.5,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V148M",
+      "n": 3,
+      "span": 0.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V148T",
+      "n": 2,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.19999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V148W",
+      "n": 3,
+      "span": 1.0099999999999998,
+      "same_ph_temp_max_span": 1.0099999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V156E",
+      "n": 6,
+      "span": 4.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V181E",
+      "n": 5,
+      "span": 4.7,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V186E",
+      "n": 6,
+      "span": 5.4,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "V193A",
+      "n": 2,
+      "span": 0.5,
+      "same_ph_temp_max_span": 0.5,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y109A",
+      "n": 2,
+      "span": 1.4000000000000004,
+      "same_ph_temp_max_span": 1.4000000000000004,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y109F",
+      "n": 2,
+      "span": 0.6,
+      "same_ph_temp_max_span": 0.6,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y136A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y136G",
+      "n": 2,
+      "span": 0.09999999999999987,
+      "same_ph_temp_max_span": 0.09999999999999987,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y167F",
+      "n": 2,
+      "span": 0.2,
+      "same_ph_temp_max_span": 0.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y173E",
+      "n": 5,
+      "span": 3.6999999999999993,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y195A",
+      "n": 2,
+      "span": 0.1,
+      "same_ph_temp_max_span": 0.1,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y195F",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y195G",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1STN",
+      "mutation": "Y197F",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "A819G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "A885G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "E887A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "E887G",
+      "n": 3,
+      "span": 1.6099999999999999,
+      "same_ph_temp_max_span": 1.6099999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "F889A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I809A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I809V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I821A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I821V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I830A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I830V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I833A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I833V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I849A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I860A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "I860V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "L851A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "L863A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "L873A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "P806A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "P826A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "P865A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "P884A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "S882A",
+      "n": 2,
+      "span": 0.54,
+      "same_ph_temp_max_span": 0.54,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "V811A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "Y858A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "Y858G",
+      "n": 2,
+      "span": 1.38,
+      "same_ph_temp_max_span": 1.38,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1TEN",
+      "mutation": "Y869F",
+      "n": 3,
+      "span": 6.35,
+      "same_ph_temp_max_span": 6.35,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "D49N",
+      "n": 2,
+      "span": 5.380000000000001,
+      "same_ph_temp_max_span": 5.380000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "E115A",
+      "n": 2,
+      "span": 5.35,
+      "same_ph_temp_max_span": 5.35,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "F80A",
+      "n": 2,
+      "span": 5.2,
+      "same_ph_temp_max_span": 5.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "L130A",
+      "n": 2,
+      "span": 5.32,
+      "same_ph_temp_max_span": 5.32,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "M182A",
+      "n": 2,
+      "span": 5.3100000000000005,
+      "same_ph_temp_max_span": 5.3100000000000005,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "M97A",
+      "n": 2,
+      "span": 5.48,
+      "same_ph_temp_max_span": 5.48,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "Q164A",
+      "n": 2,
+      "span": 5.23,
+      "same_ph_temp_max_span": 5.23,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "Q185A",
+      "n": 2,
+      "span": 5.68,
+      "same_ph_temp_max_span": 5.68,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "R119A",
+      "n": 2,
+      "span": 5.01,
+      "same_ph_temp_max_span": 5.01,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "S155A",
+      "n": 2,
+      "span": 5.109999999999999,
+      "same_ph_temp_max_span": 5.109999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "S83A",
+      "n": 2,
+      "span": 5.11,
+      "same_ph_temp_max_span": 5.11,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "T133A",
+      "n": 2,
+      "span": 5.46,
+      "same_ph_temp_max_span": 5.46,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "T162A",
+      "n": 2,
+      "span": 5.41,
+      "same_ph_temp_max_span": 5.41,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "W42A",
+      "n": 2,
+      "span": 5.23,
+      "same_ph_temp_max_span": 5.23,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "W76A",
+      "n": 2,
+      "span": 5.43,
+      "same_ph_temp_max_span": 5.43,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "Y112F",
+      "n": 2,
+      "span": 5.08,
+      "same_ph_temp_max_span": 5.08,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "Y178A",
+      "n": 2,
+      "span": 5.4,
+      "same_ph_temp_max_span": 5.4,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1THQ",
+      "mutation": "Y48A",
+      "n": 2,
+      "span": 5.25,
+      "same_ph_temp_max_span": 5.25,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1UWO",
+      "mutation": "F15A",
+      "n": 2,
+      "span": 4.11,
+      "same_ph_temp_max_span": 4.11,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1UWO",
+      "mutation": "I12A",
+      "n": 2,
+      "span": 5.21,
+      "same_ph_temp_max_span": 5.21,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1UWO",
+      "mutation": "L4A",
+      "n": 2,
+      "span": 1.73,
+      "same_ph_temp_max_span": 1.73,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1UWO",
+      "mutation": "L4S",
+      "n": 2,
+      "span": 4.68,
+      "same_ph_temp_max_span": 4.68,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1UWO",
+      "mutation": "M8A",
+      "n": 2,
+      "span": 4.609999999999999,
+      "same_ph_temp_max_span": 4.609999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "A117G",
+      "n": 2,
+      "span": 0.04999999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "A123G",
+      "n": 2,
+      "span": 0.08999999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "A129G",
+      "n": 2,
+      "span": 0.019999999999999907,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "A131G",
+      "n": 2,
+      "span": 0.09000000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "H149G",
+      "n": 2,
+      "span": 0.29000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "I118A",
+      "n": 2,
+      "span": 0.3899999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "I132V",
+      "n": 2,
+      "span": 0.050000000000000044,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "L114A",
+      "n": 2,
+      "span": 0.039999999999999925,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "L121A",
+      "n": 2,
+      "span": 0.06999999999999984,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "L127A",
+      "n": 2,
+      "span": 0.5299999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "L150A",
+      "n": 4,
+      "span": 0.61,
+      "same_ph_temp_max_span": 0.61,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "S115G",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "T135A",
+      "n": 2,
+      "span": 0.31999999999999984,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "T142S",
+      "n": 2,
+      "span": 0.30999999999999983,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1W4H",
+      "mutation": "V137G",
+      "n": 2,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49A",
+      "n": 2,
+      "span": 0.6699999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49C",
+      "n": 2,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49D",
+      "n": 2,
+      "span": 0.77,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49F",
+      "n": 2,
+      "span": 0.84,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49G",
+      "n": 2,
+      "span": 0.52,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49H",
+      "n": 2,
+      "span": 0.34,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49I",
+      "n": 2,
+      "span": 0.78,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49K",
+      "n": 2,
+      "span": 0.19,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49L",
+      "n": 2,
+      "span": 0.6000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49M",
+      "n": 8,
+      "span": 4.6499999999999995,
+      "same_ph_temp_max_span": 4.55,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49N",
+      "n": 2,
+      "span": 0.96,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49P",
+      "n": 2,
+      "span": 0.8,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49Q",
+      "n": 6,
+      "span": 6.1,
+      "same_ph_temp_max_span": 3.06,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49S",
+      "n": 5,
+      "span": 4.5,
+      "same_ph_temp_max_span": 3.0100000000000002,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49T",
+      "n": 2,
+      "span": 0.36,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49V",
+      "n": 5,
+      "span": 4.36,
+      "same_ph_temp_max_span": 3.49,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49W",
+      "n": 2,
+      "span": 0.13000000000000012,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "E49Y",
+      "n": 5,
+      "span": 2.3,
+      "same_ph_temp_max_span": 1.64,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "F139W",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.09999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "F22L",
+      "n": 2,
+      "span": 3.0,
+      "same_ph_temp_max_span": 3.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "F258W",
+      "n": 2,
+      "span": 0.3999999999999999,
+      "same_ph_temp_max_span": 0.3999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G211D",
+      "n": 2,
+      "span": 0.5,
+      "same_ph_temp_max_span": 0.5,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G211E",
+      "n": 7,
+      "span": 3.0999999999999996,
+      "same_ph_temp_max_span": 3.0999999999999996,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G211R",
+      "n": 3,
+      "span": 4.1,
+      "same_ph_temp_max_span": 4.1,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G211S",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G211V",
+      "n": 2,
+      "span": 2.1999999999999997,
+      "same_ph_temp_max_span": 2.1999999999999997,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G211W",
+      "n": 2,
+      "span": 0.5,
+      "same_ph_temp_max_span": 0.5,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G234D",
+      "n": 2,
+      "span": 0.6000000000000001,
+      "same_ph_temp_max_span": 0.6000000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "G234K",
+      "n": 2,
+      "span": 0.8,
+      "same_ph_temp_max_span": 0.8,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "I37A",
+      "n": 2,
+      "span": 1.5999999999999999,
+      "same_ph_temp_max_span": 1.5999999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "L127A",
+      "n": 2,
+      "span": 0.17999999999999994,
+      "same_ph_temp_max_span": 0.17999999999999994,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "L176A",
+      "n": 2,
+      "span": 1.75,
+      "same_ph_temp_max_span": 1.75,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "L50A",
+      "n": 2,
+      "span": 2.71,
+      "same_ph_temp_max_span": 2.71,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "L99A",
+      "n": 2,
+      "span": 0.69,
+      "same_ph_temp_max_span": 0.69,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P132A",
+      "n": 4,
+      "span": 1.19,
+      "same_ph_temp_max_span": 1.19,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P132G",
+      "n": 4,
+      "span": 1.4,
+      "same_ph_temp_max_span": 1.4,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P207A",
+      "n": 7,
+      "span": 2.8200000000000003,
+      "same_ph_temp_max_span": 2.8200000000000003,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P28A",
+      "n": 8,
+      "span": 4.17,
+      "same_ph_temp_max_span": 3.21,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P28G",
+      "n": 5,
+      "span": 3.0,
+      "same_ph_temp_max_span": 3.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P57A",
+      "n": 4,
+      "span": 0.44,
+      "same_ph_temp_max_span": 0.24,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P62A",
+      "n": 4,
+      "span": 1.0499999999999998,
+      "same_ph_temp_max_span": 1.0499999999999998,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "P96A",
+      "n": 4,
+      "span": 1.5799999999999998,
+      "same_ph_temp_max_span": 1.5799999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "1WQ5",
+      "mutation": "Y175C",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.4,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "A10G",
+      "n": 2,
+      "span": 0.18999999999999995,
+      "same_ph_temp_max_span": 0.18999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "A35G",
+      "n": 2,
+      "span": 0.49,
+      "same_ph_temp_max_span": 0.49,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "D22A",
+      "n": 2,
+      "span": 0.8200000000000001,
+      "same_ph_temp_max_span": 0.8200000000000001,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "E68A",
+      "n": 2,
+      "span": 0.44000000000000006,
+      "same_ph_temp_max_span": 0.44000000000000006,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "F6A",
+      "n": 2,
+      "span": 0.10999999999999988,
+      "same_ph_temp_max_span": 0.10999999999999988,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "K33A",
+      "n": 2,
+      "span": 0.5900000000000001,
+      "same_ph_temp_max_span": 0.5900000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "K33E",
+      "n": 2,
+      "span": 0.20999999999999996,
+      "same_ph_temp_max_span": 0.20999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "K33R",
+      "n": 2,
+      "span": 0.3900000000000001,
+      "same_ph_temp_max_span": 0.3900000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "K53M",
+      "n": 2,
+      "span": 0.3,
+      "same_ph_temp_max_span": 0.3,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "K55A",
+      "n": 2,
+      "span": 0.5499999999999999,
+      "same_ph_temp_max_span": 0.5499999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "K55M",
+      "n": 2,
+      "span": 0.49,
+      "same_ph_temp_max_span": 0.49,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "L16A",
+      "n": 2,
+      "span": 0.46999999999999975,
+      "same_ph_temp_max_span": 0.46999999999999975,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "L26A",
+      "n": 2,
+      "span": 1.0,
+      "same_ph_temp_max_span": 1.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "L81A",
+      "n": 2,
+      "span": 0.8700000000000001,
+      "same_ph_temp_max_span": 0.8700000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "P20A",
+      "n": 2,
+      "span": 0.16000000000000003,
+      "same_ph_temp_max_span": 0.16000000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "P45A",
+      "n": 2,
+      "span": 0.16999999999999993,
+      "same_ph_temp_max_span": 0.16999999999999993,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Q34A",
+      "n": 2,
+      "span": 0.6300000000000003,
+      "same_ph_temp_max_span": 0.6300000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "T36A",
+      "n": 2,
+      "span": 0.18999999999999995,
+      "same_ph_temp_max_span": 0.18999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "V13A",
+      "n": 2,
+      "span": 0.18999999999999995,
+      "same_ph_temp_max_span": 0.18999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "V78A",
+      "n": 2,
+      "span": 0.40000000000000013,
+      "same_ph_temp_max_span": 0.40000000000000013,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Y29A",
+      "n": 2,
+      "span": 0.04999999999999982,
+      "same_ph_temp_max_span": 0.04999999999999982,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Y29F",
+      "n": 2,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.19999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Y29N",
+      "n": 2,
+      "span": 0.2400000000000002,
+      "same_ph_temp_max_span": 0.2400000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Y32N",
+      "n": 2,
+      "span": 0.55,
+      "same_ph_temp_max_span": 0.55,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Y74A",
+      "n": 2,
+      "span": 0.3200000000000003,
+      "same_ph_temp_max_span": 0.3200000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ABD",
+      "mutation": "Y74F",
+      "n": 2,
+      "span": 0.24000000000000002,
+      "same_ph_temp_max_span": 0.24000000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ADA",
+      "mutation": "W117F",
+      "n": 2,
+      "span": 3.5599999999999996,
+      "same_ph_temp_max_span": 3.5599999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ADA",
+      "mutation": "W161F",
+      "n": 2,
+      "span": 2.719999999999999,
+      "same_ph_temp_max_span": 2.719999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2ADA",
+      "mutation": "W272F",
+      "n": 2,
+      "span": 6.859999999999999,
+      "same_ph_temp_max_span": 6.859999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "E34N",
+      "n": 2,
+      "span": 0.41999999999999993,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "E61A",
+      "n": 2,
+      "span": 0.06000000000000005,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "F70L",
+      "n": 2,
+      "span": 0.18999999999999995,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I40V",
+      "n": 6,
+      "span": 0.39,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I49A",
+      "n": 2,
+      "span": 0.4900000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I49V",
+      "n": 3,
+      "span": 0.3600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I50A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I50V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I77A",
+      "n": 3,
+      "span": 0.25,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "I77V",
+      "n": 3,
+      "span": 0.27,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "K37A",
+      "n": 2,
+      "span": 0.6399999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "K38A",
+      "n": 2,
+      "span": 1.22,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "K38G",
+      "n": 2,
+      "span": 0.6100000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "K44A",
+      "n": 2,
+      "span": 1.2000000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "L28A",
+      "n": 3,
+      "span": 0.7700000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "L52A",
+      "n": 2,
+      "span": 0.6300000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "L52V",
+      "n": 2,
+      "span": 0.52,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "L69A",
+      "n": 2,
+      "span": 0.18000000000000016,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "R68A",
+      "n": 2,
+      "span": 0.18999999999999995,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "S32A",
+      "n": 3,
+      "span": 2.02,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "S32G",
+      "n": 2,
+      "span": 0.8999999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "T23A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "V39A",
+      "n": 4,
+      "span": 0.48,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "V54A",
+      "n": 2,
+      "span": 0.010000000000000009,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "V54T",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "V67A",
+      "n": 2,
+      "span": 0.05999999999999961,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CI2",
+      "mutation": "V71A",
+      "n": 3,
+      "span": 1.04,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CRK",
+      "mutation": "D122A",
+      "n": 2,
+      "span": 0.48,
+      "same_ph_temp_max_span": 0.48,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2CRK",
+      "mutation": "D122N",
+      "n": 2,
+      "span": 1.2,
+      "same_ph_temp_max_span": 1.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2JYS",
+      "mutation": "H22L",
+      "n": 2,
+      "span": 0.6799999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2JYS",
+      "mutation": "Q8R",
+      "n": 2,
+      "span": 0.28,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2JYS",
+      "mutation": "S25T",
+      "n": 2,
+      "span": 0.04999999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2JYS",
+      "mutation": "T28D",
+      "n": 2,
+      "span": 0.009999999999999995,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2KIU",
+      "mutation": "H520A",
+      "n": 3,
+      "span": 1.5999999999999996,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2L3Y",
+      "mutation": "H57A",
+      "n": 2,
+      "span": 3.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2L3Y",
+      "mutation": "W60A",
+      "n": 3,
+      "span": 5.1,
+      "same_ph_temp_max_span": 4.8,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2LCP",
+      "mutation": "R102Q",
+      "n": 2,
+      "span": 1.6400000000000001,
+      "same_ph_temp_max_span": 1.6400000000000001,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "A125T",
+      "n": 2,
+      "span": 0.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "A24V",
+      "n": 2,
+      "span": 0.15000000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "A52V",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D10A",
+      "n": 3,
+      "span": 1.6,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D10E",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D10H",
+      "n": 2,
+      "span": 2.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D10N",
+      "n": 2,
+      "span": 2.7,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D10S",
+      "n": 2,
+      "span": 2.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134A",
+      "n": 4,
+      "span": 1.2,
+      "same_ph_temp_max_span": 0.08999999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134E",
+      "n": 2,
+      "span": 0.14,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134H",
+      "n": 4,
+      "span": 1.44,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134I",
+      "n": 2,
+      "span": 0.5800000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134L",
+      "n": 2,
+      "span": 0.3600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134N",
+      "n": 4,
+      "span": 1.9000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134Q",
+      "n": 2,
+      "span": 0.8400000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134S",
+      "n": 2,
+      "span": 0.8200000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134T",
+      "n": 2,
+      "span": 0.9600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D134V",
+      "n": 2,
+      "span": 0.81,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D70A",
+      "n": 2,
+      "span": 1.2000000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D70E",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D70N",
+      "n": 2,
+      "span": 1.9000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "D94E",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "E119V",
+      "n": 2,
+      "span": 0.65,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "E135K",
+      "n": 2,
+      "span": 0.8800000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "E48A",
+      "n": 2,
+      "span": 0.19999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "E48D",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "E48Q",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "G23A",
+      "n": 4,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H124A",
+      "n": 3,
+      "span": 0.43,
+      "same_ph_temp_max_span": 0.30999999999999994,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H127A",
+      "n": 3,
+      "span": 0.33999999999999997,
+      "same_ph_temp_max_span": 0.33999999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H62A",
+      "n": 3,
+      "span": 0.21999999999999997,
+      "same_ph_temp_max_span": 0.020000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H62D",
+      "n": 2,
+      "span": 0.8400000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H62P",
+      "n": 7,
+      "span": 0.3600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H62R",
+      "n": 2,
+      "span": 0.39,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "H83A",
+      "n": 3,
+      "span": 0.31,
+      "same_ph_temp_max_span": 0.23,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "I53D",
+      "n": 2,
+      "span": 1.9999999999999996,
+      "same_ph_temp_max_span": 1.9999999999999996,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "K117R",
+      "n": 2,
+      "span": 0.09,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "K91R",
+      "n": 2,
+      "span": 0.2,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "K95A",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "K95G",
+      "n": 2,
+      "span": 0.19999999999999996,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "K95N",
+      "n": 4,
+      "span": 0.020000000000000018,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "Q113P",
+      "n": 2,
+      "span": 0.39999999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "R41C",
+      "n": 2,
+      "span": 0.32,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "S68A",
+      "n": 2,
+      "span": 0.69,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "S68G",
+      "n": 2,
+      "span": 0.19999999999999973,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "S68L",
+      "n": 2,
+      "span": 0.5,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "S68T",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "S68V",
+      "n": 2,
+      "span": 0.6900000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "V74A",
+      "n": 4,
+      "span": 1.1999999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "V74I",
+      "n": 4,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2RN2",
+      "mutation": "V74L",
+      "n": 6,
+      "span": 0.20000000000000007,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2TS1",
+      "mutation": "I52L",
+      "n": 3,
+      "span": 3.77,
+      "same_ph_temp_max_span": 3.77,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2TS1",
+      "mutation": "L105V",
+      "n": 3,
+      "span": 5.6499999999999995,
+      "same_ph_temp_max_span": 5.6499999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2TS1",
+      "mutation": "T51P",
+      "n": 3,
+      "span": 1.42,
+      "same_ph_temp_max_span": 1.42,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2W0K",
+      "mutation": "H8P",
+      "n": 2,
+      "span": 0.20000000000000007,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2W0K",
+      "mutation": "H8S",
+      "n": 2,
+      "span": 0.39999999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2W0K",
+      "mutation": "P7S",
+      "n": 2,
+      "span": 1.1,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "A18V",
+      "n": 3,
+      "span": 4.199999999999999,
+      "same_ph_temp_max_span": 4.199999999999999,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "F22I",
+      "n": 3,
+      "span": 4.2,
+      "same_ph_temp_max_span": 4.2,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "F22L",
+      "n": 3,
+      "span": 0.9700000000000001,
+      "same_ph_temp_max_span": 0.9700000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "F22V",
+      "n": 3,
+      "span": 3.56,
+      "same_ph_temp_max_span": 3.56,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "I232V",
+      "n": 2,
+      "span": 2.4,
+      "same_ph_temp_max_span": 2.4,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "L209V",
+      "n": 2,
+      "span": 1.4,
+      "same_ph_temp_max_span": 1.4,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "2WSY",
+      "mutation": "Y175Q",
+      "n": 2,
+      "span": 3.5,
+      "same_ph_temp_max_span": 3.5,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "3BCI",
+      "mutation": "T171V",
+      "n": 2,
+      "span": 0.28,
+      "same_ph_temp_max_span": 0.28,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3BDN",
+      "mutation": "M41A",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3BDN",
+      "mutation": "V37I",
+      "n": 2,
+      "span": 0.4,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3BLS",
+      "mutation": "Y166F",
+      "n": 2,
+      "span": 0.30000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3K82",
+      "mutation": "E401R",
+      "n": 3,
+      "span": 2.63,
+      "same_ph_temp_max_span": 2.63,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3MXF",
+      "mutation": "A420D",
+      "n": 2,
+      "span": 4.489999999999999,
+      "same_ph_temp_max_span": 4.489999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3MXF",
+      "mutation": "A89V",
+      "n": 2,
+      "span": 1.78,
+      "same_ph_temp_max_span": 1.78,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "F195W",
+      "n": 4,
+      "span": 6.96,
+      "same_ph_temp_max_span": 6.96,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "L400W",
+      "n": 2,
+      "span": 0.6299999999999999,
+      "same_ph_temp_max_span": 0.6299999999999999,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "W309F",
+      "n": 2,
+      "span": 0.08000000000000007,
+      "same_ph_temp_max_span": 0.08000000000000007,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "W309Y",
+      "n": 3,
+      "span": 4.37,
+      "same_ph_temp_max_span": 4.27,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "W334F",
+      "n": 3,
+      "span": 6.24,
+      "same_ph_temp_max_span": 0.10999999999999988,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "W334Y",
+      "n": 2,
+      "span": 7.82,
+      "same_ph_temp_max_span": 7.82,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "Y123W",
+      "n": 4,
+      "span": 5.08,
+      "same_ph_temp_max_span": 5.08,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3PGK",
+      "mutation": "Y49W",
+      "n": 4,
+      "span": 4.76,
+      "same_ph_temp_max_span": 4.76,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3S92",
+      "mutation": "H395R",
+      "n": 2,
+      "span": 0.9099999999999997,
+      "same_ph_temp_max_span": 0.9099999999999997,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104A",
+      "n": 3,
+      "span": 0.42000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104D",
+      "n": 3,
+      "span": 0.52,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104E",
+      "n": 3,
+      "span": 0.7000000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104G",
+      "n": 3,
+      "span": 0.43,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104I",
+      "n": 3,
+      "span": 0.55,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104K",
+      "n": 3,
+      "span": 1.22,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104L",
+      "n": 3,
+      "span": 0.42000000000000004,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M104V",
+      "n": 3,
+      "span": 0.48999999999999994,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M134A",
+      "n": 3,
+      "span": 1.4499999999999997,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M134I",
+      "n": 3,
+      "span": 0.40000000000000013,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M134L",
+      "n": 3,
+      "span": 1.06,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "M134V",
+      "n": 3,
+      "span": 0.8700000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "V44F",
+      "n": 2,
+      "span": 0.3600000000000003,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "V44I",
+      "n": 2,
+      "span": 0.09999999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "V44L",
+      "n": 2,
+      "span": 0.31000000000000005,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "3SSI",
+      "mutation": "V44M",
+      "n": 2,
+      "span": 0.4900000000000002,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "451C",
+      "mutation": "E65Y",
+      "n": 3,
+      "span": 1.0399999999999998,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "451C",
+      "mutation": "E92Q",
+      "n": 2,
+      "span": 1.1,
+      "same_ph_temp_max_span": 1.1,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "451C",
+      "mutation": "E92V",
+      "n": 2,
+      "span": 1.7,
+      "same_ph_temp_max_span": 1.7,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "451C",
+      "mutation": "F56Y",
+      "n": 3,
+      "span": 1.6199999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "451C",
+      "mutation": "V100I",
+      "n": 5,
+      "span": 1.43,
+      "same_ph_temp_max_span": 1.43,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "E53A",
+      "n": 5,
+      "span": 0.91,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "E53H",
+      "n": 5,
+      "span": 2.8200000000000003,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "E53Q",
+      "n": 5,
+      "span": 1.01,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "G67A",
+      "n": 2,
+      "span": 3.8099999999999996,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "G85A",
+      "n": 2,
+      "span": 2.25,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "I73T",
+      "n": 2,
+      "span": 1.6600000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "N64D",
+      "n": 5,
+      "span": 1.3,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "W126Q",
+      "n": 5,
+      "span": 0.56,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "4LYZ",
+      "mutation": "W126Y",
+      "n": 5,
+      "span": 0.1499999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "A102G",
+      "n": 2,
+      "span": 1.44,
+      "same_ph_temp_max_span": 1.44,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "C132S",
+      "n": 13,
+      "span": 4.16,
+      "same_ph_temp_max_span": 4.16,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "F130S",
+      "n": 3,
+      "span": 2.7,
+      "same_ph_temp_max_span": 0.8999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I101A",
+      "n": 3,
+      "span": 0.9600000000000002,
+      "same_ph_temp_max_span": 0.9600000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I101T",
+      "n": 4,
+      "span": 0.8400000000000003,
+      "same_ph_temp_max_span": 0.8400000000000003,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I101V",
+      "n": 4,
+      "span": 0.16999999999999998,
+      "same_ph_temp_max_span": 0.16999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I27A",
+      "n": 2,
+      "span": 0.2400000000000002,
+      "same_ph_temp_max_span": 0.2400000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I27S",
+      "n": 3,
+      "span": 3.4000000000000004,
+      "same_ph_temp_max_span": 0.6000000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I40A",
+      "n": 3,
+      "span": 0.8400000000000001,
+      "same_ph_temp_max_span": 0.8400000000000001,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I40T",
+      "n": 4,
+      "span": 0.4800000000000002,
+      "same_ph_temp_max_span": 0.4800000000000002,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "I40V",
+      "n": 4,
+      "span": 0.38,
+      "same_ph_temp_max_span": 0.38,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "L145A",
+      "n": 2,
+      "span": 0.95,
+      "same_ph_temp_max_span": 0.95,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "L70T",
+      "n": 4,
+      "span": 0.18999999999999995,
+      "same_ph_temp_max_span": 0.18999999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "L70V",
+      "n": 4,
+      "span": 0.12,
+      "same_ph_temp_max_span": 0.12,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "V115T",
+      "n": 4,
+      "span": 1.08,
+      "same_ph_temp_max_span": 1.08,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": true
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "V25A",
+      "n": 2,
+      "span": 0.96,
+      "same_ph_temp_max_span": 0.96,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "V42A",
+      "n": 3,
+      "span": 0.24,
+      "same_ph_temp_max_span": 0.24,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "V42T",
+      "n": 4,
+      "span": 3.34,
+      "same_ph_temp_max_span": 3.34,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "V51T",
+      "n": 4,
+      "span": 2.9799999999999995,
+      "same_ph_temp_max_span": 2.9799999999999995,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5AZU",
+      "mutation": "V80G",
+      "n": 2,
+      "span": 0.0,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "E139K",
+      "n": 2,
+      "span": 0.020000000000000018,
+      "same_ph_temp_max_span": 0.020000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "G121L",
+      "n": 2,
+      "span": 0.25,
+      "same_ph_temp_max_span": 0.25,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "G121V",
+      "n": 2,
+      "span": 0.22999999999999998,
+      "same_ph_temp_max_span": 0.22999999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "I155A",
+      "n": 2,
+      "span": 0.18000000000000016,
+      "same_ph_temp_max_span": 0.18000000000000016,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "I155L",
+      "n": 2,
+      "span": 0.5299999999999998,
+      "same_ph_temp_max_span": 0.5299999999999998,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "I155V",
+      "n": 2,
+      "span": 0.58,
+      "same_ph_temp_max_span": 0.58,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "L28R",
+      "n": 2,
+      "span": 0.020000000000000018,
+      "same_ph_temp_max_span": 0.020000000000000018,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "R44L",
+      "n": 2,
+      "span": 0.10000000000000009,
+      "same_ph_temp_max_span": 0.10000000000000009,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "5DFR",
+      "mutation": "V75H",
+      "n": 2,
+      "span": 0.7,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": false,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "A109G",
+      "n": 2,
+      "span": 6.23,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "A112G",
+      "n": 2,
+      "span": 5.21,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "A58G",
+      "n": 2,
+      "span": 5.32,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "F83A",
+      "n": 2,
+      "span": 9.969999999999999,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "F87A",
+      "n": 2,
+      "span": 4.42,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "I94A",
+      "n": 2,
+      "span": 9.46,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "L116A",
+      "n": 2,
+      "span": 3.23,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "L70A",
+      "n": 2,
+      "span": 7.960000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "L90A",
+      "n": 2,
+      "span": 7.91,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "L98A",
+      "n": 2,
+      "span": 6.91,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "M55A",
+      "n": 2,
+      "span": 6.470000000000001,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "M80A",
+      "n": 2,
+      "span": 6.52,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    },
+    {
+      "pdb": "6BQG",
+      "mutation": "V106A",
+      "n": 2,
+      "span": 7.27,
+      "same_ph_temp_max_span": 0.0,
+      "sign_discordant": true,
+      "same_recorded_ph_temp_sign_discordant": false
+    }
+  ],
+  "caveat": "PDB ID plus substitution is not a unique experiment; constructs, assay methods, buffers, data-source definitions and unrecorded conditions can differ. Quantiles are variation among database rows, not instrument error or predictive-model uncertainty."
+}
