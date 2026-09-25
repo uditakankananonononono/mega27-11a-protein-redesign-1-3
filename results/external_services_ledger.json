@@ -216,16 +216,34 @@
       "purpose": "Downloaded release r21 TP53 functional-annotation CSV and audited exact Y220C, G245S, R249S, N239Y and H168R published assay records without pooling them as rescue validation",
       "evidence": "data/tp53_function_r21.csv; results/tp53_function_audit.json",
       "url": "https://tp53.cancer.gov/static/data/FunctionDownload_r21.csv"
+    },
+    {
+      "service": "NCI Genomic Data Commons",
+      "purpose": "Queried TP53 gene metadata; gene identity context, not a mutation-level treatment outcome",
+      "evidence": "data/external_service_evidence/gdc_tp53.json",
+      "url": "https://api.gdc.cancer.gov/genes?filters=%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22symbol%22%2C%22value%22%3A%5B%22TP53%22%5D%7D%7D&size=1"
+    },
+    {
+      "service": "CIViC",
+      "purpose": "Queried curated TP53 gene 45 description through its GraphQL API; not interpreted as Y220C rescue evidence",
+      "evidence": "data/external_service_evidence/civic_tp53.json",
+      "url": "https://civicdb.org/api/graphql"
+    },
+    {
+      "service": "Open Targets Platform",
+      "purpose": "Queried target ENSG00000141510 GraphQL record and confirmed approved symbol/name TP53",
+      "evidence": "data/external_service_evidence/open_targets_tp53.json",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
     }
   ],
-  "distinct_count_including_workflow_services": 36,
-  "strict_scientific_data_and_literature_count": 34,
+  "distinct_count_including_workflow_services": 39,
+  "strict_scientific_data_and_literature_count": 37,
   "gate": 40,
-  "remaining_under_broad_count": 4,
-  "caveat": "Strict count collapses Ensembl gene and VEP endpoints; GitHub and Drive infrastructure excluded. Thirty-three real scientific data/literature services are evidenced, seven remain. Failed or semantically irrelevant queries do not create affirmative biology claims.",
+  "remaining_under_broad_count": 1,
+  "caveat": "Strict count excludes GitHub/Drive infrastructure, collapses Ensembl gene and VEP endpoints, and counts only real queried scientific services. Thirty-seven are evidenced; three remain. Broad gene summaries are used only for identity and clinical-context caution, never as functional rescue validation.",
   "gate_count_definition": "Strict distinct scientific data/literature services; GitHub and Google Drive workflow services excluded",
-  "gate_count": 34,
-  "gate_remaining": 6,
+  "gate_count": 37,
+  "gate_remaining": 3,
   "discovered_but_not_counted": {
     "reason": "Only public overview pages read; no mutation-specific query or calculation. Not enough for actually used scientific tool gate.",
     "services": [
