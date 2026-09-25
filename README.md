@@ -1,6 +1,6 @@
 # Protein rescue, item 11a
 
-Work in progress. No rescue mutation is experimentally validated by this repository. The S669 table contains experimental stability changes and third-party predictions; its aggregate performance must never be represented as a held-out test for a predictor trained on S669. Evaluation groups by PDB identifier.
+Work in progress. The dataset, service, formula and page-count gates are audited, but repository publication and a validated rescue finding remain open. No rescue mutation is experimentally validated by this repository. The S669 table contains experimental stability changes and third-party predictions; its aggregate performance must never be represented as a held-out test for a predictor trained on S669. Evaluation groups by PDB identifier.
 
 Source data: [S669](https://github.com/Gonglab-THU/GeoStab/blob/main/data/ddG/S669.csv), original benchmark [Zenodo](https://zenodo.org/records/7568094), structures [RCSB](https://www.rcsb.org/structure/1TSR). Data is tracked with source attribution; measured findings must be read from `results/` after reproducible runs.
 
@@ -9,7 +9,8 @@ Source data: [S669](https://github.com/Gonglab-THU/GeoStab/blob/main/data/ddG/S6
 ```bash
 pip install -e .
 python data/fetch_structures.py
-protein-rescue benchmark --epochs 15
+protein-rescue benchmark --epochs 15 --graph-cache results/checkpoints  # only if independently regenerated from the exact CSV, PDB files and checked mapping code
+# without the cache: protein-rescue benchmark --epochs 15 (may exceed a short shell timeout)
 protein-rescue audit
 python data/prepare_fireprot.py --source data/raw/fireprotdb.csv
 protein-rescue fireprot-audit
@@ -24,4 +25,6 @@ The raw FireProtDB bulk export used for the present audit timed out and is a par
 
 ## Status and limits
 
-The exploratory manuscript is in `paper/manuscript.pdf` (rendered fourteen pages, 18 numbered equations and eight data figures). This is a draft below the requested 20-page paper gate. The GNN loses to published stored S669 predictions. FireProtDB DDG records were audited but not trained together with S669 due to uncertain sign and condition conventions. The CLI supplies a benchmark, data audit, residue mapper and experimental double-mutant cycle calculator, not clinically valid mutation recommendations. See `results/` JSON for measured results and failures. No therapeutic rescue mutation is claimed.
+The corrected exploratory manuscript is in `paper/manuscript.pdf`: 20 rendered pages, 18 displayed equations, nine figures and full-data audit tables. It uses embedded Nimbus Roman, a Times-compatible substitute rather than actual Times New Roman. The 669-row S669 mapping yields 94 PDBs; a PDB-group holdout has 603 training and 66 test variants across 70 and 24 disjoint PDBs. On that test split, GNN MAE is 1.422 versus stored GeoDDG-Seq 1.310 and DDMut 1.290 kcal/mol, so this GNN did not outperform those published predictions. Comparator historical training overlap remains unknown. The 163 accession-backed PDBs were fetched and used: 94 S669, 74 FireProtDB direct mutation-number matches (11 overlap), and six mutant-structure comparisons. The 40 distinct scientific-service ledger excludes GitHub/Drive and collapses Ensembl endpoints; service count is not a study count or a measure of evidentiary strength. Source/history is backed up to the program Drive folder while the exact GitHub repo remains inaccessible. The old 420-row result and PDF are explicitly quarantined in `results/legacy_420_subset` and `paper/legacy_420_subset` because the first site mapper confused PDB label numbering with sequence offsets. They are not the current benchmark.
+
+FireProtDB DDG records were audited but not pooled with S669 because assay definitions, conditions and signs need harmonization. The CLI supplies a benchmark, data audit, residue mapper and experimental double-mutant cycle calculator, not clinically valid mutation recommendations. No therapeutic rescue mutation is claimed.
