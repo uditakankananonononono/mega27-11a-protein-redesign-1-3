@@ -1,0 +1,162 @@
+\clearpage
+\section{Supplementary per-protein and source audits}
+\subsection{Scope and reproducibility}
+The following tables expand the existing analysis without rerunning a model. They are transcribed from committed JSON files. They audit denominator choices and identify outlying groups; they do not create a new validation cohort. A mutation-row error and a protein-equal error answer different questions. Each protein belongs to one held-out PDB accession in the fixed split; variants within that structure share context.
+\subsection{Held-out PDB group contributions}
+Table~\ref{tab:grp} transcribes the 24 groups in \texttt{results/group\_sensitivity.json}. Delta is GNN minus stored GeoDDG-Seq mean absolute error in kcal/mol; a positive value favors the comparator. Group size ranges down to one. A negative delta for a singleton is not evidence of generalization on that protein family.
+\begin{longtable}{lrrrr}
+\caption{Fixed 66-variant test panel by PDB.}\label{tab:grp}\\
+\hline PDB & Variants & GNN MAE & Comparator MAE & Delta\\\hline\endfirsthead
+\hline PDB & Variants & GNN MAE & Comparator MAE & Delta\\\hline\endhead
+1H0X & 2 & 1.237 & 1.567 & -0.330\\
+1IOJ & 1 & 2.367 & 0.229 & 2.138\\
+1ITM & 3 & 2.802 & 2.890 & -0.088\\
+1JLV & 3 & 1.080 & 1.486 & -0.406\\
+1N18 & 4 & 0.944 & 0.537 & 0.406\\
+1OSI & 4 & 0.499 & 0.834 & -0.335\\
+1PRG & 7 & 0.798 & 0.394 & 0.405\\
+1R6R & 4 & 2.150 & 2.342 & -0.192\\
+1XXN & 5 & 0.937 & 0.594 & 0.343\\
+1XZO & 4 & 4.623 & 3.848 & 0.775\\
+2BJD & 3 & 2.562 & 0.891 & 1.672\\
+2N7Z & 1 & 0.301 & 1.423 & -1.123\\
+2NTE & 2 & 1.836 & 1.337 & 0.499\\
+3BCI & 2 & 1.024 & 1.379 & -0.354\\
+3BN0 & 1 & 0.594 & 0.597 & -0.004\\
+3FIS & 1 & 0.464 & 1.037 & -0.573\\
+3L15 & 1 & 0.277 & 1.835 & -1.558\\
+3MON & 2 & 1.573 & 1.710 & -0.136\\
+3O39 & 6 & 0.854 & 0.748 & 0.105\\
+3S92 & 1 & 1.213 & 4.179 & -2.966\\
+4BJX & 1 & 1.852 & 1.729 & 0.122\\
+4BUQ & 2 & 1.878 & 0.706 & 1.172\\
+4N6V & 3 & 0.687 & 1.142 & -0.455\\
+4WAA & 3 & 0.678 & 0.786 & -0.108\\
+\hline\end{longtable}
+The row-weighted mean delta is +0.1118; the equal-protein mean delta is -0.0413. The two largest PDBs account for 19.7\% of test rows. The reported protein bootstrap interval [-0.4337, +0.3516] includes zero; the row bootstrap interval [-0.1273, +0.3436] does too. Thus neither weighting definition alone establishes superiority.
+\subsection{Sparse-protein sensitivity}
+The next table copies the thresholded diagnostics in \texttt{results/sparse\_group\_sensitivity.json}. Thresholds were inspected after the fixed test set, so their sign changes are a warning, not a selection rule.
+\begin{center}\begin{tabular}{rrrrr}\hline Minimum rows/PDB & Proteins & Variants & Protein-equal delta & Row delta\\\hline
+1 & 24 & 66 & -0.041 & 0.112\\
+2 & 17 & 59 & 0.175 & 0.192\\
+3 & 12 & 49 & 0.177 & 0.197\\
+4 & 7 & 34 & 0.215 & 0.229\\
+5 & 3 & 18 & 0.284 & 0.288\\
+\hline\end{tabular}\end{center}
+At a two-row minimum the equal-protein delta becomes +0.1748, from -0.0413 at the one-row threshold. Only three proteins and 18 variants survive a five-row minimum. No test proteins survive thresholds of ten or twenty rows. The lack of dense independent groups limits subgroup inference.
+\subsection{Observed-label error strata}
+The next table copies \texttt{results/error\_strata.json}. The strata use observed experimental labels; therefore they cannot be used as prospective routing rules when those labels are unknown.
+\begin{center}\begin{tabular}{lrrrr}\hline Observed DDG bin & n & Groups & GNN MAE & Delta\\\hline
+DDG $\leq -1.5$ & 26 & 14 & 2.120 & 0.333\\
+$-1.5 < $DDG$ \leq -0.5$ & 12 & 10 & 0.621 & -0.164\\
+$-0.5 < $DDG$ \leq 0.5$ & 18 & 8 & 0.741 & 0.339\\
+DDG $>0.5$ & 10 & 9 & 1.793 & -0.543\\
+\hline\end{tabular}\end{center}
+The GNN has lower absolute error on 31 of 66 test mutations, whereas the comparator is lower on 35. At PDB level the corresponding counts are 14 and 10; rows and groups weight different biological units. The highest positive-label bin has only ten variants and a favorable GNN delta, which is too little for a new prospective method claim.
+\subsection{Leave-one-PDB-out ridge baseline, not a retrained GNN}
+The committed \texttt{results/leave\_one\_pdb\_out.json} repeats train-only scaling and ridge training 94 times, each time withholding one PDB. It reports 669 variants; ridge row-weighted MAE 1.1812 versus train-mean 1.2492, protein-equal MAE 1.4151 versus 1.4632, and ridge better on 48 of 94 PDB groups. The median group size is three and 27 groups are singletons. This experiment does \emph{not} retrain the graph model, and these pooled ridge figures are not a direct same-split comparison to the 66-row GNN test.
+The following table gives the committed per-PDB ridge and train-mean errors. It is an audit trail for heterogeneity, not 94 statistically independent replications of model quality.
+\begin{longtable}{lrrr}
+\caption{Leave-one-PDB-out ridge sensitivity, all 94 groups.}\label{tab:loo}\\
+\hline PDB & Variants & Ridge MAE & Train-mean MAE\\\hline\endfirsthead
+\hline PDB & Variants & Ridge MAE & Train-mean MAE\\\hline\endhead
+1A0F & 1 & 1.191 & 0.840\\
+1A7V & 13 & 1.247 & 1.140\\
+1BA3 & 4 & 0.542 & 0.853\\
+1BFM & 2 & 0.942 & 0.413\\
+1BNL & 1 & 0.347 & 0.141\\
+1D5G & 2 & 0.865 & 1.401\\
+1DIV & 50 & 0.926 & 1.253\\
+1DXX & 1 & 2.720 & 2.742\\
+1EKG & 4 & 1.765 & 1.170\\
+1F8I & 1 & 1.484 & 0.507\\
+1FH5 & 1 & 1.137 & 1.564\\
+1FRD & 1 & 2.755 & 4.969\\
+1FT8 & 13 & 0.401 & 0.648\\
+1FXA & 11 & 0.940 & 0.737\\
+1G3P & 27 & 1.112 & 0.790\\
+1GLU & 1 & 0.303 & 0.259\\
+1GUA & 49 & 0.877 & 0.980\\
+1GWY & 1 & 0.340 & 0.639\\
+1H0X & 2 & 1.830 & 1.301\\
+1HCQ & 2 & 1.319 & 1.082\\
+1IOJ & 1 & 2.354 & 1.364\\
+1IR3 & 1 & 1.740 & 1.564\\
+1ITM & 3 & 3.750 & 2.915\\
+1IV7 & 3 & 0.863 & 1.313\\
+1IV9 & 1 & 4.139 & 5.269\\
+1J8I & 6 & 0.584 & 1.223\\
+1JL9 & 1 & 1.155 & 0.479\\
+1JLV & 3 & 1.143 & 0.965\\
+1L6H & 3 & 0.537 & 0.556\\
+1LVM & 5 & 0.793 & 1.459\\
+1N18 & 4 & 1.262 & 1.350\\
+1N88 & 17 & 0.842 & 1.540\\
+1NM1 & 2 & 1.304 & 0.510\\
+1O1U & 6 & 0.703 & 0.830\\
+1O6X & 20 & 0.777 & 0.581\\
+1OSI & 4 & 0.866 & 0.934\\
+1PFL & 5 & 1.014 & 1.590\\
+1PRE & 1 & 3.043 & 1.440\\
+1PRG & 7 & 0.702 & 0.903\\
+1R2Y & 1 & 4.348 & 3.243\\
+1R6R & 4 & 1.900 & 2.320\\
+1SPD & 2 & 1.591 & 1.416\\
+1X0J & 7 & 4.029 & 3.200\\
+1XWS & 4 & 2.665 & 2.556\\
+1XXN & 5 & 1.230 & 0.656\\
+1XZO & 4 & 4.411 & 4.261\\
+2ARF & 1 & 0.698 & 0.245\\
+2BJD & 3 & 2.437 & 2.755\\
+2C9Q & 2 & 0.958 & 0.611\\
+2CLR & 4 & 1.885 & 1.817\\
+2DVV & 2 & 1.369 & 1.401\\
+2H3F & 1 & 2.269 & 2.035\\
+2HBB & 46 & 0.761 & 0.818\\
+2JIE & 51 & 2.017 & 1.921\\
+2JUC & 3 & 1.139 & 0.874\\
+2KJ3 & 9 & 2.310 & 1.921\\
+2KS4 & 2 & 1.608 & 1.481\\
+2LTB & 6 & 1.304 & 1.439\\
+2M5S & 2 & 1.602 & 2.044\\
+2MPC & 3 & 1.144 & 1.790\\
+2N7Z & 1 & 0.545 & 0.362\\
+2NTE & 2 & 1.790 & 1.192\\
+2OUO & 1 & 1.930 & 1.404\\
+2PR5 & 17 & 1.242 & 1.669\\
+2PTL & 68 & 0.993 & 1.104\\
+2RPN & 2 & 2.062 & 1.687\\
+2VY0 & 2 & 4.837 & 5.340\\
+2WQG & 29 & 0.818 & 0.800\\
+2ZTA & 8 & 0.596 & 0.630\\
+3BCI & 2 & 1.441 & 1.253\\
+3BN0 & 1 & 0.651 & 0.545\\
+3C2I & 12 & 1.205 & 1.488\\
+3D2A & 3 & 3.432 & 3.802\\
+3D3B & 5 & 0.824 & 0.428\\
+3DV0 & 31 & 0.715 & 0.920\\
+3ECU & 1 & 0.476 & 1.764\\
+3FIS & 1 & 0.374 & 0.462\\
+3G1G & 4 & 0.456 & 1.156\\
+3K82 & 3 & 2.876 & 3.184\\
+3L15 & 1 & 0.497 & 2.272\\
+3MON & 2 & 1.748 & 2.030\\
+3O39 & 6 & 1.014 & 1.026\\
+3S4M & 4 & 1.059 & 0.801\\
+3S92 & 1 & 0.734 & 2.996\\
+4BJX & 1 & 0.765 & 1.955\\
+4BUQ & 2 & 1.099 & 1.163\\
+4HE7 & 3 & 0.655 & 0.752\\
+4N6V & 3 & 1.098 & 1.549\\
+4WAA & 3 & 0.742 & 0.897\\
+4YEE & 1 & 1.036 & 0.252\\
+4YEF & 1 & 0.799 & 0.032\\
+5JXB & 2 & 0.773 & 0.480\\
+5OAQ & 1 & 0.163 & 2.031\\
+5VP3 & 3 & 1.285 & 1.096\\
+\hline\end{longtable}
+\subsection{Partial FireProtDB export: duplicate and assay cautions}
+The partial export in \texttt{results/fireprot\_discordance.json} contains 3,865 filtered experiments. There are 753 repeated (PDB, substitution) groups, 675 with nonzero recorded DDG span, and 147 with opposite sign across rows. Among repeated groups with the same recorded pH and temperature, 88 still have sign discordance. The median repeated-group DDG span is 0.50 kcal/mol and the 90th percentile 3.68. These spans mix constructs, measurements, labels and unrecorded assay differences; they are neither instrument error estimates nor predictive-model confidence intervals.
+The direct-numbering audit in \texttt{results/fireprot\_mapping\_audit.json} retains 1,470 direct residue-number matches on 74 PDB structures. A residue/number match is necessary for a structural comparison but insufficient to harmonize assay sign conventions, state, or construct. This is a partial export, not a complete FireProtDB census. [PENDING: source-level assay harmonization and an independent protein-family-held-out test.]
+\subsection{Interpretation}
+The most useful output of this lane is a corrected mutation-to-structure mapping and a bounded negative benchmark. The per-group tables reveal why a single favorable subgroup or a changed weighting rule should not be described as a rescue discovery. Disease-mutant-background experiments remain pending, and no validated second-site clinical rescue is established.
