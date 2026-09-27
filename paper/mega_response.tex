@@ -1,0 +1,18 @@
+\clearpage
+\section{Owner-verdict response: negative protein holdout and abstention}
+\subsection{A corrected graph result is still a negative comparator result}
+The corrected S669 analysis builds graphs for all 669 variants and puts 66 variants from 24 PDB accessions in the fixed holdout. On those same rows the residue GNN has MAE 1.4219 kcal/mol and Spearman 0.4024. Stored GeoDDG-Seq predictions give MAE 1.3101 and Spearman 0.4030, and stored DDMut gives MAE 1.2897 and Spearman 0.4987. The graph model did not beat the best recorded comparator on these outcomes. Comparators' training-set overlaps are not independently ruled out, so this is a common-row prediction comparison rather than a clean retraining contest. No therapeutic rescue nomination is validated by a DDG benchmark. The earlier 420-row subset was caused by a residue-numbering error; it cannot be added to the 669-row analysis as a second study.
+
+\subsection{Rank is not a calibrated effect or a biological rescue}
+Even rank-level claims need a matching target, background and measurement domain. The disease-protein case studies demonstrate how a change of protein, construct, assay and function can invalidate a seemingly good pooled metric. A DDG rank orders predicted stability changes under this model; it does not measure protein activity, cell viability or disease rescue. No calibrated absolute energy or multi-mutant additive sum can be inferred from a high rank. Published suppressor reports motivate a prospective test, but do not turn the current graph score into a functional prediction. Protein structures, variant rows, PDB accessions and independent experimental studies are different counting units; the partial FireProtDB snapshot is not a census of that resource.
+
+\subsection{Abstention path}
+\begin{enumerate}
+\item Confirm the wild-type/mutant one-site difference, PDB numbering and experimental construct. If insertion codes, structure background, cofactors or residue identity are ambiguous, do not score a rescue hypothesis.
+\item Check whether the target belongs to the training and evaluation domain. A PDB-group split protects exact accession groups but not distant family homology; homolog overlap and assay-state mismatch need a separate audit. For metal or dimer-interface mechanisms absent from a C$\alpha$ local graph, abstain from interpreting a graph score as a molecular mechanism.
+\item Only report a model-specific rank as exploratory triage, paired with same-row simple baselines and source uncertainty. If a comparator already outperforms this GNN on the locked endpoint, do not advertise a graph win. Do not sum single substitutions into a rescue energy.
+\item Demand an independent matched assay before calling any ranked variant a rescue. Without that assay, the appropriate output is an unvalidated test plan.
+\end{enumerate}
+
+\subsection{A prospective endpoint, not a retroactive win}
+Freeze protein-family labels, assay conventions and target constructs before a family-held-out retrain. Compare paired per-family errors with appropriate uncertainty; do not count multiple mutations of one protein as independent transfer tests. Contact-map or ESM features, metal/dimer-aware representations, an antisymmetry-consistent second benchmark, cross-species p53 and a prospectively nominated rescue are [PENDING]. The existing 66-row fixed holdout remains an honest negative until committed new outcomes change a separately locked protocol. This paper-side response adds a decision-use section, not new numerical science or a slide deck.

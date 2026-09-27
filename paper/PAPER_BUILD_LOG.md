@@ -27,3 +27,7 @@ The owner said "NOT 10 ROUNDS OOF CHATGPT CHECK JUST ONE WHICH I PROVIDE OK?" (a
 ## Authorship-attribution cleanup, 2026-09-27 11:14 IST
 
 The owner requested removal of the assistant's attribution from the papers (WhatsApp `wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMEY5MzY4M0Q4OUYwNjg4ODZDNwA=`). Removed agent/program-style byline and credit text from the editable paper source and PDF display, without substituting an author. Udita's own byline in 09b was preserved, with only the Instinct pipeline parenthetical removed. Manuscript PDF author metadata is empty. Literature references to other studies' authors and technical uses of "author numbering" are not authorship credits for this paper.
+
+## Owner mega-verdict response, 2026-09-27 noon IST
+
+Archived the exact original WhatsApp body in `MEGA_VERDICT_FULL_BODY_2026-09-27.txt` (SHA-256 `d700f12c2a01d6f21b7392305aaa6b25d7a9efb29062ce5ba95c14e22f11bc33`) and the lane-specific/cross-cutting excerpts with a separate agent-authored locked queue in `MEGA_VERDICT_2026-09-27.md`. Added a bounded interpretation of the corrected S669 fixed-holdout negative, rank-only caveat and abstention decision tree. Did not insert unrun protein-family, embedding, ProTherm or cross-species outcomes. Double-built to 32 pages with Nimbus Roman, not licensed Times New Roman; inspected final two pages. The 50-page and genuine-font gates remain open.
