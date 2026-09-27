@@ -1,0 +1,57 @@
+\clearpage
+\section{Target-mapping and independent evidence supplement}
+\subsection{Purpose}
+This supplement transcribes committed target-numbering and public structure checks. The structural overlays and function-report counts are source audits, not new experiments by the graph model. An exact residue match permits a cautious comparison of numbering; it cannot transform wild-type-background DDG predictions into double-mutant rescue evidence.
+\subsection{Canonical-to-PDB residue map}
+The committed \texttt{results/disease\_site\_numbering.json} checks the canonical amino acid and position against residues visible in the stated PDB chains. Table~\ref{tab:sites} keeps both positions so that a one-residue offset is not lost when naming SOD1 variants. Every row shown here is marked matched in the source result, which means this mapping step succeeded, not that its disease phenotype or assay sign was validated.
+\begin{longtable}{llrrlll}
+\caption{Selected target residues with source-recorded canonical and PDB positions.}\label{tab:sites}\\
+\hline Gene & PDB & Canonical & PDB site & Canonical AA & PDB AA & Status\\\hline\endfirsthead
+\hline Gene & PDB & Canonical & PDB site & Canonical AA & PDB AA & Status\\\hline\endhead
+TP53 & 1TSR & 123 & 123 & T & T & matched\\
+TP53 & 1TSR & 143 & 143 & V & V & matched\\
+TP53 & 1TSR & 168 & 168 & H & H & matched\\
+TP53 & 1TSR & 175 & 175 & R & R & matched\\
+TP53 & 1TSR & 220 & 220 & Y & Y & matched\\
+TP53 & 1TSR & 235 & 235 & N & N & matched\\
+TP53 & 1TSR & 239 & 239 & N & N & matched\\
+TP53 & 1TSR & 240 & 240 & S & S & matched\\
+TP53 & 1TSR & 245 & 245 & G & G & matched\\
+TP53 & 1TSR & 248 & 248 & R & R & matched\\
+TP53 & 1TSR & 249 & 249 & R & R & matched\\
+TP53 & 1TSR & 268 & 268 & N & N & matched\\
+TP53 & 1TSR & 273 & 273 & R & R & matched\\
+SOD1 & 2C9V & 5 & 4 & A & A & matched\\
+SOD1 & 2C9V & 91 & 90 & D & D & matched\\
+SOD1 & 2C9V & 94 & 93 & G & G & matched\\
+PTEN & 1D5R & 107 & 107 & D & D & matched\\
+PTEN & 1D5R & 130 & 130 & R & R & matched\\
+PTEN & 1D5R & 335 & 335 & R & R & matched\\
+\hline\end{longtable}
+The SOD1 canonical position five maps to PDB residue four in this recorded alignment, and canonical 94 maps to PDB 93. A site name alone is therefore not enough to validate a mutational background; the accession and construct must travel with it. [PENDING: direct verification of each proposed second-site mutant construct and assayed background.]
+\subsection{Wild-type and mutant structures in the archive}
+\texttt{results/mutant\_structure\_panel.json} records six structure pairs and C-alpha alignment summaries. These are geometric comparisons of available structures, not GNN-predicted functional rescue or measurements of mutation-induced free energy. Table~\ref{tab:structures} records the overlay numbers. Crystal packing, construct, ligand and resolution differences can also change coordinates.
+\begin{longtable}{llrrr}
+\caption{Committed wild/mutant structure overlay diagnostics.}\label{tab:structures}\\
+\hline Wild PDB & Mutant PDB & Common C-alpha & Fit RMSD (A) & Site shift (A)\\\hline\endfirsthead
+\hline Wild PDB & Mutant PDB & Common C-alpha & Fit RMSD (A) & Site shift (A)\\\hline\endhead
+1TSR & 8QWN & 184 & 0.676 & 0.321\\
+1TSR & 6SHZ & 194 & 0.537 & 0.560\\
+1TSR & 4AGO & 194 & 0.572 & 0.515\\
+2C9V & 1UXM & 153 & 0.637 & 0.414\\
+2C9V & 3GZO & 153 & 0.666 & 0.249\\
+2C9V & 3GZQ & 123 & 0.415 & 0.341\\
+\hline\end{longtable}
+A sub-angstrom fitted RMSD for these chosen C-alpha atom sets says nothing decisive about side-chain repacking, cavity hydration or a measured stability rescue. The panel is useful to check that the intended target structures exist and align, with a bounded interpretation.
+\subsection{Functional-report records are not an assay by this project}
+The committed \texttt{results/tp53\_function\_audit.json} indexes TP53 functional reports from a public release. The same variant can appear multiple times across methods and publications. Counts below measure records and distinct papers in the queried dataset, not the number of independent laboratories agreeing on one normalized functional effect.
+\begin{center}\begin{tabular}{lrr}\hline TP53 variant & Records & Distinct papers\\\hline
+Y220C & 31 & 26\\
+G245S & 42 & 31\\
+R249S & 51 & 36\\
+N239Y & 1 & 1\\
+H168R & 4 & 3\\
+\hline\end{tabular}\end{center}
+Methods include reporter, selection and cell-assay contexts whose scales differ. The source audit establishes that the variants have been studied, not that a graph prediction recovers function. Stability and transcriptional activity are distinct outcomes, and no new double-mutant functional assay was performed for this paper.
+\subsection{Release conditions for a rescue claim}
+A future rescue study needs an explicitly mutant-background double substitution, a matched single-mutant control, protein stability measurements with sign conventions pinned, and a functional endpoint in an appropriate cell assay. It must choose the target panel before ranking candidates and preserve failures. [PENDING: those assays and a held-out prospective mutation panel.] Until then the benchmark negative and mapping corrections, not a proposed rescue list, are this paper\'s supported outcome.
