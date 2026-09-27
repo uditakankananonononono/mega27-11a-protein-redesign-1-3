@@ -1,0 +1,211 @@
+{
+ "protocol": "A-R5 per-family error breakdown (addendum 2026-09-27, verdict section 4 item 5). Scope disclosure: S669 committed benchmark predictions (results/s669_group_holdout.json), grouped by PDB as the available family proxy. GNN/ridge/train-mean MAE per group.",
+ "n_groups": 24,
+ "worst_gnn": [
+  {
+   "pdb": "1XZO",
+   "n": 4,
+   "gnn_mae": 4.6226,
+   "ridge_mae": 4.2698,
+   "train_mean_mae": 4.2663
+  },
+  {
+   "pdb": "1ITM",
+   "n": 3,
+   "gnn_mae": 2.8015,
+   "ridge_mae": 3.36,
+   "train_mean_mae": 2.9209
+  },
+  {
+   "pdb": "2BJD",
+   "n": 3,
+   "gnn_mae": 2.5623,
+   "ridge_mae": 2.7247,
+   "train_mean_mae": 2.767
+  },
+  {
+   "pdb": "1IOJ",
+   "n": 1,
+   "gnn_mae": 2.3667,
+   "ridge_mae": 2.2299,
+   "train_mean_mae": 1.3374
+  },
+  {
+   "pdb": "1R6R",
+   "n": 4,
+   "gnn_mae": 2.1499,
+   "ridge_mae": 1.9388,
+   "train_mean_mae": 2.32
+  }
+ ],
+ "groups": [
+  {
+   "pdb": "1H0X",
+   "n": 2,
+   "gnn_mae": 1.2369,
+   "ridge_mae": 1.9641,
+   "train_mean_mae": 1.3211
+  },
+  {
+   "pdb": "1IOJ",
+   "n": 1,
+   "gnn_mae": 2.3667,
+   "ridge_mae": 2.2299,
+   "train_mean_mae": 1.3374
+  },
+  {
+   "pdb": "1ITM",
+   "n": 3,
+   "gnn_mae": 2.8015,
+   "ridge_mae": 3.36,
+   "train_mean_mae": 2.9209
+  },
+  {
+   "pdb": "1JLV",
+   "n": 3,
+   "gnn_mae": 1.0803,
+   "ridge_mae": 1.0625,
+   "train_mean_mae": 0.9853
+  },
+  {
+   "pdb": "1N18",
+   "n": 4,
+   "gnn_mae": 0.9437,
+   "ridge_mae": 1.2298,
+   "train_mean_mae": 1.35
+  },
+  {
+   "pdb": "1OSI",
+   "n": 4,
+   "gnn_mae": 0.4989,
+   "ridge_mae": 0.8597,
+   "train_mean_mae": 0.9212
+  },
+  {
+   "pdb": "1PRG",
+   "n": 7,
+   "gnn_mae": 0.7984,
+   "ridge_mae": 0.7975,
+   "train_mean_mae": 0.8688
+  },
+  {
+   "pdb": "1R6R",
+   "n": 4,
+   "gnn_mae": 2.1499,
+   "ridge_mae": 1.9388,
+   "train_mean_mae": 2.32
+  },
+  {
+   "pdb": "1XXN",
+   "n": 5,
+   "gnn_mae": 0.9368,
+   "ridge_mae": 1.2946,
+   "train_mean_mae": 0.6268
+  },
+  {
+   "pdb": "1XZO",
+   "n": 4,
+   "gnn_mae": 4.6226,
+   "ridge_mae": 4.2698,
+   "train_mean_mae": 4.2663
+  },
+  {
+   "pdb": "2BJD",
+   "n": 3,
+   "gnn_mae": 2.5623,
+   "ridge_mae": 2.7247,
+   "train_mean_mae": 2.767
+  },
+  {
+   "pdb": "2N7Z",
+   "n": 1,
+   "gnn_mae": 0.3007,
+   "ridge_mae": 0.0546,
+   "train_mean_mae": 0.3374
+  },
+  {
+   "pdb": "2NTE",
+   "n": 2,
+   "gnn_mae": 1.836,
+   "ridge_mae": 1.7786,
+   "train_mean_mae": 1.2126
+  },
+  {
+   "pdb": "3BCI",
+   "n": 2,
+   "gnn_mae": 1.0243,
+   "ridge_mae": 1.3894,
+   "train_mean_mae": 1.253
+  },
+  {
+   "pdb": "3BN0",
+   "n": 1,
+   "gnn_mae": 0.5936,
+   "ridge_mae": 0.7575,
+   "train_mean_mae": 0.5686
+  },
+  {
+   "pdb": "3FIS",
+   "n": 1,
+   "gnn_mae": 0.4636,
+   "ridge_mae": 0.0679,
+   "train_mean_mae": 0.4374
+  },
+  {
+   "pdb": "3L15",
+   "n": 1,
+   "gnn_mae": 0.2774,
+   "ridge_mae": 0.2188,
+   "train_mean_mae": 2.2926
+  },
+  {
+   "pdb": "3MON",
+   "n": 2,
+   "gnn_mae": 1.5734,
+   "ridge_mae": 2.1027,
+   "train_mean_mae": 2.03
+  },
+  {
+   "pdb": "3O39",
+   "n": 6,
+   "gnn_mae": 0.8536,
+   "ridge_mae": 0.9825,
+   "train_mean_mae": 1.0325
+  },
+  {
+   "pdb": "3S92",
+   "n": 1,
+   "gnn_mae": 1.2129,
+   "ridge_mae": 0.6444,
+   "train_mean_mae": 2.9674
+  },
+  {
+   "pdb": "4BJX",
+   "n": 1,
+   "gnn_mae": 1.8516,
+   "ridge_mae": 0.6364,
+   "train_mean_mae": 1.9274
+  },
+  {
+   "pdb": "4BUQ",
+   "n": 2,
+   "gnn_mae": 1.8779,
+   "ridge_mae": 1.0484,
+   "train_mean_mae": 1.1625
+  },
+  {
+   "pdb": "4N6V",
+   "n": 3,
+   "gnn_mae": 0.6866,
+   "ridge_mae": 1.0633,
+   "train_mean_mae": 1.5395
+  },
+  {
+   "pdb": "4WAA",
+   "n": 3,
+   "gnn_mae": 0.6782,
+   "ridge_mae": 0.7597,
+   "train_mean_mae": 0.8891
+  }
+ ]
+}
