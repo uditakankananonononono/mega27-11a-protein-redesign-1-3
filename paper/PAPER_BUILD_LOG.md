@@ -14,3 +14,8 @@ Branch: `paper-build`, paper directory only.
 
 - Added `target_audit.tex` from committed disease-site numbering, six wild/mutant structure overlays and TP53 function-report counts. Canonical-to-PDB offsets remain explicit (SOD1 5 to PDB 4; SOD1 94 to PDB 93). Structure and public functional reports are not a new GNN rescue or a matched double-mutant assay.
 - pdfLaTeX twice now produces 27 pages, up from 25. Visual check of pages 26-27 confirms readable tables and no clipped content. Times-style Nimbus Roman substitute; 50-page and genuine-TNR gates remain open.
+
+## Structure-input reproducibility appendix, 2026-09-27
+
+- Added `accession_manifest.tex`, a compressed human-readable index of the 163 PDB accessions actually used, their analysis use category and a 12-character SHA-256 prefix drawn from committed `results/accession_count.json`. Full hashes remain in that JSON. Added the narrow exact-sequence-overlap audit (69 train, 24 test, zero exact overlap); this does not rule out homologs or the third-party comparator's historical training overlap. The table is a source ledger, not independent experiments or rescue results.
+- Rebuilt twice: 31 pages from 27. Visually checked new pages 28-31; repeated headings, table columns and hashes read cleanly without clipping. Nimbus Roman substitute. Page 31 is sparse after the 163-entry ledger ends; 50 substantive pages and genuine Times New Roman remain open.

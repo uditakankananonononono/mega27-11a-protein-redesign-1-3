@@ -1,0 +1,176 @@
+\clearpage
+\section{Structure provenance and sequence-leakage appendix}
+\subsection{Inclusion rule and deduplication}
+The committed \texttt{results/accession\_count.json} identifies accessions fetched and actually used for S669 graph construction, direct-mutation FireProtDB mapping, or archived disease wild/mutant comparison. Mere download does not qualify. S669 contributes 94 mapped structures and FireProtDB 74, with 11 accessions shared. The source records a 163-accession union once the disease comparisons are included; these are distinct PDB accession identifiers, not 163 independent test proteins or models. Table below is a checksum-level source ledger so that each physical input can be reidentified. The displayed 12-character SHA-256 prefix is a reading aid; the committed source JSON holds the complete SHA-256 for validation. No checksum itself establishes assay truth.
+\subsection{Exact sequence overlap is a narrow control}
+The committed \texttt{results/sequence\_overlap\_audit.json} records 69 distinct training sequences, 24 distinct test sequences and zero exact string overlaps (93 unique total). This check does not rule out homologs, near-duplicates or training overlap within the stored GeoDDG-Seq comparator. The fixed held-out negative comparison therefore remains the central result. The manifest does not substitute for protein-family blocking or a new external benchmark.
+\begin{longtable}{lll}
+\caption{Used PDB accession ledger. Use categories and SHA-256 prefixes are transcribed from the committed manifest; full hashes remain in the JSON.}\\
+\hline PDB & Recorded use & SHA-256 prefix\\\hline\endfirsthead
+\hline PDB & Recorded use & SHA-256 prefix\\\hline\endhead
+1A0F & S669 graph & 3bc0a7cf1534\\
+1A5E & FireProt map & 295c74704ce0\\
+1A7V & S669 graph & 7771652d2f71\\
+1AM7 & FireProt map & a9cd7c656a88\\
+1ANK & FireProt map & 7af4100057e8\\
+1AON & FireProt map & 5cddcf0ebe22\\
+1AZP & FireProt map & 3c1c11f8a625\\
+1BA3 & S669 graph & a304920ee2ad\\
+1BFM & S669 graph & a60e18bb2ccf\\
+1BNI & FireProt map & e7a0612d97d3\\
+1BNL & S669 graph & 6ba596ec06d6\\
+1C9O & FireProt map & 202f922b44d8\\
+1CEY & FireProt map & 7fc320d94e2c\\
+1CLW & FireProt map & c56ea831458c\\
+1CSP & FireProt map & 0b3335beb321\\
+1D5G & S669 graph & 00caca169656\\
+1DIL & FireProt map & 1ed773b76af1\\
+1DIV & FireProt map, S669 graph & 5bc0f0e1fbf7\\
+1DKT & FireProt map & aa5b83105ee2\\
+1DPM & FireProt map & ea3214353cf2\\
+1DXX & FireProt map, S669 graph & 8daac296a887\\
+1EKG & FireProt map, S669 graph & f9a19c74c785\\
+1EL1 & FireProt map & dfec955486c5\\
+1F8I & S669 graph & ee75cf1b376b\\
+1FH5 & S669 graph & d91231bc3b14\\
+1FRD & S669 graph & 0d0894d9e57a\\
+1FT8 & S669 graph & 987bf04553a9\\
+1FXA & S669 graph & fb8d8c49b72e\\
+1G3P & S669 graph & e17cea0deace\\
+1GLU & S669 graph & 17f9b479a641\\
+1GUA & S669 graph & f7122b06f9d8\\
+1GWY & FireProt map, S669 graph & 73679a8d14d8\\
+1H0X & S669 graph & df5650ec5125\\
+1HCQ & S669 graph & 6a9f68a71836\\
+1HFY & FireProt map & 25bc80d6ebd5\\
+1HK0 & FireProt map & dda174b0c4b6\\
+1HUE & FireProt map & b89a0d9e4ffd\\
+1IGV & FireProt map & 9a5228eecf3d\\
+1IMQ & FireProt map & 139b46f0c693\\
+1IO2 & FireProt map & 8fc92c7be66f\\
+1IOJ & S669 graph & cac7f60005a6\\
+1IR3 & S669 graph & 83f1a55aa06d\\
+1IRO & FireProt map & 95069c12563c\\
+1ITM & S669 graph & 94179df65dc0\\
+1IV7 & S669 graph & 85c8fe587b3f\\
+1IV9 & S669 graph & 3bf754137550\\
+1J8I & S669 graph & 411da189ad0a\\
+1JL9 & S669 graph & f6660cbb6939\\
+1JLV & S669 graph & cde6ff76ccce\\
+1JNX & FireProt map & 8d932403fc31\\
+1K85 & FireProt map & 991c1012f5e0\\
+1L6H & S669 graph & f87c88d070d5\\
+1LVM & S669 graph & a11497fd324f\\
+1LZ1 & FireProt map & 19ca7f7e9788\\
+1MBG & FireProt map & a23a05fbfe93\\
+1MJC & FireProt map & f945636068ad\\
+1MSI & FireProt map & 05044e49e3c7\\
+1N18 & S669 graph & 39aceb1a1ac0\\
+1N88 & S669 graph & c7c30c565a7f\\
+1NM1 & S669 graph & 3310a8cff33a\\
+1O1U & S669 graph & e81a301b6823\\
+1O6X & S669 graph & ff5ae0ce0a36\\
+1OH0 & FireProt map & 79a37b665c53\\
+1OIA & FireProt map & 0ac129d79c03\\
+1ONC & FireProt map & c25c67b82726\\
+1OSI & S669 graph & a59df955fc0d\\
+1PFL & S669 graph & 9dbf69adb002\\
+1PRE & S669 graph & 6ffc49adc15f\\
+1PRG & S669 graph & 66fa620191fc\\
+1QGV & FireProt map & 61c5823f9411\\
+1QLP & FireProt map & d6368c73af80\\
+1R2Y & S669 graph & 50c3b3e7c985\\
+1R6R & FireProt map, S669 graph & 41434d9cd4ec\\
+1RGG & FireProt map & 221692d5d6c4\\
+1RIS & FireProt map & e7c5b65055b4\\
+1ROP & FireProt map & 974fcb647055\\
+1SCE & FireProt map & 1efe4b7cf4aa\\
+1SPD & S669 graph & bc1047c32a42\\
+1STN & FireProt map & ef725bf74ca7\\
+1TEN & FireProt map & 5b2165e4e495\\
+1UXM & disease pair & 6f2ac4056387\\
+1W4H & FireProt map & 7f57ff58ef4b\\
+1WQ5 & FireProt map & a6ea3025f34f\\
+1X0J & S669 graph & 806b49035ab0\\
+1XWS & FireProt map, S669 graph & c6ba50b25016\\
+1XXN & S669 graph & fee7b53ef3b1\\
+1XZO & S669 graph & 2d2bd578e191\\
+1Y4Y & FireProt map & 56c194a7dafb\\
+2A36 & FireProt map & 2c0ea5f5c121\\
+2ADA & FireProt map & d0ffcdb9a18c\\
+2ARF & FireProt map, S669 graph & 411774993504\\
+2BJD & S669 graph & c96f0fbb8a51\\
+2BRD & FireProt map & d4e491572ad9\\
+2C9Q & S669 graph & 255e1e7e7547\\
+2CI2 & FireProt map & 8a42f06a0a59\\
+2CLR & S669 graph & ee2d2315b5be\\
+2CRK & FireProt map & db86ddbae8e4\\
+2DVV & S669 graph & c186f5dbbebe\\
+2H3F & S669 graph & 1d799bdb3919\\
+2HBB & S669 graph & 857c21059c7f\\
+2JIE & S669 graph & cab04901fd62\\
+2JUC & S669 graph & b7a82e571dd4\\
+2JYS & FireProt map & e4083c342db2\\
+2K7J & FireProt map & 97fc095d1ea1\\
+2KJ3 & FireProt map, S669 graph & 4f3d860b3f60\\
+2KS4 & FireProt map, S669 graph & 227656214e1e\\
+2LCP & FireProt map & 226e7fb14161\\
+2LSB & FireProt map & cbc966516042\\
+2LTB & S669 graph & cbfe5044bb22\\
+2M5S & S669 graph & fd00fcac0d2b\\
+2MPC & S669 graph & 98b933c8c317\\
+2N7Z & S669 graph & b432f9863ef6\\
+2NTE & S669 graph & afd8fdb90873\\
+2OUO & S669 graph & bfccda360a4f\\
+2PR5 & S669 graph & 0734a61064e4\\
+2PTL & S669 graph & f56503afc7c5\\
+2RN2 & FireProt map & fedbb7b49741\\
+2RPN & S669 graph & da39dafa88ff\\
+2TS1 & FireProt map & e9eb279f61e4\\
+2V0U & FireProt map & f112a2f2505f\\
+2VY0 & S669 graph & c0de6aec03dc\\
+2W0K & FireProt map & 49be71ae13c9\\
+2WQG & S669 graph & 7fb8f6de00ac\\
+2WSY & FireProt map & 1cedf7f76be5\\
+2ZTA & S669 graph & c71d709f5d11\\
+3BCI & S669 graph & a4a83ea40029\\
+3BDN & FireProt map & 184d751449a3\\
+3BN0 & S669 graph & 65532372afa3\\
+3C2I & S669 graph & f96ee9192eab\\
+3D2A & S669 graph & a051ddefca14\\
+3D3B & S669 graph & 1ed3bc2176e7\\
+3DV0 & S669 graph & d7f621391f05\\
+3ECU & S669 graph & c8cc3ea0abe4\\
+3FIS & S669 graph & cb64106e5575\\
+3G1G & S669 graph & a701c2462ab8\\
+3GZO & disease pair & e91f50fb04cd\\
+3GZQ & disease pair & 657c0cd1da57\\
+3K82 & FireProt map, S669 graph & 7a47105ff58c\\
+3L15 & S669 graph & 1c77fe2aef98\\
+3MON & S669 graph & 3ec8a943bdcd\\
+3MXF & FireProt map & 534dcb8ea9fa\\
+3O39 & S669 graph & 58c1a42b5c75\\
+3PGK & FireProt map & 32abf08811f5\\
+3S4M & S669 graph & 0e5ae2d53c91\\
+3S92 & FireProt map, S669 graph & b8eb3dbf535a\\
+4AGO & disease pair & 07388d55c56b\\
+4BJX & S669 graph & 7835025ffa5f\\
+4BUQ & S669 graph & d200fc9cfcd6\\
+4HE7 & S669 graph & 0f87c1998c9e\\
+4LYZ & FireProt map & 869119f51d45\\
+4N6V & S669 graph & 5a8020485843\\
+4WAA & S669 graph & c49fe7159fc2\\
+4YEE & S669 graph & ee54d35d50dc\\
+4YEF & S669 graph & 2d5783795dd8\\
+5AZU & FireProt map & ce1a9ce09e68\\
+5CG0 & FireProt map & ef1c85d1298b\\
+5DFR & FireProt map & 52dc93a35ce2\\
+5JXB & S669 graph & 605b00b48e6a\\
+5OAQ & S669 graph & 158f2572d527\\
+5VP3 & S669 graph & a7022fc3b652\\
+6BQG & FireProt map & 92802a710045\\
+6SHZ & disease pair & c21f92ede305\\
+8QWN & disease pair & 7617ae6a2f9a\\
+\hline\end{longtable}
+\subsection{Interpretation and outstanding validation}
+A repeated accession across use categories is one structure source, even when multiple mutation rows are derived from it. A structure hash freezes retrieved bytes, not which chain or disease variant is biologically comparable; mapping and residue-identity checks are separate. The table is intentionally an input audit and does not change the negative 66-variant MAE result. [PENDING: prospective protein-family-held-out validation and matched double-mutant functional experiments before claiming a rescue nomination.]
